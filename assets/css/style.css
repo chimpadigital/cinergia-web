@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.ttf') format('truetype'),
+        url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype'),
+        url('../fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url('../fonts/Poppins-SemiBold.eot');
+    src: url('../fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype'),
+        url('../fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/Poppins.eot');
+    src: url('../fonts/Poppins.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins.woff2') format('woff2'),
+        url('../fonts/Poppins.woff') format('woff'),
+        url('../fonts/Poppins.ttf') format('truetype'),
+        url('../fonts/Poppins.svg#Poppins') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vonnes';
+    src: url('../fonts/Vonnes-BookCondensed.eot');
+    src: url('../fonts/Vonnes-BookCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vonnes-BookCondensed.woff2') format('woff2'),
+        url('../fonts/Vonnes-BookCondensed.woff') format('woff'),
+        url('../fonts/Vonnes-BookCondensed.ttf') format('truetype'),
+        url('../fonts/Vonnes-BookCondensed.svg#Vonnes-BookCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Valky';
+    src: url('../fonts/ValkyRegular.eot');
+    src: url('../fonts/ValkyRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ValkyRegular.woff2') format('woff2'),
+        url('../fonts/ValkyRegular.woff') format('woff'),
+        url('../fonts/ValkyRegular.ttf') format('truetype'),
+        url('../fonts/ValkyRegular.svg#ValkyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff'),
+        url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+        url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+    --negro: #191919;
+    --pastel: #D9D9CB;
+    --celeste: #65ABA8;
+    --naranja: #FF8366;
+    --Valky: 'Valky', Arial, Helvetica, sans-serif;
+    --Vonnes: 'Vonnes', Arial, Helvetica, sans-serif;
+    --PoppinsRegular: 'Poppins Regular', Arial, Helvetica, sans-serif;
+    --PoppinsMedium: 'Poppins Medium', Arial, Helvetica, sans-serif;
+    --PoppinsBold: 'Poppins Bold', Arial, Helvetica, sans-serif;
+    --PoppinsSemiBold: 'Poppins SemiBold', Arial, Helvetica, sans-serif;
+    --MontserratMedium: 'Montserrat Medium', Arial, Helvetica, sans-serif;
+}
+body {
+    color: var(--negro);
+    letter-spacing: -0.2rem;
+    font-family: var(--PoppinsRegular);
+    background: var(--pastel);
+}
+
+/* Utilities */
+.vh-80 {height: 80vh;}
+.mt--60 {margin-top: -60px;}
+.mt--80 {margin-top: -80px;}
+.mb-100 {margin-bottom: 100px;}
+.p-100 {padding: 100px 0;}
+.pb-100 {padding-bottom: 100px;}
+.pb-200 {padding-bottom: 200px;}
+.divider-vertical {
+    padding-left: 40px;
+    border-left: 1px solid var(--pastel);
+}
+/* Colors */
+.bg-negro {background: var(--negro);}
+.bg-pastel {background: var(--pastel);}
+.fc-negro {color: var(--negro);}
+.fc-pastel {color: var(--pastel);}
+.fc-naranja {color: var(--naranja);}
+.fc-celeste {color: var(--celeste);}
+/* Fonts */
+.fs-27 {font-size: 27px;}
+.fs-39 {font-size: 39px;}
+.fs-55 {font-size: 55px;}
+.fs-64 {font-size: 64px;}
+.fs-89 {font-size: 89px;}
+.fs-117 {font-size: 117px;}
+.fs-158 {font-size: 158px;}
+.fs-164 {font-size: 164px;}
+.lh-35 {line-height: 35px;}
+.lh-70 {line-height: 70px;}
+.lh-85 {line-height: 85px;}
+.lh-95 {line-height: 95px;}
+.lh-118 {line-height: 118px;}
+.lh-140 {line-height: 140px;}
+.Valky {font-family: var(--Valky);}
+.Vonnes {font-family: var(--Vonnes);}
+.PoppinsRegular {font-family: var(--PoppinsRegular);}
+.PoppinsMedium {font-family: var(--PoppinsMedium);}
+.PoppinsSemiBold {font-family: var(--PoppinsSemiBold);}
+.PoppinsBold {font-family: var(--PoppinsBold);}
+.MontserratMedium {font-family: var(--MontserratMedium);}
+
+header {
+    height: 100vh;
+    padding: 100px 0;
+    background: var(--negro) url(../img/bg-header-home.png) center center no-repeat;
+}
+header ul {list-style: none;}
+header a {text-decoration: none;}
+
+.btn-primary-custom {
+    font-size: 22px;
+    border-radius: 0;
+    padding: 27px 37px;    
+    color: var(--pastel);
+    background: var(--naranja);
+    font-family: var(--PoppinsBold);
+}
+
+#intro {
+    padding: 100px 0 400px;
+    background: var(--negro) url(../img/bg-intro.png) center bottom no-repeat;
+}
+
+.img-left {
+    left: 0;
+    position: absolute;
+}
+.img-right {
+    right: 0;
+    position: absolute;
+}
+
+.img {
+    position: absolute;
+    width: 40px;
+    right: 90px;
+    top: -100px;
+}
+
+/* Section Award */
+#award hr {
+    opacity: 1;
+    background: var(--negro);
+}
+/* === */
+
+/* Section Form */
+.form {
+    padding: 60px 70px;
+    border-radius: 33px;
+}
+.form .form-control {   
+    border: none;
+    font-size: 22px;
+    padding-left: 0;
+    background: none;
+    border-radius: 0;
+    color: var(--pastel);
+    border-bottom: 1px solid var(--pastel);
+}
+.form input::-webkit-input-placeholder {
+    color: var(--pastel) !important;
+}
+.form hr {
+    margin: 0;
+    opacity: 1;
+    background: var(--naranja);
+}
+/* === */
+
+/* footer */
+footer {padding: 90px 0;}
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+footer ul li {padding: 0 20px;}
+footer ul li p {letter-spacing: 0;}
