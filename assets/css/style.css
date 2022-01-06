@@ -164,6 +164,17 @@ header a {text-decoration: none;}
     font-family: var(--PoppinsBold);
 }
 
+.carousel-inner {height: 600px;}
+.btn-carousel {
+    bottom: 30px;
+    font-size: 44px;
+    border-radius: 0;
+    margin-top: -150px;
+    color: var(--pastel);
+    border: 2px solid var(--pastel);
+    font-family: var(--PoppinsRegular);
+}
+.btn-carousel:hover {background: var(--pastel);}
 #intro {
     padding: 100px 0 400px;
     background: var(--negro) url(../img/bg-intro.png) center bottom no-repeat;
@@ -189,6 +200,26 @@ header a {text-decoration: none;}
 #award hr {
     opacity: 1;
     background: var(--negro);
+}
+#award .open .open-conten {
+    top: 100px;
+    width: 20%;
+    opacity: 0;
+    font-size: 30px;
+    line-height: 30px;
+    position: absolute;
+    transition: all .3s;
+    background-color: var(--pastel);
+}
+#award .open:hover img {opacity: 0;}
+#award .open:hover .open-conten { opacity: 1;}
+#award .open:hover .open-title-left {
+    transition: all .3s;
+    transform: translate(15%);
+}
+#award .open:hover .open-title-right {
+    transition: all .3s;
+    transform: translate(-15%);
 }
 /* === */
 
@@ -224,3 +255,6 @@ footer ul {
 }
 footer ul li {padding: 0 20px;}
 footer ul li p {letter-spacing: 0;}
+
+
+/* row:hover img.premio {opacity:0} */
