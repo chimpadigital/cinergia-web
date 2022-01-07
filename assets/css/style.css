@@ -174,6 +174,7 @@ header {
 }
 header ul {list-style: none;}
 header a {text-decoration: none;}
+header a:hover {color: var(--naranja);}
 
 .btn-primary-custom {
     font-size: 22px;
@@ -196,6 +197,11 @@ header a {text-decoration: none;}
     background: var(--naranja);
     border: 2px solid var(--naranja);
 }
+
+.doble-text span:first-child {display: block;}
+.doble-text span {display: none;}
+.doble-text:hover span:first-child {display: none;}
+.doble-text:hover span {display: block;}
 .carousel-inner {height: 600px;}
 .btn-carousel {
     bottom: 30px;
