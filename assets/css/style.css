@@ -104,10 +104,10 @@
     --naranja: #FF8366;
     --Valky: 'Valky', Arial, Helvetica, sans-serif;
     --Vonnes: 'Vonnes', Arial, Helvetica, sans-serif;
-    --PoppinsRegular: 'Poppins Regular', Arial, Helvetica, sans-serif;
+    --PoppinsBold: 'Poppins Bold', Arial, Helvetica, sans-serif;
     --PoppinsMedium: 'Poppins Medium', Arial, Helvetica, sans-serif;
     --PoppinsItalic: 'Poppins Italic', Arial, Helvetica, sans-serif;
-    --PoppinsBold: 'Poppins Bold', Arial, Helvetica, sans-serif;
+    --PoppinsRegular: 'Poppins Regular', Arial, Helvetica, sans-serif;
     --PoppinsSemiBold: 'Poppins SemiBold', Arial, Helvetica, sans-serif;
     --MontserratMedium: 'Montserrat Medium', Arial, Helvetica, sans-serif;
 }
@@ -151,6 +151,7 @@ body {
 .fs-158 {font-size: 158px;}
 .fs-164 {font-size: 164px;}
 .lh-35 {line-height: 35px;}
+.lh-45 {line-height: 45px;}
 .lh-52 {line-height: 52px;}
 .lh-70 {line-height: 70px;}
 .lh-85 {line-height: 85px;}
@@ -159,11 +160,11 @@ body {
 .lh-140 {line-height: 140px;}
 .Valky {font-family: var(--Valky);}
 .Vonnes {font-family: var(--Vonnes);}
-.PoppinsRegular {font-family: var(--PoppinsRegular);}
+.PoppinsBold {font-family: var(--PoppinsBold);}
 .PoppinsMedium {font-family: var(--PoppinsMedium);}
 .PoppinsItalic {font-family: var(--PoppinsItalic);}
+.PoppinsRegular {font-family: var(--PoppinsRegular);}
 .PoppinsSemiBold {font-family: var(--PoppinsSemiBold);}
-.PoppinsBold {font-family: var(--PoppinsBold);}
 .MontserratMedium {font-family: var(--MontserratMedium);}
 
 header {
@@ -255,20 +256,27 @@ header a {text-decoration: none;}
 /* Section Blog */
 .blog-box {
     padding: 40px;
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
 }
-
-.img-01 {
-    background: url(../img/blog-box-01.png)center center no-repeat;
-    background-size: cover;
+.blog-box img {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    min-height: 100%;
+    position: absolute;
+    transition: all .6s;s
 }
-.img-02 {
-    background: url(../img/blog-box-02.png)center center no-repeat;
-    background-size: cover;
+.blog-box hr {opacity: 0;}
+.blog-box:hover hr {
+    opacity: 1;
+    background: var(--pastel);
 }
-.img-03 {
-    background: url(../img/blog-box-03.png)center center no-repeat;
-    background-size: cover;
-}
+.blog-box:hover img {opacity: 1;}
+.blog-box:hover h1, .blog-box:hover p {color: var(--pastel);}
+.blog-box:hover svg path {fill: var(--pastel);}
 .blog-box p {
     font-size: 22px;
     letter-spacing: 0;
@@ -305,6 +313,3 @@ footer ul {
 }
 footer ul li {padding: 0 20px;}
 footer ul li p {letter-spacing: 0;}
-
-
-/* row:hover img.premio {opacity:0} */
