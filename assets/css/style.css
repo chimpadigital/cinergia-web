@@ -288,9 +288,34 @@ header a:hover {color: var(--naranja);}
     letter-spacing: 0;
 }
 /* Section Form */
+.border-form {
+    position: relative;
+}
+.border-form:before {
+    content:"";
+    top: 30px;
+    left: 30px;
+    right: -10px;
+    bottom: -10px;
+    position: absolute;
+    border-radius: 0 0 30px 0;
+    border-right: 1px solid var(--negro);
+    border-bottom: 1px solid var(--negro);
+ }
+ .border-form:after {
+    content:"";
+    top: 40px;
+    left: 40px;
+    right: -20px;
+    bottom: -20px;
+    position: absolute;
+    border-radius: 0 0 30px 0;
+    border-right: 1px solid var(--negro);
+    border-bottom: 1px solid var(--negro);
+}
 .form {
     padding: 60px 70px;
-    border-radius: 33px;
+    border-radius: 30px;
 }
 .form .form-control {   
     border: none;
@@ -319,3 +344,45 @@ footer ul {
 }
 footer ul li {padding: 0 20px;}
 footer ul li p {letter-spacing: 0;}
+
+
+.bouncingball {
+    position: absolute;
+    animation: bounce 1s ease-in-out infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+  }
+  .shadows {
+    content: '';
+    bottom: 0;
+    width: 90%;
+    height: 10px;
+    filter: blur(3px);
+    position: absolute;
+    border-radius: 100%;
+    background-color: black;
+    animation: shadow 1s ease-in-out infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    
+  }
+
+  @keyframes bounce {
+    from {
+      top: 0%;
+      transform: scaleX(80%) scaleY(70%);
+    }
+    to {
+      top: 40%;
+    }
+  }
+  @keyframes shadow {
+    from {
+      opacity: 0;
+      transform: scale(0);
+    }
+    to {
+      opacity: .1;
+      transform: scale(100%);
+    }
+  }
