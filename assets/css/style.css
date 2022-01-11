@@ -137,12 +137,15 @@ body {
 /* Colors */
 .bg-negro {background: var(--negro);}
 .bg-pastel {background: var(--pastel);}
+.bg-naranja {background: var(--naranja);}
 .fc-negro {color: var(--negro);}
 .fc-pastel {color: var(--pastel);}
 .fc-naranja {color: var(--naranja);}
 .fc-celeste {color: var(--celeste);}
 /* Fonts */
+.fs-24 {font-size: 24px;}
 .fs-27 {font-size: 27px;}
+.fs-34 {font-size: 34px;}
 .fs-39 {font-size: 39px;}
 .fs-55 {font-size: 55px;}
 .fs-64 {font-size: 64px;}
@@ -150,6 +153,7 @@ body {
 .fs-117 {font-size: 117px;}
 .fs-158 {font-size: 158px;}
 .fs-164 {font-size: 164px;}
+.fs-212 {font-size: 212px;}
 .lh-35 {line-height: 35px;}
 .lh-45 {line-height: 45px;}
 .lh-52 {line-height: 52px;}
@@ -287,6 +291,7 @@ header a:hover {color: var(--naranja);}
     font-size: 22px;
     letter-spacing: 0;
 }
+/* === */
 /* Section Form */
 .border-form {
     position: relative;
@@ -334,25 +339,13 @@ header a:hover {color: var(--naranja);}
     opacity: 1;
     background: var(--naranja);
 }
-/* === */
-
-/* footer */
-footer {padding: 90px 0;}
-footer ul {
-    padding: 0;
-    list-style: none;
-}
-footer ul li {padding: 0 20px;}
-footer ul li p {letter-spacing: 0;}
-
-
 .bouncingball {
     position: absolute;
     animation: bounce 1s ease-in-out infinite;
     animation-fill-mode: both;
     animation-direction: alternate;
-  }
-  .shadows {
+}
+.shadows {
     content: '';
     bottom: 0;
     width: 90%;
@@ -364,25 +357,58 @@ footer ul li p {letter-spacing: 0;}
     animation: shadow 1s ease-in-out infinite;
     animation-fill-mode: both;
     animation-direction: alternate;
-    
-  }
+}
+@keyframes bounce {
+    from {
+        top: 0%;
+        transform: scaleX(80%) scaleY(70%);
+    }
+    to {
+        top: 40%;
+    }
+}
+@keyframes shadow {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: .1;
+        transform: scale(100%);
+    }
+}
+/* === */
 
-  @keyframes bounce {
-    from {
-      top: 0%;
-      transform: scaleX(80%) scaleY(70%);
-    }
-    to {
-      top: 40%;
-    }
-  }
-  @keyframes shadow {
-    from {
-      opacity: 0;
-      transform: scale(0);
-    }
-    to {
-      opacity: .1;
-      transform: scale(100%);
-    }
-  }
+/* === Page Portfolio === */
+#portfolio {background: var(--negro);}
+
+.box-portfolio {
+    margin: 0;
+    position: relative;
+}
+.box-content {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 60px 40px;
+    position: absolute;
+}
+.box-content div {opacity: 0;}
+.box-content:hover div {opacity: 1;}
+.box-portfolio img {
+    transition: all .3s linear;
+    transform: scale3d(1.1, 1.1, 1);
+}
+.box-portfolio:hover img {transform: scale3d(1, 1, 1);}
+/* === */
+
+/* footer */
+footer {padding: 90px 0;}
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+footer ul li {padding: 0 20px;}
+footer ul li p {letter-spacing: 0;}
