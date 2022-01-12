@@ -102,6 +102,7 @@
     --pastel: #D9D9CB;
     --celeste: #65ABA8;
     --naranja: #FF8366;
+    --amarillo: #FFCB4C;
     --Valky: 'Valky', Arial, Helvetica, sans-serif;
     --Vonnes: 'Vonnes', Arial, Helvetica, sans-serif;
     --PoppinsBold: 'Poppins Bold', Arial, Helvetica, sans-serif;
@@ -122,6 +123,8 @@ body {
 .vh-80 {height: 80vh;}
 .mt--60 {margin-top: -60px;}
 .mt--80 {margin-top: -80px;}
+.mt-100 {margin-top: 100px;}
+.mt-400 {margin-top: 400px;}
 .mb-100 {margin-bottom: 100px;}
 .p-100 {padding: 100px 0;}
 .pb-100 {padding-bottom: 100px;}
@@ -130,6 +133,10 @@ body {
     opacity: 1;
     background: var(--negro);
 }
+.hr-divider-pastel {
+    opacity: 1;
+    background: var(--pastel);
+}
 .divider-vertical {
     padding-left: 40px;
     border-left: 1px solid var(--pastel);
@@ -137,7 +144,9 @@ body {
 /* Colors */
 .bg-negro {background: var(--negro);}
 .bg-pastel {background: var(--pastel);}
+.bg-celeste {background: var(--celeste);}
 .bg-naranja {background: var(--naranja);}
+.bg-amarillo {background: var(--amarillo);}
 .fc-negro {color: var(--negro);}
 .fc-pastel {color: var(--pastel);}
 .fc-naranja {color: var(--naranja);}
@@ -145,10 +154,12 @@ body {
 /* Fonts */
 .fs-24 {font-size: 24px;}
 .fs-27 {font-size: 27px;}
+.fs-30 {font-size: 30px;}
 .fs-34 {font-size: 34px;}
 .fs-39 {font-size: 39px;}
 .fs-55 {font-size: 55px;}
 .fs-64 {font-size: 64px;}
+.fs-75 {font-size: 75px;}
 .fs-89 {font-size: 89px;}
 .fs-117 {font-size: 117px;}
 .fs-158 {font-size: 158px;}
@@ -402,6 +413,11 @@ header a:hover {color: var(--naranja);}
     transform: scale3d(1.1, 1.1, 1);
 }
 .box-portfolio:hover img {transform: scale3d(1, 1, 1);}
+
+.proyectos p { opacity: 0;}
+.proyectos:hover p { opacity: 1;}
+.proyectos:hover h1 {color: var(--naranja);}
+.proyectos .hr-divider-pastel {width: 50%;}
 /* === */
 
 /* footer */
