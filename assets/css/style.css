@@ -374,9 +374,7 @@ header a:hover {color: var(--naranja);}
         top: 0%;
         transform: scaleX(80%) scaleY(70%);
     }
-    to {
-        top: 40%;
-    }
+    to {top: 40%;}
 }
 @keyframes shadow {
     from {
@@ -414,9 +412,9 @@ header a:hover {color: var(--naranja);}
 }
 .box-portfolio:hover img {transform: scale3d(1, 1, 1);}
 
-.proyectos p { opacity: 0;}
-.proyectos:hover p { opacity: 1;}
-.proyectos:hover h1 {color: var(--naranja);}
+.proyectos p {opacity: 0; transition: all .3s; transform: translateY(-10px);}
+.proyectos:hover p {opacity: 1; transform: translateY(0);}
+.proyectos:hover h1 {color: var(--naranja); transition: all .3s;}
 .proyectos .hr-divider-pastel {width: 50%;}
 /* === */
 
