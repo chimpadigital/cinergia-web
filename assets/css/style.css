@@ -217,17 +217,20 @@ header a:hover {color: var(--naranja);}
 .doble-text span {display: none;}
 .doble-text:hover span:first-child {display: none;}
 .doble-text:hover span {display: block;}
-.carousel-inner {height: 600px;}
-.btn-carousel {
+.owl-carousel .item {height: 600px;}
+.btn-box {
+    z-index: 1;
+    margin-top: -150px;
+}
+.btn-box .btn-carousel {
     bottom: 30px;
     font-size: 44px;
     border-radius: 0;
-    margin-top: -150px;
     color: var(--pastel);
     border: 2px solid var(--pastel);
     font-family: var(--PoppinsRegular);
 }
-.btn-carousel:hover {background: var(--pastel);}
+.btn-box .btn-carousel:hover {background: var(--pastel);}
 #intro {
     padding: 100px 0 400px;
     background: var(--negro) url(../img/bg-intro.png) center bottom no-repeat;
