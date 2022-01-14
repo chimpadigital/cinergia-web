@@ -150,8 +150,9 @@ body {
     opacity: 1;
     background: var(--pastel);
 }
-.hr-divider-pastel {
+.hr-divider-naranja {
     opacity: 1;
+    width: 100%;
     background: var(--naranja);
 }
 .divider-vertical {
