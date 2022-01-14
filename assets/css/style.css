@@ -208,7 +208,10 @@ header {
 header ul {list-style: none;}
 header a {text-decoration: none;}
 header a:hover {color: var(--naranja);}
-
+lottie-player {
+    top: 20%;
+    position: absolute;
+}
 .btn-primary-custom {
     font-size: 22px;
     border-radius: 0;
