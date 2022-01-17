@@ -142,6 +142,7 @@ body {
 .p-100 {padding: 100px 0;}
 .pb-100 {padding-bottom: 100px;}
 .pb-200 {padding-bottom: 200px;}
+.pl-100 {padding-left: 100px;}
 .hr-divider {
     opacity: 1;
     background: var(--negro);
@@ -158,6 +159,10 @@ body {
 .divider-vertical {
     padding-left: 40px;
     border-left: 1px solid var(--pastel);
+}
+.divider-vertical-naranja {
+    padding-left: 40px;
+    border-left: 1px solid var(--naranja);
 }
 /* Colors */
 .bg-negro {background: var(--negro);}
@@ -177,8 +182,10 @@ body {
 .fs-39 {font-size: 39px;}
 .fs-55 {font-size: 55px;}
 .fs-64 {font-size: 64px;}
+.fs-69 {font-size: 69px;}
 .fs-75 {font-size: 75px;}
 .fs-89 {font-size: 89px;}
+.fs-100 {font-size: 100px;}
 .fs-117 {font-size: 117px;}
 .fs-158 {font-size: 158px;}
 .fs-164 {font-size: 164px;}
@@ -221,7 +228,6 @@ lottie-player {
     background: var(--naranja);
     font-family: var(--PoppinsBold);
 }
-
 .btn-outline-primary {
     font-size: 42px;
     border-radius: 0;
@@ -266,7 +272,6 @@ lottie-player {
     right: 0;
     position: absolute;
 }
-
 .img {
     position: absolute;
     width: 40px;
@@ -444,6 +449,37 @@ lottie-player {
 .proyectos .hr-divider-pastel {width: 50%;}
 /* === */
 
+/* Section Contacto */
+#contacto{
+    height: auto;
+    background: var(--negro);
+}
+.form-check-input {
+    width: 38px;
+    height: 38px;
+}
+.form-check-input[type=radio] {
+    background: none;
+    border: 2px solid var(--naranja);
+}
+.form-check-input:checked[type=radio] {background: var(--pastel);}
+
+#contact-form {
+    padding-bottom: 600px;
+    background: var(--negro) url(../img/bg-contact.png) bottom right no-repeat;
+    background-position-y: 360px;
+}
+#contact-form .form-control {
+    border-radius: 0;
+    background: var(--pastel);
+}
+#contact-form .btn-outline-primary {
+    font-size: 38px;
+    border-radius: 8px;
+    color: var(--pastel);
+}
+/* === */
+
 /* footer */
 footer {padding: 90px 0;}
 footer ul {
@@ -452,3 +488,4 @@ footer ul {
 }
 footer ul li {padding: 0 20px;}
 footer ul li p {letter-spacing: 0;}
+/* === */
