@@ -18,7 +18,7 @@ $(document).ready(function(){
             items: 1
         }
       }
-    })
+    });
 });
 
 var rellax = new Rellax('.rellax');w

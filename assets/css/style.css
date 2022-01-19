@@ -172,16 +172,10 @@ h5 {font-size: 24px;}
 .pb-100 {padding-bottom: 100px;}
 .pb-200 {padding-bottom: 200px;}
 .pl-100 {padding-left: 100px;}
-.hr-divider {
-    opacity: 1;
-    background: var(--negro);
-}
-.hr-divider-pastel {
-    opacity: 1;
-    background: var(--pastel);
-}
+hr {opacity: 1;}
+.hr-divider {background: var(--negro);}
+.hr-divider-pastel {background: var(--pastel);}
 .hr-divider-naranja {
-    opacity: 1;
     width: 100%;
     background: var(--naranja);
 }
@@ -206,6 +200,9 @@ h5 {font-size: 24px;}
 /* Fonts */
 .fs-24 {font-size: 24px;}
 .fs-34 {font-size: 34px;}
+.fs-40 {font-size: 40px;}
+.fs-52 {font-size: 52px;}
+.fs-60 {font-size: 60px;}
 .fs-70 {font-size: 70px;}
 .fs-100 {font-size: 100px;}
 .Valky {font-family: var(--Valky);}
@@ -463,8 +460,8 @@ lottie-player {
     background: url(../img/bg-quienes-somos.png) center center no-repeat;
 }
 .manifiesto  {
-    padding: 100px 0;
     background: url(../img/bg-manifiesto.png) center bottom no-repeat;
+    background-size: contain;
 }
 .scroll {
     height: 500px;
@@ -499,13 +496,39 @@ lottie-player {
     top: 150px;
     left: -100px;
 }
-#somos .team {margin: 100px 0;}
+#somos .team {margin-top: 300px;}
 #somos .team img {
     border-radius: 50%;
     border: 3px solid var(--naranja);
 }
 #somos .team .divider-left {border-left: 3px solid var(--naranja);}
 #somos .team .divider-right {border-right: 3px solid var(--naranja);}
+.item .body-premios {
+    opacity: 0;
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+    transition: all .3s;
+}
+.item:hover .body-premios {opacity: 1;}
+
+.item .body-premios p.background {position: relative;}  
+.item .body-premios p.background span {
+    background: var(--pastel);
+    padding: 0 10px;
+}
+.item .body-premios p.double:after {
+    border-bottom: 1px solid var(--naranja);
+    box-shadow: 0 5px 0 0 var(--naranja);
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    width: 20%;
+    z-index: -1;
+}
 /* Section Contacto */
 #contacto{
     height: auto;
@@ -523,8 +546,9 @@ lottie-player {
 
 #contact-form {
     padding-bottom: 600px;
-    background: var(--negro) url(../img/bg-contact.png) bottom right no-repeat;
+    background: var(--negro) url(../img/img-ball.svg) bottom right no-repeat;
     background-position-y: 360px;
+    background-size: 40%;
 }
 #contact-form .form-control {
     border-radius: 0;
