@@ -142,7 +142,10 @@ element {
 }
 element::-webkit-scrollbar {display: none; /* for Chrome, Safari, and Opera */}
 
-p {font-size: 18;}
+p {
+    font-size: 18;
+    letter-spacing: 0;
+}
 h1 {font-size: 200px;}
 h2 {
     font-size: 100px;
@@ -162,10 +165,13 @@ h5 {font-size: 24px;}
 
 /* Utilities */
 .vh-80 {height: 80vh;}
+.z-1 {z-index: 1;}
 .mt--60 {margin-top: -60px;}
 .mt--80 {margin-top: -80px;}
+.mt--200 {margin-top: -200px;}
 .mt-100 {margin-top: 100px;}
 .mt-400 {margin-top: 400px;}
+.mt-300 {margin-top: 300px;}
 .mb-100 {margin-bottom: 100px;}
 .p-100 {padding: 100px 0;}
 .p-150 {padding: 150px 0;}
@@ -300,7 +306,6 @@ lottie-player {
     top: 100px;
     width: 20%;
     opacity: 0;
-    font-size: 30px;
     line-height: 30px;
     position: absolute;
     transition: all .3s;
@@ -543,6 +548,19 @@ lottie-player {
     padding: 200px 0;
     background: url(../img/bg-nosotros.png) center center no-repeat;
     background-size: cover;
+}
+.circulo-trabajo {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid var(--naranja);
+}
+.box-color {
+    height: 400px;
+    padding: 30px;
 }
 /* Section Contacto */
 #contacto{
