@@ -169,6 +169,8 @@ h5 {font-size: 24px;}
 .mb-100 {margin-bottom: 100px;}
 .p-100 {padding: 100px 0;}
 .p-150 {padding: 150px 0;}
+.pt-150 {padding-top: 150px;}
+.pb-150 {padding-bottom: 150px;}
 .pb-100 {padding-bottom: 100px;}
 .pb-200 {padding-bottom: 200px;}
 .pl-100 {padding-left: 100px;}
@@ -199,12 +201,12 @@ hr {opacity: 1;}
 .fc-celeste {color: var(--celeste);}
 /* Fonts */
 .fs-24 {font-size: 24px;}
-.fs-34 {font-size: 34px;}
 .fs-40 {font-size: 40px;}
 .fs-52 {font-size: 52px;}
 .fs-60 {font-size: 60px;}
 .fs-70 {font-size: 70px;}
 .fs-100 {font-size: 100px;}
+.fs-160 {font-size: 160px;}
 .Valky {font-family: var(--Valky);}
 .Vonnes {font-family: var(--Vonnes);}
 .PoppinsBold {font-family: var(--PoppinsBold);}
@@ -228,12 +230,19 @@ lottie-player {
     position: absolute;
 }
 .btn-primary-custom {
-    font-size: 22px;
+    font-size: 24px;
     border-radius: 0;
     padding: 17px 37px;    
     color: var(--pastel);
     background: var(--naranja);
     font-family: var(--PoppinsBold);
+}
+.btn-secondary-custom {
+    font-size: 24px;
+    border-radius: 0;
+    padding: 17px 37px;    
+    color: var(--negro);
+    background: var(--pastel);
 }
 .btn-outline-primary {
     font-size: 24px;
@@ -435,8 +444,8 @@ lottie-player {
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 30px;
     text-align: left;
-    padding: 60px 40px;
     position: absolute;
 }
 .box-content div {opacity: 0; transition: all .3s; transform: translateY(-30px);}
@@ -459,9 +468,10 @@ lottie-player {
 #quienes-somos {
     background: url(../img/bg-quienes-somos.png) center center no-repeat;
 }
-.manifiesto  {
+#manifiesto {
+    padding: 150px 0;
     background: url(../img/bg-manifiesto.png) center bottom no-repeat;
-    background-size: contain;
+    background-size: 60%;
 }
 .scroll {
     height: 500px;
@@ -529,14 +539,19 @@ lottie-player {
     width: 20%;
     z-index: -1;
 }
+#que-hacemos {
+    padding: 200px 0;
+    background: url(../img/bg-nosotros.png) center center no-repeat;
+    background-size: cover;
+}
 /* Section Contacto */
 #contacto{
     height: auto;
     background: var(--negro);
 }
 .form-check-input {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 .form-check-input[type=radio] {
     background: none;
