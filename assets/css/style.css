@@ -169,6 +169,7 @@ h5 {font-size: 24px;}
 .mt--80 {margin-top: -80px;}
 .mt--200 {margin-top: -200px;}
 .mt--380 {margin-top: -380px;}
+.mt-50 {margin-top: 50px;}
 .mt-100 {margin-top: 100px;}
 .mt-400 {margin-top: 400px;}
 .mt-300 {margin-top: 300px;}
@@ -249,6 +250,13 @@ lottie-player {
     color: var(--negro);
     background: var(--pastel);
 }
+.btn-orange-custom {
+    font-size: 24px;
+    border-radius: 0;
+    padding: 17px 37px;    
+    color: white;
+    background: var(--naranja);
+}
 .btn-outline-primary {
     font-size: 24px;
     border-radius: 0;
@@ -256,12 +264,18 @@ lottie-player {
     color: var(--naranja);
     border: 2px solid var(--naranja);
 }
-.btn-outline-primary:hover {
+.btn-outline-primary:hover, .btn-outline-secondary:hover{
     color: var(--pastel);
     background: var(--naranja);
     border: 2px solid var(--naranja);
 }
-
+.btn-outline-secondary {
+    font-size: 24px;
+    border-radius: 0;
+    padding: 10px 40px;
+    color: var(--pastel);
+    border: 2px solid var(--naranja);
+}
 .doble-text span:first-child {display: block;}
 .doble-text span {display: none;}
 .doble-text:hover span:first-child {display: none;}
@@ -325,6 +339,7 @@ lottie-player {
 /* === */
 
 /* Section Blog */
+
 .blog-box {
     padding: 40px;
     overflow: hidden;
@@ -575,6 +590,41 @@ lottie-player {
     padding: 20px 40px;
     border-top: 2px solid var(--naranja);
 }
+
+/* Blog */
+#blog {
+    background: var(--negro) url(../img/bg-header-blog.png) center right no-repeat;
+    background-size: contain;
+}
+.blog-content {
+    position: relative;
+    border-bottom: 2px solid var(--naranja);
+}
+.blog-content .blog-box-img {position: relative;}
+.blog-content .blog-box-img .btn-left {
+    left: 50px;
+    bottom: 30px;
+    position: absolute;
+}
+.blog-content .blog-box-img .btn-right {
+    right: 50px;
+    bottom: 30px;
+    position: absolute;
+}
+.blog-content .arrow {
+    right: 50%;
+    z-index: 1;
+    bottom: 30px;
+    position: absolute;
+    transform: translate(50%, -50%);
+}
+.link-noticia {
+    color: var(--celeste);
+    font-family: var(--PoppinsItalic);
+}
+.link-noticia:hover {
+    color: var(--naranja);
+}
 /* Section Contacto */
 #contacto{
     height: auto;
@@ -600,7 +650,6 @@ lottie-player {
     border-radius: 0;
     background: var(--pastel);
 }
-#contact-form .btn-outline-primary {color: var(--pastel);}
 /* === */
 
 /* footer */
