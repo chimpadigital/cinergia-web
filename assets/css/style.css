@@ -276,6 +276,51 @@ lottie-player {
     color: var(--pastel);
     border: 2px solid var(--naranja);
 }
+.btn-flip {
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    color: var(--pastel);
+}
+.btn-flip:hover:after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+}
+.btn-flip:hover:before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+}
+.btn-flip:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+    position: absolute;
+    padding: 10px 40px;
+    color: var(--pastel);
+    content: attr(data-back);
+    background: var(--naranja);
+    transform: translateY(-50%) rotateX(90deg);
+}
+.btn-flip:before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    display: block;
+    padding: 0 30px;
+    line-height: 40px;
+    transition: 0.5s;
+    position: relative;
+    padding: 10px 40px;
+    color: var(--naranja);
+    background: var(--pastel);
+    content: attr(data-front);
+    border: 2px solid var(--naranja);
+    transform: translateY(0) rotateX(0);
+}
+
 .doble-text span:first-child {display: block;}
 .doble-text span {display: none;}
 .doble-text:hover span:first-child {display: none;}
@@ -294,6 +339,11 @@ lottie-player {
     font-family: var(--PoppinsRegular);
 }
 .btn-box .btn-carousel:hover {background: var(--pastel);}
+.lottie-player {
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+}
 #intro {
     padding: 100px 0 400px;
     background: var(--negro) url(../img/bg-intro.png) center bottom no-repeat;
@@ -489,8 +539,8 @@ lottie-player {
 }
 #manifiesto {
     padding: 150px 0;
-    background: url(../img/bg-manifiesto.png) center bottom no-repeat;
-    background-size: 60%;
+    background: url(../img/bg-manifiesto.png) center bottom -70px no-repeat;
+    background-size: 80%;
 }
 .scroll {
     height: 500px;
@@ -500,21 +550,24 @@ lottie-player {
     padding-left: 50px;
     position: relative;
 }
-.scroll::after {
-    content: '';
-    top: 0;
-    left: 0px;
-    height: 300%;
-    display: block;
-    position: absolute;
-    border-left: 2px solid var(--naranja);
+.scroll::-webkit-scrollbar-track {
+    border-right: 2px solid var(--naranja);
 }
-.scroll::-webkit-scrollbar-track {-webkit-box-shadow: none;}
 .scroll::-webkit-scrollbar {width: 10px;}
 .scroll::-webkit-scrollbar-thumb {
     background: var(--naranja);	
     background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
- }
+}
+
+.arrow-down {
+    left: -122px;
+    bottom: -52px;
+    position: absolute;
+}
+.arrow-down img {
+    padding: 20px;
+    background: var(--naranja);
+}
 #somos {
     padding-top: 200px;
     margin-bottom: 200px;
@@ -596,6 +649,14 @@ lottie-player {
     background: var(--negro) url(../img/bg-header-blog.png) center right no-repeat;
     background-size: contain;
 }
+#blog .img {
+    top: 60%;
+    left: 50%;
+    opacity: .05;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
 .blog-content {
     position: relative;
     border-bottom: 2px solid var(--naranja);
@@ -617,6 +678,15 @@ lottie-player {
     bottom: 30px;
     position: absolute;
     transform: translate(50%, -50%);
+}
+h5.dropcap::first-letter{
+    margin: -40px 30px 0 0;
+	float: left;
+	font-size: 200px;
+    color: var(--naranja);
+    font-family: var(--Valky);
+}
+
 }
 .link-noticia {
     color: var(--celeste);
