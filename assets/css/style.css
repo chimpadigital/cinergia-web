@@ -344,6 +344,9 @@ lottie-player {
     cursor: pointer;
     position: absolute;
 }
+lottie-player {
+    transform: translate(-50%, -50%);
+}
 #intro {
     padding: 100px 0 400px;
     background: var(--negro) url(../img/bg-intro.png) center bottom no-repeat;
@@ -625,6 +628,12 @@ lottie-player {
     text-align: center;
     border: 2px solid var(--naranja);
 }
+.link-trabajo {
+    font-size: 46px;
+    transition: all .3s;
+    color: var(--naranja);
+}
+.link-trabajo:hover {color: var(--pastel);}
 .box-color {
     height: 400px;
     padding: 30px;
@@ -687,7 +696,6 @@ h5.dropcap::first-letter{
     font-family: var(--Valky);
 }
 
-}
 .link-noticia {
     color: var(--celeste);
     font-family: var(--PoppinsItalic);
