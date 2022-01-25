@@ -65,7 +65,8 @@
         <section class="bg-negro">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12 d-flex align-items-center justify-content-center p-0 position-relative">
+                        <div class="opacity-galery"></div>
                         <div class="owl-carousel owl-theme">
                             <div class="item">
                                 <img src="assets/img/img-carousel-01.png">
@@ -75,6 +76,19 @@
                             </div>
                             <div class="item">
                                 <img src="assets/img/img-carousel-03.png">
+                            </div>
+                        </div>
+                        <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop autoplay></lottie-player>
+                        </a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JWRlTezTF2k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -288,6 +302,7 @@
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
         <script src="assets/rellax-master/js/rellax.min.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="assets/js/custom.js"></script>
 
     </body>
