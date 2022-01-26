@@ -384,7 +384,6 @@ lottie-player {
 .nav ul li a {
     font-size: 54px;
     line-height: 1.2;
-    font-weight: 800;
     position: relative;
     color: var(--pastel);
     display: inline-block;
@@ -760,6 +759,8 @@ lottie-player {
     background: var(--naranja);	
     background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
 }
+
+.scroll p {direction: ltr;}
 
 .arrow-down {
     left: -122px;
