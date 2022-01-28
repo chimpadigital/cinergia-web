@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="55" viewBox="0 0 28 55">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_138" data-name="Rectángulo 138" width="28" height="55" transform="translate(-46 519)" fill="none" stroke="red" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_18" data-name="Enmascarar grupo 18" transform="translate(46 -519)" clip-path="url(#clip-path)">
+    <g id="Polígono_1" data-name="Polígono 1" transform="translate(-45 574) rotate(-90)" fill="#191919">
+      <path d="M 53.77705383300781 26.5 L 1.222946286201477 26.5 L 27.5 0.7007108926773071 L 53.77705383300781 26.5 Z" stroke="none"/>
+      <path d="M 27.5 1.401411056518555 L 2.445880889892578 26 L 52.55411911010742 26 L 27.5 1.401411056518555 M 27.5 0 L 55 27 L 0 27 L 27.5 0 Z" stroke="none" fill="#ff8366"/>
+    </g>
+    <rect id="Rectángulo_139" data-name="Rectángulo 139" width="4" height="72" transform="translate(-19 505)" fill="#191919"/>
+    <line id="Línea_57" data-name="Línea 57" y1="8" transform="translate(-19.5 513.5)" fill="none" stroke="#ff8366" stroke-width="1"/>
+    <line id="Línea_58" data-name="Línea 58" y1="7" transform="translate(-19.5 571.5)" fill="none" stroke="#ff8366" stroke-width="1"/>
+  </g>
+</svg>

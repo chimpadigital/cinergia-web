@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  $('.burger').click(function() {
+    $('.nav-menu').toggleClass("open-menu");
+    $('.menu-list').toggleClass("list-open");
+  });
   $('.owl-carousel').owlCarousel({
     stagePadding: 400,
     loop: true,
