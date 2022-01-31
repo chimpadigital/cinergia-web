@@ -234,11 +234,14 @@ header {
     height: 100vh;
     padding: 100px 0;
     background: var(--negro) url(../img/bg-header-home.png) center center no-repeat;
+    background-size: contain;
 }
 header ul {list-style: none;}
 header a:hover {color: var(--naranja);}
 lottie-player {
     z-index: 3;
+    width: 200px;
+    height: 200px;
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -269,8 +272,8 @@ lottie-player {
 }
 .nav-menu .logo {opacity: 0;}
 .open-menu .logo {
-    margin-bottom: 100px;
     opacity: 1;
+    margin-bottom: 100px;
 }
 .nav-menu ul {width: 50%;}
 .divider-menu {
@@ -301,8 +304,8 @@ lottie-player {
 .menu-list a {display: block;}
 .btn-doble {
     font-size: 40px;
-    white-space: nowrap;
     position: relative;
+    white-space: nowrap;
     color: var(--pastel);
 }
 .btn-doble:hover:after {
@@ -803,6 +806,13 @@ lottie-player {
     top: 150px;
     left: -100px;
 }
+#somos .cacho {
+    width: 40%;
+    top: 250px;
+    right: -60px;
+    position: absolute;
+    border: none !important;
+}
 #somos .team {margin-top: 300px;}
 #somos .team img {
     border-radius: 50%;
@@ -959,5 +969,20 @@ footer ul {
     list-style: none;
 }
 footer ul li {padding: 0 20px;}
-footer ul li p {letter-spacing: 0;}
+footer ul li p {
+    letter-spacing: 0;
+    white-space: nowrap;
+}
 /* === */
+
+/* media */
+@media only screen and (max-width: 767px) {
+    h3 {font-size: 35px;}
+    h4 {font-size: 25px;}
+    header {padding: 0;}
+    lottie-player {width: 100px;height: 100px;}
+    #intro {
+        padding: 50px 0;
+        background-size: contain;
+    }
+}

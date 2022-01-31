@@ -14,68 +14,22 @@
 
     </head>
     <body>
-        <div id="top-nav">
-            <img class="arrow" src="assets/img/img-divider-menu.svg" alt="">
-            <div class="nav-menu">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <a href="index.html"><img class="logo menu-list" src="assets/img/logo-cinergia-home.svg" width="200px" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-1">
-                            <div class="divider-menu">
-                               <img src="assets/img/img-divider-menu.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 d-flex align-self-center justify-content-between">
-                            <ul class="menu-list">
-                                <li><a href="portfolio.html" class="btn-doble" data-back="lo hicimos" data-front="trabajos"></a></li>
-                                <li><a href="quienes-somos.html" class="btn-doble" data-back="somos" data-front="nosotros"></a></li>
-                                <li><a href="contacto.html" class="btn-doble" data-back="nos encontrás" data-front="contacto"></a></li>
-                            </ul>
-                            <ul class="menu-list">
-                                <li><a href="services.html" class="btn-doble" data-back="lo hacemos" data-front="servicios"></a></li>
-                                <li><a href="blog.html" class="btn-doble" data-back="lo contamos" data-front="blog"></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-5 menu-list d-flex flex-column align-self-center divider-vertical">
-                            <h4 class="PoppinsRegular fc-pastel fs-40 mb-4">No vendemos <br>Perros Azules.</h4>
-                            <h4 class="PoppinsRegular fc-pastel fs-40 mb-4">Contamos <br>historias.</h4>
-                            <h4 class="PoppinsRegular fc-pastel fs-40">Buenas Historias <br><span class="Valky">Mejores Marcas</span></h4>
-                        </div>
-                        <div class="col-md-4 menu-list offset-md-7">
-                            <hr class="hr-divider-pastel">
-                            <ul class="d-flex align-items-center">
-                                <li><img src="assets/img/ico-instagram.svg" class="me-3" width="30px" height="30px" alt=""></li>
-                                <li><img src="assets/img/ico-facebook.svg" class="me-3" width="30px" height="30px" alt=""></li>
-                                <li><img src="assets/img/ico-youtube.svg" class="me-3" width="30px" height="30px" alt=""></li>
-                                <li><img src="assets/img/ico-linkedin.svg" class="me-3" width="30px" height="30px" alt=""></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div id="burger-wrap">
-                    <a class="burger"><span></span></a>
-                </div>
-            </div> 
-        </div>
+        <?php include 'includes/navbar.php';?>
 
         <header>
             <div class="container">
-                <div class="row">
+                <div class="row d-none d-md-block">
                     <div class="col-md-2">
-                        <a href="index.html"><img src="assets/img/logo-cinergia-home.svg" width="220px" alt=""></a>
+                        <a href="index.php"><img src="assets/img/logo-cinergia-home.svg" width="220px" alt=""></a>
                     </div>
                     <div class="col-md-10 d-flex justify-content-center">
                         <ul class="d-flex align-items-center">
-                            <li><a href="portfolio.html" class="fc-pastel Valky fs-24 me-4">Trabajos</a></li>
-                            <li><a href="contacto.html" class="fc-pastel Valky fs-24">Contacto</a></li>
+                            <li><a href="portfolio.php" class="fc-pastel Valky fs-24 me-4">Trabajos</a></li>
+                            <li><a href="contacto.php" class="fc-pastel Valky fs-24">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="row vh-80 d-flex align-items-center">
+                <div class="row vh-80 d-flex align-items-center text-center text-md-start">
                     <div class="col-12">
                         <h3 class="fc-pastel mb-0">Buenas Historias</h3>
                         <h3 class="fc-pastel Valky">Mejores Marcas</h3>
@@ -89,7 +43,7 @@
                 <div class="col-12 d-flex align-items-center justify-content-center p-0 position-relative">
                     <img src="assets/img/bg-spaceship.png" width="100%" alt="">
                     <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop autoplay></lottie-player>
+                        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
                     </a>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -111,8 +65,8 @@
         <section id="intro">
             <div class="container">
                 <div class="col-md-8">
-                    <h4 class="PoppinsRegular fc-pastel">Desde la <br><span class="Valky">estrategia de marca</span><br>
-                        a la producción de contenidos, <br> te damos todos los servicios <br>
+                    <h4 class="PoppinsRegular fc-pastel">Desde la <br class="d-none d-dm-block"><span class="Valky">estrategia de marca</span><br class="d-none d-dm-block">
+                        a la producción de contenidos, <br class="d-none d-dm-block"> te damos todos los servicios <br class="d-none d-dm-block">
                         para que tu proyecto <span class="Valky fc-naranja">brille.</span></h4>
                 </div>
             </div>
@@ -470,36 +424,7 @@
             </div>
         </section>
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="assets/img/logo-cinergia-footer.svg" alt="">
-                    </div>
-                    <div class="col-md-8 d-flex justify-content-center align-self-center">
-                        <ul class="d-flex m-0">
-                            <li class="d-flex">
-                                <img src="assets/img/icon-phone.svg" class="me-1" width="20px"><p class="MontserratMedium m-0">+54 9 351 4517095</p>
-                            </li>
-                            <li>|</li>
-                            <li class="d-flex">
-                                <img src="assets/img/icon-phone.svg" class="me-1" width="20px"><p class="MontserratMedium m-0">+54 9 351 3232739</p>
-                            </li>
-                            <li>|</li>
-                            <li class="d-flex">
-                                <img src="assets/img/icon-email.svg" class="me-1" width="20px"><p class="MontserratMedium m-0">INFO@CINERGIAGROUP.COM</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 d-flex justify-content-end align-self-center">
-                        <a href="#"><img src="assets/img/icon-youtube.svg" class="me-3"></a>
-                        <a href="#"><img src="assets/img/icon-instagram.svg" class="me-3"></a>
-                        <a href="#"><img src="assets/img/icon-linkedin.svg" class="me-3"></a>
-                        <a href="#"><img src="assets/img/icon-facebook.svg"></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php include 'includes/footer.php';?>
         
         <!-- js -->
         <script src="assets/jquery/jquery.min.js"></script>
