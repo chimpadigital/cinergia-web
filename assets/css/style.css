@@ -246,9 +246,9 @@ lottie-player {
 #top-nav {
     right: 0;
     width: 80px;
+    z-index: 20;
     height: 100%;
     position: absolute;
-    z-index: 20;
     background:  var(--negro);
     border-left: 1px solid var(--naranja);
 }
@@ -257,12 +257,11 @@ lottie-player {
     left: -27px;
     position: absolute;
     transform: translate(0, -50%);
-
 }
 .nav-menu {
+    width: 1px;
     padding: 100px 0;
     background: none;
-    width: 1px;
     -webkit-transition: width 0.2s ease, height 0.4s ease;
         -moz-transition: width 0.2s ease, height 0.4s ease;
             -o-transition: width 0.2s ease, height 0.4s ease;
@@ -271,7 +270,9 @@ lottie-player {
 .nav-menu .logo {opacity: 0;}
 .open-menu .logo {
     margin-bottom: 100px;
-    opacity: 1;}
+    opacity: 1;
+}
+.nav-menu ul {width: 50%;}
 .divider-menu {
     height: 100%;
     position: relative;
@@ -294,17 +295,54 @@ lottie-player {
 .menu-list {
     top: 50%;
     opacity: 0;
-    font-size: 55px;
     color: var(--pastel);
 }
 .nav-menu ul {margin: 0 50px 0 0;}
-.menu-list a {color: var(--pastel);}
-.menu-list a:hover {color: var(--naranja);}
+.menu-list a {display: block;}
+.btn-doble {
+    font-size: 40px;
+    white-space: nowrap;
+    position: relative;
+    color: var(--pastel);
+}
+.btn-doble:hover:after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+}
+.btn-doble:hover:before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+}
+.btn-doble:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+    position: absolute;
+    color: var(--naranja);
+    content: attr(data-back);
+    transform: translateY(-50%) rotateX(90deg);
+}
+.btn-doble:before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    display: block;
+    line-height: 60px;
+    transition: 0.5s;
+    position: relative;
+    color: var(--pastel);
+    content: attr(data-front);
+    transform: translateY(0) rotateX(0);
+}
 .nav-menu p {line-height: 1;}
 .divider-menu {
+    top: 0;
     opacity: 0;
     height: 100%;
-    position: relative;
+    position: absolute;
     border-right: 1px solid var(--naranja);
 }
 .open-menu .divider-menu {opacity: 1;}
@@ -330,23 +368,16 @@ lottie-player {
     height: 65px;
     position: absolute;
     transform: translate(0, -50%);
-}
+} 
 .burger {
-    position: absolute;
     top: 50%;
-    transform: translate(0, -50%);
-    right: 0;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 0;
-    padding: 0;
     width: 60px;
     height: 65px;
-    border-radius: 50%;
-    border: none;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(0, -50%); 
     -webkit-transition: all .3s;
     transition: all .3s;
-    background-color: transparent;
 }
 .burger span {
     display: block;
@@ -356,7 +387,7 @@ lottie-player {
     right: 16px;
     height: 3px;
     background: var(--naranja);
-    border-radius: 15px;
+    border-radius: 10px;
     -webkit-transition: background 0.3s .3s;
     transition: background 0.3s .3s;
     -o-transition: background 0s 0s;
@@ -374,14 +405,14 @@ lottie-player {
 }
 .burger span::after,
 .burger span::before {
-    position: absolute;
-    display: block;
+    content: "";
     left: 0;
     width: 100%;
     height: 3px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
     background-color: var(--naranja);
-    content: "";
-    border-radius: 5px;
     -webkit-transition-duration: .3s,.3s;
     transition-duration: .3s,.3s;
     -webkit-transition-delay: 0.4s,0s;
@@ -521,7 +552,9 @@ lottie-player {
     border: 2px solid var(--pastel);
     font-family: var(--PoppinsRegular);
 }
-.btn-box .btn-carousel:hover {background: var(--pastel);}
+.btn-box .btn-carousel:hover {
+    color: var(--negro);
+    background: var(--pastel);}
 .lottie-player {
     cursor: pointer;
     position: absolute;
