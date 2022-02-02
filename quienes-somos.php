@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-02.svg" height="50%" alt="">
+                        <img src="assets/img/premio-02.png" height="50%" width="auto" alt="">
                         <div class="body-premios">
                             <h5>AAMI</h5>
                             <p class="background double"><span>2014</span></p>

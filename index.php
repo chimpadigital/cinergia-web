@@ -18,7 +18,7 @@
 
         <header>
             <div class="container">
-                <div class="row d-none d-md-block">
+                <div class="row d-none d-md-flex">
                     <div class="col-md-2">
                         <a href="index.php"><img src="assets/img/logo-cinergia-home.svg" width="220px" alt=""></a>
                     </div>
@@ -50,7 +50,7 @@
                         <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JWRlTezTF2k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <!-- <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JWRlTezTF2k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                             </div>
                         </div>
                         </div>
@@ -65,8 +65,8 @@
         <section id="intro">
             <div class="container">
                 <div class="col-md-8">
-                    <h4 class="PoppinsRegular fc-pastel">Desde la <br class="d-none d-dm-block"><span class="Valky">estrategia de marca</span><br class="d-none d-dm-block">
-                        a la producción de contenidos, <br class="d-none d-dm-block"> te damos todos los servicios <br class="d-none d-dm-block">
+                    <h4 class="PoppinsRegular fc-pastel">Desde la <br class="d-none d-md-block"><span class="Valky">estrategia de marca</span><br class="d-none d-md-block">
+                        a la producción de contenidos, <br class="d-none d-md-block"> te damos todos los servicios <br class="d-none d-md-block">
                         para que tu proyecto <span class="Valky fc-naranja">brille.</span></h4>
                 </div>
             </div>
@@ -75,12 +75,23 @@
         <section class="bg-negro p-150">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 d-flex align-items-center">
+                    <div class="col-md-7 d-flex align-items-center d-none d-md-block">
                         <img src="assets/img/bg-conection-peru.png" class="img-left" width="50%" alt="">
                     </div>
-                    <div class="col-md-5 divider-vertical">
+                    <div class="col-md-5 divider-vertical d-none d-md-block">
                         <h4 class="fc-pastel">Te <br>conectamos<br> Perú</h4>
                         <h5 class="fc-pastel mb-0">estrategia de marca, <br>branding, mkt digital,<br> producción audiovisual,<br> producción de contenidos,<br> desarrollo web, fotografía</h5>
+                    </div>
+                    <div class="col-md-12 d-block d-md-none">
+                        <h4 class="fc-pastel">Te conectamos Perú</h4>
+                        <h5 class="fc-pastel mb-0">estrategia de marca, branding, mkt digital,<br> producción audiovisual,<br> producción de contenidos,<br> desarrollo web, fotografía</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0 mt-4 d-block d-md-none">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="assets/img/bg-conection-peru.png" width="100%" alt="">
                     </div>
                 </div>
             </div>
@@ -88,9 +99,12 @@
 
         <section class="bg-negro pb-150">
             <div class="container">
-                <div class="col">
-                    <h2 class="fc-pastel m-0">No vendemos</h2>
-                    <h2 class="Valky fc-pastel"><img src="assets/img/arrow-orange.svg" alt=""> perros <span class="fc-celeste">azules...</span></h2>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="fc-pastel mb-md-0">No vendemos</h2>
+                        <h2 class="Valky fc-pastel d-none d-md-block"><img src="assets/img/arrow-orange.svg" alt=""> perros <span class="fc-celeste">azules...</span></h2>
+                        <h2 class="Valky fc-pastel d-block d-md-none"><img src="assets/img/arrow-orange.svg" width="70px" alt=""> perros <span class="fc-celeste">azules...</span></h2>
+                    </div>
                 </div>
             </div>
         </section>
@@ -98,26 +112,40 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 divider-vertical position-relative">
+                    <div class="col-12 p-0 d-block d-md-none">
+                        <img src="assets/img/bg-del-gredal.png" width="100%" alt="">
+                    </div>
+                    <div class="col-12 d-block d-md-none">
+                        <h4 class="fc-pastel mt-4">Del Gredal</h4>
+                        <h5 class="fc-pastel mb-4">branding, desarrollo web, producción audiovisual, producción de contenidos, fotografía</h5>
+                    </div>
+                    <div class="col-md-5 divider-vertical position-relative d-none d-md-block">
                         <h4 class="fc-pastel">Del <br>Gredal</h4>
                         <h5 class="fc-pastel mb-0">branding,<br> desarrollo web,<br> producción audiovisual,<br> producción de contenidos,<br> fotografía</h5>
                     </div>
-                    <div class="col-md-7 d-flex align-items-center">
+                    <div class="col-md-7 d-flex align-items-center d-none d-md-block">
                         <img src="assets/img/bg-del-gredal.png" class="img-right" width="60%" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-negro mt--60">
+        <section class="bg-negro mt-md--60">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 d-none d-md-block">
                         <img src="assets/img/bg-mercantil-andina.png" class="position-relative" width="80%" alt="">
                     </div>
-                    <div class="col-md-4 d-flex flex-column align-self-end divider-vertical">
+                    <div class="col-md-4 d-flex flex-column align-self-end divider-vertical d-none d-md-block">
                         <h4 class="fc-pastel">Mercantil<br> Andina</h4> 
                         <h5 class="fc-pastel mb-0">producción<br> audiovisual,<br> fotografía</h5>
+                    </div>
+                    <div class="col-12 p-0 d-block d-md-none">
+                        <img src="assets/img/bg-mercantil-andina.png" width="100%" alt="">
+                    </div>
+                    <div class="col-12 d-block d-md-none">
+                        <h4 class="fc-pastel mt-4">Mercantil Andina</h4> 
+                        <h5 class="fc-pastel mb-4">producción audiovisual, fotografía</h5>
                     </div>
                 </div>
             </div>
@@ -125,8 +153,8 @@
 
         <section class="bg-negro p-100">
             <div class="container">
-                <div class="col">
-                    <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br> cada <span class="Valky fc-naranja">historia</span></h2>
+                <div class="col text-center text-md-start">
+                    <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada <span class="Valky fc-naranja">historia</span></h2>
                 </div>
             </div>
         </section>
@@ -134,14 +162,21 @@
         <section class="bg-negro pb-100 position-relative">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 d-flex flex-column align-self-end divider-vertical position-relative mb-100">
+                    <div class="col-md-4 d-flex flex-column align-self-end divider-vertical position-relative mb-100 d-none d-md-block">
                         <h4 class="fc-pastel">Héroes <br>de hoy</h4>
                         <h5 class="fc-pastel">serie documental</h5>
                     </div>
-                    <div class="col-md-8 d-flex justify-content-end">
+                    <div class="col-md-8 d-flex justify-content-end d-none d-md-block">
                         <img src="assets/img/bg-heroes-de-hoy.png" width="70%" alt="">
                     </div>
-                    <img src="assets/img/bg-divider-01.svg" class="img" width="40px" alt="">
+                    <div class="col-12 p-0 d-block d-md-none">
+                        <img src="assets/img/bg-heroes-de-hoy-mobile.png" width="100%" alt="">
+                    </div>
+                    <div class="col-12 d-block d-md-none">
+                        <h4 class="fc-pastel mt-4">Héroes de hoy</h4>
+                        <h5 class="fc-pastel">serie documental</h5>
+                    </div>
+                    <img src="assets/img/bg-divider-01.svg" class="img d-none d-md-block" width="40px" alt="">
                 </div>
             </div>
         </section>
@@ -149,17 +184,24 @@
         <section class="bg-negro">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
-                        <h2 class="fc-pastel mb-100">Le creamos un<br> <span class="Valky fc-celeste">Universo propio</span></h2>
+                    <div class="col-md-8 text-center text-md-start">
+                        <h2 class="fc-pastel mb-100">Le creamos un<br class="d-none d-md-block"> <span class="Valky fc-celeste">Universo propio</span></h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 d-none d-md-block">
                         <img src="assets/img/bg-astranis.png" width="90%" alt="">
                     </div>
-                    <div class="col-md-4 d-flex flex-column align-self-center divider-vertical">
+                    <div class="col-md-4 d-flex flex-column align-self-center divider-vertical d-none d-md-block">
                         <h4 class="fc-pastel">Astranis</h4>
                         <h5 class="fc-pastel">producción<br> audiovisual</h5>
+                    </div>
+                    <div class="col-12 p-0 d-block d-md-none">
+                        <img src="assets/img/bg-astranis.png" width="100%" alt="">
+                    </div>
+                    <div class="col-12 d-block d-md-none">
+                        <h4 class="fc-pastel mt-4">Astranis</h4>
+                        <h5 class="fc-pastel">producción audiovisual</h5>
                     </div>
                 </div>
             </div>
@@ -176,12 +218,19 @@
         <section class="bg-negro pb-100 position-relative">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 d-flex flex-column align-self-center divider-vertical">
+                    <div class="col-md-5 d-flex flex-column align-self-center divider-vertical d-none d-md-block">
                         <h4 class="fc-pastel">Pablo Lavezzari</h4>
                         <h5 class="fc-pastel">identidad de marca,<br> desarrollo web,<br> producción audiovisual,<br> fotografía</h5>
                     </div>
-                    <div class="col-md-7 d-flex justify-content-end">
+                    <div class="col-md-7 d-flex justify-content-end d-none d-md-block">
                         <img src="assets/img/bg-pablo-lavezzari.png" width="100%" alt="">
+                    </div>
+                    <div class="col-12 p-0 d-block d-md-none">
+                        <img src="assets/img/bg-pablo-lavezzari.png" width="100%" alt="">
+                    </div>
+                    <div class="col-12 d-block d-md-none">
+                        <h4 class="fc-pastel mt-4">Pablo Lavezzari</h4>
+                        <h5 class="fc-pastel">identidad de marca, desarrollo web, producción audiovisual, fotografía</h5>
                     </div>
                 </div>
             </div>
@@ -190,7 +239,7 @@
         <section class="bg-negro position-relative">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
                                 <img src="assets/img/img-carousel-01.png">
@@ -203,17 +252,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center btn-box">
-                        <a href="quienes-somos.html" class="btn btn-carousel">Conocenos</a>
+                    <div class="text-center btn-box d-none d-md-block">
+                        <a href="quienes-somos.php" class="btn btn-carousel">Conocenos</a>
                     </div>
                     <div class="col-8 offset-2 mt-4 mb-4">
                         <img src="assets/img/bg-divider.svg" width="100%" alt="">
+                    </div>
+                    <div class="text-center btn-box d-block d-md-none">
+                        <a href="quienes-somos.php" class="btn btn-carousel">Conocenos</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="award" class="p-100">
+        <!-- Section Desktop -->
+        <section id="award" class="p-100 d-none d-md-block">
             <div class="container">
                 <div class="row open position-relative">
                     <div class="col-md-2">
@@ -289,6 +342,111 @@
                 </div>
             </div>
         </section>
+        <!-- === -->
+
+        <!-- Section Mobile -->
+        <div class="container d-block d-md-none">
+            <div class="row">
+                <div class="col-12 pt-150 pb-150">
+                    <h4 class="PoppinsRegular">Qué <span class="Valky">decir</span> y cómo decirlo es <span class="Valky">nuestra</span> especialidad y por eso nos han <span class="Valky">honrado</span> con estos <span class="Valky">reconocimientos</span></h4>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="assets/img/premio-01.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>MARTÍN FIERRO</h4>
+                            <p class="background double"><span>2013</span></p>
+                            <p class="m-1">HEROES DE HOY</p>
+                            <p>Nominada a mejor serie <br>
+                                documental para TV - INCAA</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/premio-02.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>AAMI</h4>
+                            <p class="background double"><span>2014</span></p>
+                            <p class="m-1">CINERGIA</p>
+                            <p>Premio Brig. My. J.I San Martín <br>
+                                Empresa destacada del año <br>
+                                INNOVACIÓN / CREATIVIDAD</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/premio-03.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>CANNES CORP.</h4>
+                            <p class="background double"><span>2015</span></p>
+                            <p class="m-1">BANQUETERÍA RUSSO</p>
+                            <p>Ganadores de oro en Festival Cannes <br>
+                                Corporate Media and TV Awards</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/premio-04.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>PEPI</h4>
+                            <p class="background double"><span>2020</span></p>
+                            <p class="m-1">BODEGA DEL GREDAL</p>
+                            <p>Ganadores de cobre <br>
+                                Spot institucional "Escucha viajero"</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/premio-05.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>AVA DIGITAL AWARDS</h4>
+                            <p class="background double"><span>2021</span></p>
+                            <p class="m-1">TE CONECTAMOS PERÚ</p>
+                            <p>Ganadores de oro en categoría <br>
+                                Campaña Integral de Marketing</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/premio-06.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>THE COMMUNICATIONRS AWARDS</h4>
+                            <p class="background double"><span>2021</span></p>
+                            <p class="m-1">TE CONECTAMOS PERÚ</p>
+                            <p>Premio a la excelencia <br>
+                                Campaña Integral B2B</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/premio-07.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>PREMIOS EIKON</h4>
+                            <p class="background double"><span>2021</span></p>
+                            <p class="m-1">BODEGAS DEL GREDAL</p>
+                            <p>Ganadores Comunicación de <br>
+                                identidad corporativa</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/premio-08.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>PEPI</h4>
+                            <p class="background double"><span>2020</span></p>
+                            <p class="m-1">BODEGAS DEL GREDAL</p>
+                            <p>Ganadores de cobre Spot <br>
+                                institucional "Escuchame Viajero"</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/premio-09.svg" height="400px" alt="">
+                        <div class="body-premios">
+                            <h4>PEPI</h4>
+                            <p class="background double"><span>2021</span></p>
+                            <p class="m-1">MERCANTIL ANDINA</p>
+                            <p>Ganadores de bronce <br>
+                                Categoría Producción audiovisual- <br>
+                                Realización integral</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- === -->
 
         <section class="p-100">
             <div class="container">
@@ -300,8 +458,8 @@
                             <span class="Valky">aquí estamos.</span>
                         </h4>
                     </div>
-                    <div class="col-md-4 d-flex align-self-end justify-content-end">
-                        <a href="services.html" class="btn-flip" data-back="más servicios" data-front="¿eso es todo?"></a>
+                    <div class="col-md-4 d-flex align-self-end justify-content-center justify-content-md-end mt-4 mt-md-0">
+                        <a href="services.php" class="btn-flip" data-back="más servicios" data-front="¿eso es todo?"></a>
                     </div>
                 </div>
             </div>
@@ -310,11 +468,13 @@
         <section class="p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col d-flex justify-content-end mb-4">
+                    <div class="col-12 d-flex justify-content-end">
                         <h4>Blog</h4>
                     </div>
-                    <hr class="hr-divider">
-                    <div class="col-md-4">
+                    <div class="col-12">
+                        <hr class="hr-divider">
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
                         <div class="blog-box d-flex align-items-end">
                             <div>
                                 <h4>Te<br> conectamos<br> Perú</h4>
@@ -329,7 +489,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4 mb-md-0">
                         <div class="blog-box d-flex align-items-end">
                             <div>
                                 <h4>+Latina</h4>
@@ -361,11 +521,11 @@
                     </div>
                 </div>
                 <div class="row p-100">
-                    <div class="col-md-8 d-flex align-self-end">
+                    <div class="col-md-8 d-flex align-self-end d-none d-md-block">
                         <img src="assets/img/bg-divider-02.svg" alt="">
                     </div>
-                    <div class="col-md-4 d-flex justify-content-end">
-                        <a href="blog.html" class="btn btn-outline-primary">Lo contamos</a>
+                    <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+                        <a href="blog.php" class="btn btn-outline-primary">Lo contamos</a>
                     </div>
                 </div>
             </div>
@@ -380,7 +540,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-5 position-relative">
+                    <div class="col-md-5 position-relative d-flex justify-content-center d-none d-md-block">
                         <img class="bouncingball" src="assets/img/img-ball.svg" alt="">
                         <span class="shadows"></span>
                     </div>
@@ -408,10 +568,10 @@
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
                                     <div class="row">
-                                        <div class="col-6 mb-4 d-flex align-items-end">
+                                        <div class="col-md-6 mb-4 d-flex align-items-end">
                                             <input type="text" class="form-control" placeholder="Deadline">
                                         </div>
-                                        <div class="col-6 d-grid gap-2 mb-4">
+                                        <div class="col-md-6 d-grid gap-2 mb-4">
                                             <button type="submit" class="btn btn-primary-custom">Enviá nomás</button>
                                             <hr>
                                         </div>
@@ -420,9 +580,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-5 position-relative d-flex justify-content-center d-block d-md-none" style="height: 520px;">                        
+                        <img class="bouncingball" src="assets/img/img-ball.svg" width="300px" alt="">
+                        <span class="shadows"></span>
+                    </div>    
                 </div>
             </div>
         </section>
+
 
         <?php include 'includes/footer.php';?>
         
@@ -434,4 +599,4 @@
         <script src="assets/js/custom.js"></script>
 
     </body>
-</html>
+</php>

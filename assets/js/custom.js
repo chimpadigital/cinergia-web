@@ -13,7 +13,7 @@ $(document).ready(function(){
     responsive:{
         0:{
             items: 1,
-            stagePadding: 100,
+            stagePadding: 0,
         },
         600:{
             items: 1

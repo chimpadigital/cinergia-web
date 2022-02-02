@@ -207,7 +207,7 @@
                             <p class="fc-pastel m-0">HTML: 000000</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mt--60">
+                    <div class="col-md-4 mt-md--60">
                         <div class="bg-white box-color d-flex flex-column justify-content-end">
                             <p class="m-0">CMYK: C:0%  M:0%  Y:0%  K:0%</p>
                             <p class="m-0">RGB: R:255%  G:255%  B:255%</p>
@@ -223,7 +223,7 @@
                             <p class="fc-pastel m-0">HTML: 4AA39C</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mt--60">
+                    <div class="col-md-4 mt-md--60">
                         <div class="bg-naranja box-color d-flex flex-column justify-content-end">
                             <p class="m-0">CMYK: C:6%  M:81%  Y:100%  K:0%</p>
                             <p class="m-0">RGB: R:227%  G:85%  B:37%</p>

@@ -1,30 +1,20 @@
-<nav class="navbar navbar-expand-lg d-block d-md-none navbar-light bg-negro">
-    <div class="container">
-      <a class="navbar-brand" href="index.php"><img src="assets/img/logo-cinergia-home.svg" width="200px" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="trabajos.php">trabajos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="quienes-somos.php">nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.php">contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.php">services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.php">blog</a>
-                </li>
-            </ul>
+<div class="menu-wrap d-block d-md-none">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+        <div>
+            <div>
+                <ul class="text-start">
+                    <li><a href="trabajos.php">trabajos</a></li>
+                    <li><a href="quienes-somos.php">nosotros</a></li>
+                    <li><a href="contacto.php">contacto</a></li>
+                    <li><a href="services.php">services</a></li>
+                    <li><a href="blog.php">blog</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-</nav>
+</div>
 
 <div id="top-nav" class="d-none d-md-block">
     <img class="arrow" src="assets/img/img-divider-menu.svg" alt="">
