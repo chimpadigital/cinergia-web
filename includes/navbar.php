@@ -1,16 +1,23 @@
+<div class="bg-menu"></div>
 <div class="menu-wrap d-block d-md-none">
     <input type="checkbox" class="toggler">
     <div class="hamburger"><div></div></div>
     <div class="menu">
         <div>
             <div>
-                <ul class="text-start">
-                    <li><a href="trabajos.php">trabajos</a></li>
+                <ul class="text-start ps-4">
+                    <li><a href="portfolio.php">trabajos</a></li>
                     <li><a href="quienes-somos.php">nosotros</a></li>
                     <li><a href="contacto.php">contacto</a></li>
                     <li><a href="services.php">services</a></li>
                     <li><a href="blog.php">blog</a></li>
                 </ul>
+                <div class="ps-4">
+                    <a href="https://www.instagram.com/cinergia.estudio.creativo/" target="blank"><img src="assets/img/icon-menu-instagram.svg" alt="" class="me-3"></a>
+                    <a href="https://www.facebook.com/Cinergia.Estudio.Creativo" target="blank"><img src="assets/img/icon-menu-facebook.svg" alt="" class="me-3"></a>
+                    <a href="https://www.youtube.com/channel/UC9pZVM9b6frb2bdq6YRP-aw" target="blank"><img src="assets/img/icon-menu-youtube.svg" alt="" class="me-3"></a>
+                    <a href="https://www.linkedin.com/company/cinergiaestudiocreativ" target="blank"><img src="assets/img/icon-menu-linkedin.svg" alt=""></a>
+                </div>
             </div>
         </div>
     </div>

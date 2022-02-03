@@ -162,7 +162,7 @@
             <div class="row">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <img src="assets/img/premio-01.svg" height="50%" alt="">
+                        <img src="assets/img/img-award-01.png" alt="">
                         <div class="body-premios">
                             <h5>MARTÍN FIERRO</h5>
                             <p class="background double"><span>2013</span></p>
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-02.png" height="50%" width="auto" alt="">
+                        <img src="assets/img/img-award-02.png" width="auto" alt="">
                         <div class="body-premios">
                             <h5>AAMI</h5>
                             <p class="background double"><span>2014</span></p>
@@ -183,7 +183,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-03.svg" height="50%" alt="">
+                        <img src="assets/img/img-award-03.png" alt="">
                         <div class="body-premios">
                             <h5>CANNES CORP.</h5>
                             <p class="background double"><span>2015</span></p>
@@ -193,7 +193,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-04.svg" height="50%" alt="">
+                        <img src="assets/img/img-award-04.png" alt="">
                         <div class="body-premios">
                             <h5>PEPI</h5>
                             <p class="background double"><span>2020</span></p>
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-05.svg" height="50%" alt="">
+                        <img src="assets/img/img-award-05.png" alt="">
                         <div class="body-premios">
                             <h5>AVA DIGITAL AWARDS</h5>
                             <p class="background double"><span>2021</span></p>
@@ -213,7 +213,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-06.svg" height="50%" alt="">
+                        <img src="assets/img/img-award-06.png" alt="">
                         <div class="body-premios">
                             <h5>THE COMMUNICATIONRS AWARDS</h5>
                             <p class="background double"><span>2021</span></p>
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-07.svg" height="50%" alt="">
+                        <img src="assets/img/img-award-07.png" alt="">
                         <div class="body-premios">
                             <h5>PREMIOS EIKON</h5>
                             <p class="background double"><span>2021</span></p>
@@ -233,7 +233,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-08.svg" height="50%" alt="">
+                        <img src="assets/img/img-award-08.png" alt="">
                         <div class="body-premios">
                             <h5>PEPI</h5>
                             <p class="background double"><span>2020</span></p>
@@ -243,7 +243,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-09.svg" height="50%" alt="">
+                        <img src="assets/img/img-award-09.png" alt="">
                         <div class="body-premios">
                             <h5>PEPI</h5>
                             <p class="background double"><span>2021</span></p>

@@ -18,11 +18,11 @@
 
         <header>
             <div class="container">
-                <div class="row d-none d-md-flex">
+                <div class="row">
                     <div class="col-md-2">
                         <a href="index.php"><img src="assets/img/logo-cinergia-home.svg" width="220px" alt=""></a>
                     </div>
-                    <div class="col-md-10 d-flex justify-content-center">
+                    <div class="col-md-10 d-flex justify-content-center d-none d-md-flex">
                         <ul class="d-flex align-items-center">
                             <li><a href="portfolio.php" class="fc-pastel Valky fs-24 me-4">Trabajos</a></li>
                             <li><a href="contacto.php" class="fc-pastel Valky fs-24">Contacto</a></li>
@@ -40,7 +40,7 @@
         
         <div class="container-fluid bg-negro">
             <div class="row">
-                <div class="col-12 d-flex align-items-center justify-content-center p-0 position-relative">
+                <div class="col-12 d-flex align-items-center justify-content-center p-0">
                     <img src="assets/img/bg-spaceship.png" width="100%" alt="">
                     <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
@@ -88,9 +88,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid p-0 mt-4 d-block d-md-none">
+            <div class="container-fluid mt-4 d-block d-md-none">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 p-0">
                         <img src="assets/img/bg-conection-peru.png" width="100%" alt="">
                     </div>
                 </div>
@@ -269,8 +269,8 @@
         <section id="award" class="p-100 d-none d-md-block">
             <div class="container">
                 <div class="row open position-relative">
-                    <div class="col-md-2">
-                        <img src="assets/img/img-award-01.png" alt="">
+                    <div class="col-md-2 position-relative">
+                        <img src="assets/img/img-award-01.png" width="100%" alt="">
                         <div class="open-conten">
                             <h5 class="PoppinsBold text-end mb-0">THE COMMUNICATORS AWARDS - 2021 -</h5>
                             <p class="text-end">Te Conectamos Perú - Premio a la excelencia Campaña integral business to business.</p>
@@ -284,8 +284,8 @@
                     <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
                         <h4 class="PoppinsRegular">cómo decirlo</h4>
                     </div>
-                    <div class="col-md-2">
-                        <img src="assets/img/img-award-02.png" alt="">
+                    <div class="col-md-2 position-relative">
+                        <img src="assets/img/img-award-02.png" width="100%" alt="">
                         <div class="open-conten">
                             <h5 class="PoppinsBold mb-0">FEPI - 2020 -</h5>
                             <p>Bodega Del Gredal - Ganadores de cobre Spot corporativo.</p>
@@ -293,8 +293,8 @@
                     </div>
                 </div>
                 <div class="row open position-relative">
-                    <div class="col-md-2">
-                        <img src="assets/img/img-award-03.png" alt="">
+                    <div class="col-md-2 position-relative">
+                        <img src="assets/img/img-award-03.png" width="100%" alt="">
                         <div class="open-conten">
                             <h5 class="PoppinsBold text-end mb-0">AVA DIGITAL AWARDS - 2021 -</h5>
                             <p class="text-end">Te Conectamos Perú - Ganadores de oro Campaña Integral de Marketing.</p>
@@ -308,8 +308,8 @@
                     <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
                         <h4 class="PoppinsRegular"><span class="Valky">y</span> por eso</h4>
                     </div>
-                    <div class="col-md-2">
-                        <img src="assets/img/img-award-04.png" alt="">
+                    <div class="col-md-2 position-relative">
+                        <img src="assets/img/img-award-04.png" width="100%" alt="">
                         <div class="open-conten">
                             <h5 class="PoppinsBold mb-0">CANNES CORPORATE MEDIA AND TV AWARDS - 2015 -</h5>
                             <p>Banquetería Russo - Ganadores de oro Spot corporativo.</p>
@@ -317,8 +317,8 @@
                     </div>
                 </div>
                 <div class="row open position-relative">
-                    <div class="col-md-2">
-                        <img src="assets/img/img-award-05.png" alt="">
+                    <div class="col-md-2 position-relative">
+                        <img src="assets/img/img-award-05.png" width="100%" alt="">
                         <div class="open-conten">
                             <h5 class="PoppinsBold text-end mb-0">PREMIOS EIKON - 2021 -</h5>
                             <p class="text-end">Del Gredal - Ganadores de plata Comunicación de Identidad Corporativa</p>
@@ -332,8 +332,8 @@
                     <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
                         <h4 class="PoppinsRegular"><span class="Valky">con estos</span> reconocimientos</h4>
                     </div>
-                    <div class="col-md-2">
-                        <img src="assets/img/img-award-06.png" alt="">
+                    <div class="col-md-2 position-relative">
+                        <img src="assets/img/img-award-06.png" width="100%" alt="">
                         <div class="open-conten">
                             <h5 class="PoppinsBold mb-0">MARTIN FIERRO - 2013 -</h5>
                             <p>Héroes de hoy - Nominada a mejor serie documental para TV.</p>
@@ -352,7 +352,7 @@
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <img src="assets/img/premio-01.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-01.png" alt="">
                         <div class="body-premios">
                             <h4>MARTÍN FIERRO</h4>
                             <p class="background double"><span>2013</span></p>
@@ -362,7 +362,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-02.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-02.png" alt="">
                         <div class="body-premios">
                             <h4>AAMI</h4>
                             <p class="background double"><span>2014</span></p>
@@ -373,7 +373,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-03.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-03.png" alt="">
                         <div class="body-premios">
                             <h4>CANNES CORP.</h4>
                             <p class="background double"><span>2015</span></p>
@@ -383,7 +383,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-04.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-04.png" alt="">
                         <div class="body-premios">
                             <h4>PEPI</h4>
                             <p class="background double"><span>2020</span></p>
@@ -393,7 +393,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-05.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-05.png" alt="">
                         <div class="body-premios">
                             <h4>AVA DIGITAL AWARDS</h4>
                             <p class="background double"><span>2021</span></p>
@@ -403,7 +403,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-06.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-06.png" alt="">
                         <div class="body-premios">
                             <h4>THE COMMUNICATIONRS AWARDS</h4>
                             <p class="background double"><span>2021</span></p>
@@ -413,7 +413,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-07.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-07.png" alt="">
                         <div class="body-premios">
                             <h4>PREMIOS EIKON</h4>
                             <p class="background double"><span>2021</span></p>
@@ -423,7 +423,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-08.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-08.png" alt="">
                         <div class="body-premios">
                             <h4>PEPI</h4>
                             <p class="background double"><span>2020</span></p>
@@ -433,7 +433,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/premio-09.svg" height="400px" alt="">
+                        <img src="assets/img/img-award-09.png" alt="">
                         <div class="body-premios">
                             <h4>PEPI</h4>
                             <p class="background double"><span>2021</span></p>
@@ -580,9 +580,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 position-relative d-flex justify-content-center d-block d-md-none" style="height: 520px;">                        
-                        <img class="bouncingball" src="assets/img/img-ball.svg" width="300px" alt="">
-                        <span class="shadows"></span>
+                    <div class="col-md-5 d-block d-md-none">                        
+                        <div class="animation-ball">
+                            <img class="bouncingball" src="assets/img/img-ball.svg" width="100%" alt="">
+                            <span class="shadows"></span>
+                        </div>
                     </div>    
                 </div>
             </div>
