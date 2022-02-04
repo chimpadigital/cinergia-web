@@ -742,7 +742,6 @@ lottie-player {
     width: 100%;
     height: 100%;
     padding: 30px;
-    text-align: left;
     position: absolute;
 }
 .box-content div {opacity: 0; transition: all .3s; transform: translateY(-30px);}
@@ -1018,6 +1017,12 @@ footer ul li p {
     .proyectos h3 {color: var(--naranja);}
     .proyectos h5 {opacity: 1;}
     .proyectos .hr-divider-pastel {width: 100%;}
+    .box-content {
+        top: 0;
+        position: relative;
+        padding: 20px 20px 0;
+    }
+    .box-portfolio img, .box-portfolio-01 img {transform: none;}
 
     /* Section Blog */
     .blog-box img {opacity: 1;}

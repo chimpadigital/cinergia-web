@@ -12,6 +12,7 @@
                     <li><a href="services.php">services</a></li>
                     <li><a href="blog.php">blog</a></li>
                 </ul>
+                <hr class="hr-divider-pastel ms-4">
                 <div class="ps-4">
                     <a href="https://www.instagram.com/cinergia.estudio.creativo/" target="blank"><img src="assets/img/icon-menu-instagram.svg" alt="" class="me-3"></a>
                     <a href="https://www.facebook.com/Cinergia.Estudio.Creativo" target="blank"><img src="assets/img/icon-menu-facebook.svg" alt="" class="me-3"></a>

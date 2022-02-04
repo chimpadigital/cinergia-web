@@ -352,7 +352,7 @@
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <img src="assets/img/img-award-01.png" alt="">
+                        <img src="assets/img/img-award-06.png" alt="">
                         <div class="body-premios">
                             <h4>MARTÍN FIERRO</h4>
                             <p class="background double"><span>2013</span></p>
@@ -362,7 +362,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/img-award-02.png" alt="">
+                        <img src="assets/img/img-award-07.png" alt="">
                         <div class="body-premios">
                             <h4>AAMI</h4>
                             <p class="background double"><span>2014</span></p>
@@ -373,7 +373,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/img-award-03.png" alt="">
+                        <img src="assets/img/img-award-04.png" alt="">
                         <div class="body-premios">
                             <h4>CANNES CORP.</h4>
                             <p class="background double"><span>2015</span></p>
@@ -383,9 +383,9 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/img-award-04.png" alt="">
+                        <img src="assets/img/img-award-08.png" alt="">
                         <div class="body-premios">
-                            <h4>PEPI</h4>
+                            <h4>FEPI</h4>
                             <p class="background double"><span>2020</span></p>
                             <p class="m-1">BODEGA DEL GREDAL</p>
                             <p>Ganadores de cobre <br>
@@ -393,7 +393,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/img-award-05.png" alt="">
+                        <img src="assets/img/img-award-03.png" alt="">
                         <div class="body-premios">
                             <h4>AVA DIGITAL AWARDS</h4>
                             <p class="background double"><span>2021</span></p>
@@ -403,7 +403,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/img-award-06.png" alt="">
+                        <img src="assets/img/img-award-01.png" alt="">
                         <div class="body-premios">
                             <h4>THE COMMUNICATIONRS AWARDS</h4>
                             <p class="background double"><span>2021</span></p>
@@ -413,7 +413,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/img/img-award-07.png" alt="">
+                        <img src="assets/img/img-award-05.png" alt="">
                         <div class="body-premios">
                             <h4>PREMIOS EIKON</h4>
                             <p class="background double"><span>2021</span></p>
@@ -425,7 +425,7 @@
                     <div class="item">
                         <img src="assets/img/img-award-08.png" alt="">
                         <div class="body-premios">
-                            <h4>PEPI</h4>
+                            <h4>FEPI</h4>
                             <p class="background double"><span>2020</span></p>
                             <p class="m-1">BODEGAS DEL GREDAL</p>
                             <p>Ganadores de cobre Spot <br>
@@ -435,7 +435,7 @@
                     <div class="item">
                         <img src="assets/img/img-award-09.png" alt="">
                         <div class="body-premios">
-                            <h4>PEPI</h4>
+                            <h4>FEPI</h4>
                             <p class="background double"><span>2021</span></p>
                             <p class="m-1">MERCANTIL ANDINA</p>
                             <p>Ganadores de bronce <br>

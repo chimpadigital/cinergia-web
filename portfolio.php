@@ -50,13 +50,19 @@
             <div class="container">
                 <div class="row mb-4 pb-100 pb-xs-0">
                     <div class="col-md-8">
-                        <div class="bg-naranja box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-01.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-naranja box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">TE CONECTAMOS PERÚ</h5>
+                                    <p class="fc-pastel mb-0">Estrategia de marca / Branding / Marketing Digital / Producción audiovisual / Producción de contenidos / Desarrollo web / Fotografía</p>
+                                    <img src="assets/img/img-portfolio-mobile-01.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-01.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-pastel">TE CONECTAMOS PERÚ</h5>
-                                    <p class="fc-pastel">Estrategia de marca / Branding / Marketing Digital / Producción audiovisual 
-                                    / Producción de contenidos / Desarrollo web / Fotografía</p>
+                                    <p class="fc-pastel">Estrategia de marca / Branding / Marketing Digital / Producción audiovisual / Producción de contenidos / Desarrollo web / Fotografía</p>
                                 </div>
                             </a>
                         </div>
@@ -64,9 +70,16 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 offset-md-4 mb-4 mb-md-0">
-                        <div class="bg-pastel box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-02.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-pastel box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-negro">SATELNET</h5>
+                                    <p class="fc-negro mb-0">Branding / Desarrollo web / Producción audiovisuap / Fotografía / Producción de contenidos / Marketing digital</p>
+                                    <img src="assets/img/img-portfolio-mobile-02.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-02.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-negro">SATELNET</h5>
                                     <p class="fc-negro">Branding / Desarrollo web / Producción audiovisuap / Fotografía / Producción de contenidos / Marketing digital</p>
@@ -77,31 +90,52 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 mt--80 mt-xs-0 mb-4">
-                        <div class="bg-celeste box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-03.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-celeste box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">PABLO LAVEZZARI</h5>
+                                    <p class="fc-pastel">Identidad de marca / Desarrollo web / Producción audiovisual / Fotografía</p>
+                                    <img src="assets/img/img-portfolio-mobile-03.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-03.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">                               
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-pastel">PABLO LAVEZZARI</h5>
                                     <p class="fc-pastel">Identidad de marca / Desarrollo web / Producción audiovisual / Fotografía</p>
-                                </div>
+                                </div>    
                             </a>    
                         </div>
                     </div>
                     <div class="col-md-4 mt-400 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-04.png" width="80%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-amarillo box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-negro">MERCANTIL ANDINA</h5>
+                                    <p class="fc-negro mb-0">Producción audiovisual / Fotografía</p>
+                                    <img src="assets/img/img-portfolio-mobile-04.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-04.png" width="80%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-negro">MERCANTIL ANDINA</h5>
                                     <p class="fc-negro">Producción audiovisual / Fotografía</p>
                                 </div>
-                            </a>    
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-naranja box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-05.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-naranja box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">EL GREDAL</h5>
+                                    <p class="fc-pastel mb-0">Branding / Desarrollo web / Producción audiovisual / Producción de contenidos / Fotografía</p>
+                                    <img src="assets/img/img-portfolio-mobile-05.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-05.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-pastel">EL GREDAL</h5>
                                     <p class="fc-pastel">Branding / Desarrollo web / Producción audiovisual / Producción de contenidos / Fotografía</p>
@@ -112,9 +146,16 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="bg-pastel box-portfolio-01 text-center">
-                            <img src="assets/img/img-portfolio-06.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-pastel box-portfolio-01">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-negro">RHEEM</h5>
+                                    <p class="fc-negro">Rebranding / Desarrollo web / Producción audiovisual / Fotografía</p>
+                                    <img src="assets/img/img-portfolio-mobile-06.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-06.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-negro">RHEEM</h5>
                                     <p class="fc-negro">Rebranding / Desarrollo web / Producción audiovisual / Fotografía</p>
@@ -125,9 +166,16 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 offset-md-4 mb-4 mb-md-0">
-                        <div class="bg-celeste box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-07.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-celeste box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">OKINOI</h5>
+                                    <p class="fc-pastel mb-0">Producción audiovisual / Fotografía / Desarrollo web</p>
+                                    <img src="assets/img/img-portfolio-mobile-07.png" width="100%">
+                                </a> 
+                            </div>
+                            <img src="assets/img/img-portfolio-07.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-pastel">OKINOI</h5>
                                     <p class="fc-pastel">Producción audiovisual / Fotografía / Desarrollo web</p>
@@ -138,59 +186,94 @@
                 </div>
                 <div class="row mt-100 mt-xs-0 mb-4 mb-md-0">
                     <div class="col-md-8">
-                        <div class="bg-naranja box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-09.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-naranja box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">SALMON CHILE</h5>
+                                    <p class="fc-pastel mb-0">Producción audiovisual</p>
+                                    <img src="assets/img/img-portfolio-mobile-09.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-09.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-pastel">SALMON CHILE</h5>
                                     <p class="fc-pastel">Producción audiovisual</p>
                                 </div>
-                            </a>    
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-100 mt-xs-0">
                     <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-celeste box-portfolio-01 text-center">
-                            <img src="assets/img/img-portfolio-10.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-celeste box-portfolio-01">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">CJG</h5>
+                                    <p class="fc-pastel mb-0">Rebranding / Desarrollo web / Producción audiovisual / Fotografía / Diseño de personaje</p>
+                                    <img src="assets/img/img-portfolio-mobile-10.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-10.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-pastel">CJG</h5>
                                     <p class="fc-pastel">Rebranding / Desarrollo web / Producción audiovisual / Fotografía / Diseño de personaje</p>
                                 </div>
-                            </a>    
+                            </a> 
                         </div>
                     </div>
                     <div class="col-md-4 offset-md-4 mt--80 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-11.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-amarillo box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-negro">MAULE</h5>
+                                    <p class="fc-negro mb-0">Producción audiovisual / Fotografía</p>
+                                    <img src="assets/img/img-portfolio-mobile-11.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-11.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-negro">MAULE</h5>
                                     <p class="fc-negro">Producción audiovisual / Fotografía</p>
                                 </div>
-                            </a>    
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-100 mt-xs-0">
                     <div class="col-md-8 offset-md-4 mb-4 mb-md-0">
-                        <div class="bg-pastel box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-12.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-pastel box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-negro">FUNDACIÓN ARCOR</h5>
+                                    <p class="fc-negro mb-0">Producción audiovisual / Animación</p>
+                                    <img src="assets/img/img-portfolio-mobile-12.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-12.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-negro">FUNDACIÓN ARCOR</h5>
                                     <p class="fc-negro">Producción audiovisual / Animación</p>
                                 </div>
-                            </a>    
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-100 mt-xs-0">
                     <div class="col-md-8 mb-4 mb-md-0">
-                        <div class="bg-celeste box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-13.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-celeste box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">ASTRANIS</h5>
+                                    <p class="fc-pastel mb-0">Producción audiovisual / Animación 3D</p>
+                                    <img src="assets/img/img-portfolio-mobile-13.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-13.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-pastel">ASTRANIS</h5>
                                     <p class="fc-pastel">Producción audiovisual / Animación 3D</p>
@@ -201,36 +284,57 @@
                 </div>
                 <div class="row mt-100 mt-xs-0">
                     <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-14.png" width="60%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-amarillo box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-negro">LAGARDE</h5>
+                                    <p class="fc-negro mb-0">Producción audiovisual / Fotografía</p>
+                                    <img src="assets/img/img-portfolio-mobile-14.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-14.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-negro">LAGARDE</h5>
                                     <p class="fc-negro">Producción audiovisual / Fotografía</p>
                                 </div>
-                            </a>    
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4 mt-400 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-naranja box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-16.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-naranja box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">MI VOZ CONSTITUYE  CAMBIO</h5>
+                                    <p class="fc-pastel mb-0">Diseño gráfico y editorial / Ilustración / Producción audiovidual / Animación / Desarrollo web</p>
+                                    <img src="assets/img/img-portfolio-16.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-16.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-pastel">MI VOZ CONSTITUYE  CAMBIO</h5>
                                     <p class="fc-pastel">Diseño gráfico y editorial / Ilustración / Producción audiovidual / Animación / Desarrollo web</p>
                                 </div>
-                            </a>    
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-pastel box-portfolio text-center">
-                            <img src="assets/img/img-portfolio-15.png" width="100%">
-                            <a href="trabajos.php" class="box-content">
+                        <div class="bg-pastel box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-negro">SINGULARES</h5>
+                                    <p class="fc-negro mb-0">Estrategia de marca / Branding/ Desarrollo web / Producción audiovisual / Fotografía / Marketing digital / Producción de contenidos</p>
+                                    <img src="assets/img/img-portfolio-mobile-15.png" width="100%">
+                                </a>
+                            </div>
+                            <img src="assets/img/img-portfolio-15.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
                                 <div>
                                     <h5 class="PoppinsSemiBold fc-negro">SINGULARES</h5>
                                     <p class="fc-negro">Estrategia de marca / Branding/ Desarrollo web / Producción audiovisual / Fotografía / Marketing digital / Producción de contenidos</p>
                                 </div>
-                            </a>    
+                            </a>
                         </div>
                     </div>
                 </div>
