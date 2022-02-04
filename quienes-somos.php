@@ -195,7 +195,7 @@
                     <div class="item">
                         <img src="assets/img/img-award-08.png" alt="">
                         <div class="body-premios">
-                            <h5>PEPI</h5>
+                            <h5>FEPI</h5>
                             <p class="background double"><span>2020</span></p>
                             <p class="m-1">BODEGA DEL GREDAL</p>
                             <p>Ganadores de cobre <br>
@@ -235,7 +235,7 @@
                     <div class="item">
                         <img src="assets/img/img-award-08.png" alt="">
                         <div class="body-premios">
-                            <h5>PEPI</h5>
+                            <h5>FEPI</h5>
                             <p class="background double"><span>2020</span></p>
                             <p class="m-1">BODEGAS DEL GREDAL</p>
                             <p>Ganadores de cobre Spot <br>
@@ -245,7 +245,7 @@
                     <div class="item">
                         <img src="assets/img/img-award-09.png" alt="">
                         <div class="body-premios">
-                            <h5>PEPI</h5>
+                            <h5>FEPI</h5>
                             <p class="background double"><span>2021</span></p>
                             <p class="m-1">MERCANTIL ANDINA</p>
                             <p>Ganadores de bronce <br>
