@@ -310,7 +310,7 @@
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-pastel">MI VOZ CONSTITUYE  CAMBIO</h5>
                                     <p class="fc-pastel">Diseño gráfico y editorial / Ilustración / Producción audiovidual / Animación / Desarrollo web</p>
-                                    <img src="assets/img/img-portfolio-16.png" width="100%">
+                                    <img src="assets/img/img-portfolio-mobile-16.png" width="100%">
                                 </a>
                             </div>
                             <img src="assets/img/img-portfolio-16.png" width="100%" class="d-none d-md-block">
