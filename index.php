@@ -268,6 +268,11 @@
         <!-- Section Desktop -->
         <section id="award" class="p-100 d-none d-md-block">
             <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-end">
+                        <img src="assets/img/animation-01.gif" width="200px" alt="">
+                    </div>
+                </div>
                 <div class="row open position-relative">
                     <div class="col-md-2 position-relative">
                         <img src="assets/img/img-award-01.png" width="100%" alt="">

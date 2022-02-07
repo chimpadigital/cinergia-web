@@ -134,6 +134,11 @@
                         <img src="assets/img/img-somos-09.png" width="100%" class="mb-4" alt="">
                     </div>
                 </div>
+                <div class="row">
+                <div class="col-md-12 d-flex justify-content-end">
+                        <img src="assets/img/animation-01.gif" width="200px" alt="">
+                    </div>
+                </div>
             </div>
         </section>
         <div class="container mb-100">

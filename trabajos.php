@@ -60,6 +60,9 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-3 d-flex justify-content-end align-items-center mt--200">
+                <img src="assets/img/animation-02.gif" width="200px" alt="">
+            </div>
             <img src="assets/img/img-divider-right.svg" class="img-divider-right" style="top:90%" alt="">
         </div>
 
@@ -105,8 +108,8 @@
 
         <section class="bg-negro p-150">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-7 pb-150">
+                <div class="row pb-150">
+                    <div class="col-md-7">
                         <h4 class="PoppinsRegular fc-pastel">Bodega <span class="Valky fc-naranja fs-60">Del Gredal</span> 
                             nació como el sueño imposible de una familia: producir vinos de calidad en un lugar donde nadie 
                             más lo había hecho. San Pedro Norte, en el norte de Córdoba, es un lugar especial, único, con un 
@@ -121,6 +124,9 @@
                         <h4 class="PoppinsRegular fc-pastel">Investigamos, pensamos y definimos un concepto para dotar a la marca 
                             de la mística de la zona, marcada tanto por la singular naturaleza de su clima y suelo, como por su 
                             enorme patrimonio histórico..</h4>
+                    </div>
+                    <div class="col-md-7 d-flex justify-content-end align-items-center">
+                        <img src="assets/img/animation-02.gif" width="200px" alt="">
                     </div>
                 </div>
             </div>

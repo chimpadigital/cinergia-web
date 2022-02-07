@@ -54,7 +54,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-pastel">TE CONECTAMOS PERÚ</h5>
-                                    <p class="fc-pastel mb-0">Estrategia de marca / Branding / Marketing Digital / Producción audiovisual / Producción de contenidos / Desarrollo web / Fotografía</p>
+                                    <p class="fc-pastel">Estrategia de marca / Branding / Marketing Digital / Producción audiovisual / Producción de contenidos / Desarrollo web / Fotografía</p>
                                     <img src="assets/img/img-portfolio-mobile-01.png" width="100%">
                                 </a>
                             </div>
@@ -66,6 +66,9 @@
                                 </div>
                             </a>
                         </div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-end align-items-center">
+                        <img src="assets/img/animation-02.gif" width="200px" alt="">
                     </div>
                 </div>
                 <div class="row">
@@ -130,7 +133,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-pastel">EL GREDAL</h5>
-                                    <p class="fc-pastel mb-0">Branding / Desarrollo web / Producción audiovisual / Producción de contenidos / Fotografía</p>
+                                    <p class="fc-pastel">Branding / Desarrollo web / Producción audiovisual / Producción de contenidos / Fotografía</p>
                                     <img src="assets/img/img-portfolio-mobile-05.png" width="100%">
                                 </a>
                             </div>
@@ -150,7 +153,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">RHEEM</h5>
-                                    <p class="fc-negro">Rebranding / Desarrollo web / Producción audiovisual / Fotografía</p>
+                                    <p class="fc-negro mb-0">Rebranding / Desarrollo web / Producción audiovisual / Fotografía</p>
                                     <img src="assets/img/img-portfolio-mobile-06.png" width="100%">
                                 </a>
                             </div>
@@ -170,7 +173,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-pastel">OKINOI</h5>
-                                    <p class="fc-pastel mb-0">Producción audiovisual / Fotografía / Desarrollo web</p>
+                                    <p class="fc-pastel">Producción audiovisual / Fotografía / Desarrollo web</p>
                                     <img src="assets/img/img-portfolio-mobile-07.png" width="100%">
                                 </a> 
                             </div>
@@ -190,7 +193,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-pastel">SALMON CHILE</h5>
-                                    <p class="fc-pastel mb-0">Producción audiovisual</p>
+                                    <p class="fc-pastel">Producción audiovisual</p>
                                     <img src="assets/img/img-portfolio-mobile-09.png" width="100%">
                                 </a>
                             </div>
@@ -210,7 +213,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-pastel">CJG</h5>
-                                    <p class="fc-pastel mb-0">Rebranding / Desarrollo web / Producción audiovisual / Fotografía / Diseño de personaje</p>
+                                    <p class="fc-pastel">Rebranding / Desarrollo web / Producción audiovisual / Fotografía / Diseño de personaje</p>
                                     <img src="assets/img/img-portfolio-mobile-10.png" width="100%">
                                 </a>
                             </div>
@@ -268,7 +271,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-pastel">ASTRANIS</h5>
-                                    <p class="fc-pastel mb-0">Producción audiovisual / Animación 3D</p>
+                                    <p class="fc-pastel">Producción audiovisual / Animación 3D</p>
                                     <img src="assets/img/img-portfolio-mobile-13.png" width="100%">
                                 </a>
                             </div>
@@ -306,7 +309,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-pastel">MI VOZ CONSTITUYE  CAMBIO</h5>
-                                    <p class="fc-pastel mb-0">Diseño gráfico y editorial / Ilustración / Producción audiovidual / Animación / Desarrollo web</p>
+                                    <p class="fc-pastel">Diseño gráfico y editorial / Ilustración / Producción audiovidual / Animación / Desarrollo web</p>
                                     <img src="assets/img/img-portfolio-16.png" width="100%">
                                 </a>
                             </div>
