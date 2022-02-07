@@ -77,7 +77,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">SATELNET</h5>
-                                    <p class="fc-negro mb-0">Branding / Desarrollo web / Producción audiovisuap / Fotografía / Producción de contenidos / Marketing digital</p>
+                                    <p class="fc-negro">Branding / Desarrollo web / Producción audiovisuap / Fotografía / Producción de contenidos / Marketing digital</p>
                                     <img src="assets/img/img-portfolio-mobile-02.png" width="100%">
                                 </a>
                             </div>
@@ -115,7 +115,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">MERCANTIL ANDINA</h5>
-                                    <p class="fc-negro mb-0">Producción audiovisual / Fotografía</p>
+                                    <p class="fc-negro">Producción audiovisual / Fotografía</p>
                                     <img src="assets/img/img-portfolio-mobile-04.png" width="100%">
                                 </a>
                             </div>
@@ -153,7 +153,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">RHEEM</h5>
-                                    <p class="fc-negro mb-0">Rebranding / Desarrollo web / Producción audiovisual / Fotografía</p>
+                                    <p class="fc-negro">Rebranding / Desarrollo web / Producción audiovisual / Fotografía</p>
                                     <img src="assets/img/img-portfolio-mobile-06.png" width="100%">
                                 </a>
                             </div>
@@ -231,7 +231,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">MAULE</h5>
-                                    <p class="fc-negro mb-0">Producción audiovisual / Fotografía</p>
+                                    <p class="fc-negro">Producción audiovisual / Fotografía</p>
                                     <img src="assets/img/img-portfolio-mobile-11.png" width="100%">
                                 </a>
                             </div>
@@ -251,7 +251,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">FUNDACIÓN ARCOR</h5>
-                                    <p class="fc-negro mb-0">Producción audiovisual / Animación</p>
+                                    <p class="fc-negro">Producción audiovisual / Animación</p>
                                     <img src="assets/img/img-portfolio-mobile-12.png" width="100%">
                                 </a>
                             </div>
@@ -291,7 +291,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">LAGARDE</h5>
-                                    <p class="fc-negro mb-0">Producción audiovisual / Fotografía</p>
+                                    <p class="fc-negro">Producción audiovisual / Fotografía</p>
                                     <img src="assets/img/img-portfolio-mobile-14.png" width="100%">
                                 </a>
                             </div>
@@ -327,7 +327,7 @@
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">SINGULARES</h5>
-                                    <p class="fc-negro mb-0">Estrategia de marca / Branding/ Desarrollo web / Producción audiovisual / Fotografía / Marketing digital / Producción de contenidos</p>
+                                    <p class="fc-negro">Estrategia de marca / Branding/ Desarrollo web / Producción audiovisual / Fotografía / Marketing digital / Producción de contenidos</p>
                                     <img src="assets/img/img-portfolio-mobile-15.png" width="100%">
                                 </a>
                             </div>

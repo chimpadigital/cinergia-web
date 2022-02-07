@@ -455,6 +455,131 @@ lottie-player {
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+/* Menu Mobile */
+.bg-menu {
+    top: 0;
+    width: 100%;
+    height: 130px;
+    display: none;
+    position: fixed;
+    z-index: 100;
+    background: var(--negro);
+}
+.menu-wrap {
+    top: 35px;
+    right: 80px;
+    z-index: 100;
+    position: fixed;
+}
+.menu-wrap .toggler {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+}
+.menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Hamburger line */
+.menu-wrap .hamburger > div {
+    width: 100%;
+    height: 2px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    background: var(--pastel);
+}
+/* Top and bottom lines */
+.menu-wrap .hamburger > div:before,
+.menu-wrap .hamburger > div:after {
+    content: '';
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: inherit;
+}
+/* Moves line down */
+.menu-wrap .hamburger > div:after {top: 10px;}
+/* Toggler animate */
+.menu-wrap .toggler:checked + .hamburger > div{ transform: rotate(135deg);}
+/* Turn Lines into X */
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+}
+/* Rotate on hover when checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {transform: rotate(225deg);}
+/* Show menu */
+.menu-wrap .toggler:checked ~ .menu {visibility: visible;}
+.menu-wrap .toggler:checked ~ .menu > div{
+    transform: scale(1);
+    transition-duration: .75;
+}
+.menu-wrap .toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+.menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-wrap .menu > div {
+    flex: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transform: scale(0); 
+    align-items: center;
+    justify-content: start;
+    background: var(--negro);
+    transition: all 0.4s ease;
+}
+.menu-wrap .menu > div > div {
+    opacity: 0;
+    max-width: 90vw;
+    max-height: 100vh;
+    text-align: center;
+    transition: opacity 0.4s ease;
+}
+.menu-wrap .menu > div > div > ul > li {
+    padding: 10px 0;
+    list-style: none;
+    font-size: 25px;
+    color: var(--pastel);
+}
+
+.menu-wrap .menu >div > div > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+/* --- */
 /* === FIN MENU === */
 
 .btn-primary-custom {
@@ -547,7 +672,6 @@ lottie-player {
 .doble-text span {display: none;}
 .doble-text:hover span:first-child {display: none;}
 .doble-text:hover span {display: block;}
-.owl-carousel .item {height: 600px;}
 .btn-box {
     z-index: 1;
     margin-top: -150px;
@@ -731,7 +855,10 @@ lottie-player {
 
 /* === Page Portfolio === */
 #portfolio {background: var(--negro);}
-
+#portfolio .hr-divider-naranja {
+    right: -50%;
+    position: absolute;
+}
 .box-portfolio, .box-portfolio-01 {
     margin: 0;
     position: relative;
@@ -761,9 +888,7 @@ lottie-player {
 
 /* Section Qienes Somos */
 
-#quienes-somos {
-    background: url(../img/bg-quienes-somos.png) center center no-repeat;
-}
+#quienes-somos {background: url(../img/bg-quienes-somos.png) center center no-repeat;}
 #manifiesto {
     padding: 150px 0;
     background: url(../img/bg-manifiesto.png) center bottom -70px no-repeat;
@@ -997,14 +1122,20 @@ footer ul li p {
     .pt-150 {padding-top: 75px;}
     .pb-150 {padding-bottom: 75px;}
     .mt-md--60 {margin-top: 0;}
+    .mb-sm-0 {margin-bottom: 0 !important;}
+    .mt-sm-0 {margin-top: 0;}
+    .mt-sm-100 {margin-top: 100px;}
     .mb-100 {margin-bottom: 50px;}
+    .fs-sm-18 {
+        font-size: 18px;
+        letter-spacing: 0;
+    }
     .btn-primary-custom, .btn-flip {font-size: 18px;}
     .bg-menu {display: flex !important;}
     #intro {
         padding: 30px 0 130px;
         background-size: contain;
     }
-    .owl-carousel .item {height: auto;}
     .btn-box {margin: 10px 0 50px;}
     .item .body-premios {opacity: 1;}
     .animation-ball {
@@ -1032,130 +1163,20 @@ footer ul li p {
     .form {padding: 40px 20px;}
     .border-form:after {display: none;}
     .border-form:before {display: none;}
-}
-
-
-
-.bg-menu {
-    top: 0;
-    width: 100%;
-    height: 130px;
-    display: none;
-    position: fixed;
-    z-index: 100;
-    background: var(--negro);
-}
-.menu-wrap {
-    top: 35px;
-    right: 80px;
-    z-index: 100;
-    position: fixed;
-}
-.menu-wrap .toggler {
-    top: 0;
-    left: 0;
-    opacity: 0;
-    z-index: 2;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    position: absolute;
-}
-.menu-wrap .hamburger {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 60px;
-    height: 60px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* Hamburger line */
-.menu-wrap .hamburger > div {
-    width: 100%;
-    height: 2px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.4s ease;
-    background: var(--pastel);
-}
-/* Top and bottom lines */
-.menu-wrap .hamburger > div:before,
-.menu-wrap .hamburger > div:after {
-    content: '';
-    z-index: 1;
-    top: -10px;
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    background: inherit;
-}
-/* Moves line down */
-.menu-wrap .hamburger > div:after {top: 10px;}
-/* Toggler animate */
-.menu-wrap .toggler:checked + .hamburger > div{ transform: rotate(135deg);}
-/* Turn Lines into X */
-.menu-wrap .toggler:checked + .hamburger > div:before,
-.menu-wrap .toggler:checked + .hamburger > div:after {
-    top: 0;
-    transform: rotate(90deg);
-}
-/* Rotate on hover when checked */
-.menu-wrap .toggler:checked:hover + .hamburger > div {transform: rotate(225deg);}
-/* Show menu */
-.menu-wrap .toggler:checked ~ .menu {visibility: visible;}
-.menu-wrap .toggler:checked ~ .menu > div{
-    transform: scale(1);
-    transition-duration: .75;
-}
-.menu-wrap .toggler:checked ~ .menu > div > div {
-    opacity: 1;
-    transition: opacity 0.4s ease;
-}
-.menu-wrap .menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    visibility: hidden;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.menu-wrap .menu > div {
-    flex: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    transform: scale(0); 
-    align-items: center;
-    justify-content: start;
-    background: var(--negro);
-    transition: all 0.4s ease;
-}
-.menu-wrap .menu > div > div {
-    opacity: 0;
-    max-width: 90vw;
-    max-height: 100vh;
-    text-align: center;
-    transition: opacity 0.4s ease;
-}
-.menu-wrap .menu > div > div > ul > li {
-    padding: 10px 0;
-    list-style: none;
-    font-size: 25px;
-    color: var(--pastel);
-}
-
-.menu-wrap .menu >div > div > ul > li > a {
-    color: inherit;
-    text-decoration: none;
-    transition: color 0.4s ease;
+    .box-color {
+        height: 200px;
+        margin: 5px 0;
+    }
+    .link-trabajo {font-size: 25px;}
+    .img-pepi-gredal {
+        width: 20%;
+        top: -150px;
+        left: 0;
+    }
+    .ficha-box {padding: 20px 15px;}
+    .navigation-btn img {width: 30px;}
+    .navigation-btn h3 {
+        font-size: 18px;
+        white-space: nowrap;
+    }
 }

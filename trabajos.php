@@ -23,13 +23,14 @@
                         <a href="index.php"><img src="assets/img/logo-cinergia-home.svg" width="220px" alt=""></a>
                     </div>                    
                 </div>
-                <div class="row vh-80 d-flex align-items-center">
-                    <div class="col-12">
-                        <h5 class="PoppinsRegular fc-pastel">Bodega Del</h5>
+                <div class="row vh-80 d-flex align-items-center mt-sm-100">
+                    <div class="col-12 position-relative">
+                        <h4 class="PoppinsRegular fc-pastel">Bodega Del</h4>
                         <h1 class="Valky fc-pastel fs-64">Gredal</h1>
+                        <hr class="hr-divider-naranja d-block d-md-none">
                     </div>
                     <div class="col-md-6 offset-md-3">
-                        <h4 class="PoppinsRegular fc-pastel"><span class="Valky fc-pastel">“</span> Una huella más en nuestra 
+                        <h4 class="PoppinsRegular fc-pastel mb-0"><span class="Valky fc-pastel">“</span> Una huella más en nuestra 
                             larga tradición de amor y trabajo con bodegas <span class="Valky fc-pastel">”</span></h4>
                     </div>
                 </div>
@@ -43,7 +44,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 offset-4 mt--80 d-flex align-items-center justify-content-center position-relative">
+                <div class="col-8 offset-2 col-md-4 offset-md-4 mt--80 d-flex align-items-center justify-content-center position-relative">
                     <img src="assets/img/img-spot-gredal.png" width="100%" alt="">
                     <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop autoplay></lottie-player>
@@ -60,10 +61,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 d-flex justify-content-end align-items-center mt--200">
+            <div class="col-md-3 d-flex justify-content-end align-items-center mt--200 d-none d-md-block">
                 <img src="assets/img/animation-02.gif" width="200px" alt="">
             </div>
-            <img src="assets/img/img-divider-right.svg" class="img-divider-right" style="top:90%" alt="">
+            <img src="assets/img/img-divider-right.svg" class="img-divider-right d-none d-md-block" style="top:90%" alt="">
         </div>
 
         <section class="bg-negro p-100">
@@ -71,10 +72,10 @@
                 <div class="row">
                     <div class="col-md-5">
                         <h3 class="Valky fc-pastel">Desafío</h3>
-                        <h4 class="PoppinsRegular fc-pastel">Bodegas del Gredal tenía la necesidad de consolidar su imagen 
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Bodegas del Gredal tenía la necesidad de consolidar su imagen 
                             de marca y posicionarse en un mercado altamente competitivo.</h4>
                     </div>
-                    <div class="col-md-5 offset-md-6">
+                    <div class="col-md-5 offset-md-6 d-none d-md-block">
                         <h3 class="Valky fc-pastel">Solución</h3>
                         <h4 class="PoppinsRegular fc-pastel">Estudiamos su cultura, sus productos, su rubro y sus
                             potencialidades, y en base a esto, construimos una nueva y completa identidad de marca.</h4>
@@ -104,13 +105,22 @@
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col d-block d-md-none">
+                        <h3 class="Valky fc-pastel"><img src="assets/img/arrow-orange.svg" width="50px" alt=""> Solución</h3>
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18 mb-0">Estudiamos su cultura, sus productos, su rubro y sus
+                            potencialidades, y en base a esto, construimos una nueva y completa identidad de marca.</h4>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="bg-negro p-150">
+        <section class="bg-negro pt-150">
             <div class="container">
                 <div class="row pb-150">
                     <div class="col-md-7">
-                        <h4 class="PoppinsRegular fc-pastel">Bodega <span class="Valky fc-naranja fs-60">Del Gredal</span> 
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Bodega <span class="Valky fc-naranja fs-60 d-none d-md-block">Del Gredal</span><span class="Valky fc-naranja fs-24 d-inline dm-md-none">Del Gredal</span>
                             nació como el sueño imposible de una familia: producir vinos de calidad en un lugar donde nadie 
                             más lo había hecho. San Pedro Norte, en el norte de Córdoba, es un lugar especial, único, con un 
                             terroir que puede dar frutos exquisitos. La familia Lozano produce vinos que son la expresión 
@@ -121,11 +131,11 @@
                 <div class="row">
                     <div class="col-md-5">
                         <h3 class="Valky fc-pastel">Branding</h3>
-                        <h4 class="PoppinsRegular fc-pastel">Investigamos, pensamos y definimos un concepto para dotar a la marca 
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Investigamos, pensamos y definimos un concepto para dotar a la marca 
                             de la mística de la zona, marcada tanto por la singular naturaleza de su clima y suelo, como por su 
                             enorme patrimonio histórico..</h4>
                     </div>
-                    <div class="col-md-7 d-flex justify-content-end align-items-center">
+                    <div class="col-md-7 d-flex justify-content-end align-items-center d-none d-md-block">
                         <img src="assets/img/animation-02.gif" width="200px" alt="">
                     </div>
                 </div>
@@ -147,20 +157,20 @@
                         <h2 class="PoppinsSemiBold fc-pastel">De otra tierra, otro vino</h2>
                     </div>
                 </div>
-                <div class="row mb-100">
-                    <div class="col-md-4">
+                <div class="row mb-100 mb-sm-0">
+                    <div class="col-md-4 mb-4 mb-0">
                         <div class="circulo-trabajo d-flex justify-content-center align-items-center mb-4">
                             <h5 class="fc-pastel m-0">EXPERIENCIAS ÚNICAS</h5>
                         </div>
                         <p class="fc-pastel text-center">Los consumidores no encontrarán <br> Algo similar en el mercado.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4 mb-0">
                         <div class="circulo-trabajo d-flex justify-content-center align-items-center mb-4">
                             <h5 class="fc-pastel m-0">MÍSTICA</h5>
                         </div>
                         <p class="fc-pastel text-center">De un lugar con naturaleza <br> Singular y mucha historia.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4 mb-0">
                         <div class="circulo-trabajo d-flex justify-content-center align-items-center mb-4">
                             <h5 class="fc-pastel m-0">RESPETO</h5>
                         </div>
@@ -168,13 +178,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 offset-2">
+                    <div class="col-md-4 offset-md-2 mb-4 mb-0">
                         <div class="circulo-trabajo d-flex justify-content-center align-items-center mb-4">
                             <h5 class="fc-pastel m-0">CALIDAD</h5>
                         </div>
                         <p class="fc-pastel text-center">Requisito indispensable de todos los <br> Productos que elaboramos.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4 mb-0">
                         <div class="circulo-trabajo d-flex justify-content-center align-items-center mb-4">
                             <h5 class="fc-pastel m-0">AUTENTICIDAD</h5>
                         </div>
@@ -187,7 +197,7 @@
                 <div class="row pt-150">
                     <div class="col text-center">
                         <h3 class="Valky fc-pastel mb-4">Personalidad</h3>
-                        <h4 class="PoppinsRegular fc-pastel">Sensible   Cálida   Decidida   Amante de la naturaleza  
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Sensible   Cálida   Decidida   Amante de la naturaleza  
                             Confiable   Profesional Motivadora/inspiradora   
                             Orgullosa   Emotiva   Soñadora   Acogedora   
                             Misteriosa/reservada   Aventurera/audaz
@@ -198,7 +208,7 @@
         </section>
 
         <section class="bg-negro p-150 position-relative">
-            <img src="assets/img/img-divider-right.svg" class="img-divider-right" alt="">
+            <img src="assets/img/img-divider-right.svg" class="img-divider-right d-none d-md-block" alt="">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col p-0">
@@ -206,7 +216,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 offset-2 mt--380">
+                    <div class="col-md-4 offset-md-2 mt--380 mt-xs-0">
                         <div class="bg-black box-color d-flex flex-column justify-content-end">
                             <p class="fc-pastel m-0">CMYK: C:75%  M:68%  Y:67%  K:90%</p>
                             <p class="fc-pastel m-0">RGB: R:0%  G:0%  B:0%</p>
@@ -221,15 +231,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-300">
-                    <div class="col-md-4 offset-2 mt--380">
+                <div class="row mt-300 mt-xs-0">
+                    <div class="col-md-4 offset-md-2 mt--380 mt-xs-0">
                         <div class="bg-celeste box-color d-flex flex-column justify-content-end">
                             <p class="fc-pastel m-0">CMYK: C:71%  M:17%  Y:42%  K:0%</p>
                             <p class="fc-pastel m-0">RGB: R:74%  G:163%  B:156%</p>
                             <p class="fc-pastel m-0">HTML: 4AA39C</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-md--60">
+                    <div class="col-md-4 mt-md--60 mt-xs-0">
                         <div class="bg-naranja box-color d-flex flex-column justify-content-end">
                             <p class="m-0">CMYK: C:6%  M:81%  Y:100%  K:0%</p>
                             <p class="m-0">RGB: R:227%  G:85%  B:37%</p>
@@ -242,11 +252,11 @@
 
         <section class="bg-negro">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center ps-0 pe-4">
+                <div class="row d-flex">
+                    <div class="col-md-6 d-flex align-items-center order-2 order-md-1 ps-md-0 pe-md-4 p-0">
                         <img src="assets/img/bg-gredal-02.png" width="100%" alt="">
                     </div>
-                    <div class="col-md-6 d-flex align-items-center ps-4 pe-0">
+                    <div class="col-md-6 d-flex align-items-center order-1 order-md-2 mb-4 ps-md-4 pe-md-x0 p-0  mb-md-0">
                         <img src="assets/img/bg-gredal-03.png" width="100%" alt="">
                     </div>
                 </div>
@@ -256,8 +266,8 @@
         <section class="bg-negro pb-150">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 d-flex flex-column justify-content-end align-items-end">
-                        <img src="assets/img/arrow-orange.svg" class="mb-4" alt="">                    
+                    <div class="col-md-6 d-flex flex-column justify-content-md-end align-items-md-end mt-sm-100">
+                        <img src="assets/img/arrow-orange.svg" class="mb-4 d-none d-md-flex" alt="">                    
                         <a href="https://delgredal.com" target="blank" class="link-trabajo">https://delgredal.com</a>
                     </div>
                     <div class="col-md-6">
@@ -265,30 +275,30 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-5 offset-2 d-flex flex-column justify-content-end align-items-end">
+                    <div class="col-md-5 offset-md-2 d-flex flex-column justify-content-md-end align-items-md-end mt-sm-100">
                         <h3 class="Valky fc-pastel">DESARROLLO WEB</h3>
-                        <h4 class="PoppinsRegular fc-pastel">Desarrollamos una web comercial, coherente con el concepto y el branding de la marca.</h4>
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Desarrollamos una web comercial, coherente con el concepto y el branding de la marca.</h4>
                     </div>
                     <div class="col-md-5">
                         <img src="assets/img/img-gredal-02.png" width="100%" alt="">
                     </div>
                     <div class="col-md-8 pt-150">
                         <h3 class="Valky fc-pastel">PRODUCCIÓN AUDIOVISUAL Y FOTOGRAFÍA</h3>
-                        <h4 class="PoppinsRegular fc-pastel">Conscientes de la necesidad de tener una pieza audiovisual poderosa, fiel y conmovedora, realizamos el spot corporativo de la bodega. La carta de presentación de la marca.</h4>
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Conscientes de la necesidad de tener una pieza audiovisual poderosa, fiel y conmovedora, realizamos el spot corporativo de la bodega. La carta de presentación de la marca.</h4>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="bg-negro">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 offset-md-6 z-1 pe-0">
+            <div class="container-fluid d-flex flex-column">
+                <div class="row order-2 order-md-1">
+                    <div class="col-md-6 offset-md-6 z-1 pe-md-0 p-0">
                         <img src="assets/img/bg-gredal-04.png" width="100%" alt="">
                     </div>
                 </div>
-                <div class="row mt--200">
-                    <div class="col-md-8 ps-0">
+                <div class="row mt--200 mt-sm-0 order-1 order-md-2 mb-4 mb-md-0">
+                    <div class="col-md-8 ps-md-0 p-0">
                         <img src="assets/img/bg-gredal-05.png" width="100%" alt="">
                     </div>
                 </div>
@@ -299,7 +309,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h4 class="PoppinsRegular fc-pastel">Diseñamos un plan de rodaje que aprovecharala época de vendimia. Involucramos a la gente
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Diseñamos un plan de rodaje que aprovecharala época de vendimia. Involucramos a la gente
                             del lugar. Procuramos una búsqueda fotográfica que potenciara el carácter poético del guion. A su vez, compusimos una banda 
                             sonora original, porque un lugar así tiene necesariamente un sonido propio. Una locución profunda y llena de matices completaron el montaje.</h4>
                     </div>
@@ -322,8 +332,8 @@
                     </div>
                     <div class="col-md-7">
                         <h3 class="Valky fc-pastel">"ESCUCHA VIAJERO"</h3>
-                        <h4 class="PoppinsRegular fc-pastel mb-4">RESULTÓ GANADOR en la 14ª Edición del Primer Festival Internacional de la Publicidad Independiente (FEPI) de un Inodoro Pereyra de Cobre en la categoría FILM.</h4>
-                        <h4 class="PoppinsRegular fc-pastel">Además con este proyecto ganamos el premio EIkon de Plata por la comunicación de identidad corporativa.</h4>
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18 mb-4">RESULTÓ GANADOR en la 14ª Edición del Primer Festival Internacional de la Publicidad Independiente (FEPI) de un Inodoro Pereyra de Cobre en la categoría FILM.</h4>
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Además con este proyecto ganamos el premio EIkon de Plata por la comunicación de identidad corporativa.</h4>
                     </div>
                 </div>
             </div>
@@ -335,54 +345,54 @@
                     <div class="col-12">
                         <h3 class="Valky fc-pastel">Ficha Técnica</h3>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Director:</h5>
                         <h5 class="fc-naranja m-0">Guillermo Brandán</h5>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Director de Fotografía / Dron:</h5>
                         <h5 class="fc-naranja m-0">Nicolás Guerrini</h5>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Gaffer / Dron:</h5>
                         <h5 class="fc-naranja m-0">Maximiliano Trucco</h5>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Guión / Edición:</h5>
                         <h5 class="fc-naranja m-0">Damián Depetris</h5>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Banda sonora original / Posproducción de sonido:</h5>
                         <h5 class="fc-naranja m-0">Estudio Multimed</h5>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Locutor:</h5>
                         <h5 class="fc-naranja m-0">Juan Quiroga</h5>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Colorización:</h5>
                         <h5 class="fc-naranja m-0">Nicolás Guerrini</h5>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Contenidos:</h5>
                         <h5 class="fc-naranja m-0">Lara Curto</h5>
                     </div>
-                    <div class="col-12 d-flex justify-content-between ficha-box">
+                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
                         <h5 class="fc-naranja m-0">Concepto de marca:</h5>
-                        <h5 class="fc-naranja m-0 text-end">Alexo Juárez <br> Damián Depetris</h5>
+                        <h5 class="fc-naranja m-0 text-md-end">Alexo Juárez <br> Damián Depetris</h5>
                     </div>
                 </div>
-                <div class="row pt-150">
+                <div class="row pt-150 navigation-btn">
                     <div class="col-6">
                         <h3 class="fc-naranja m-0">
-                            <img src="assets/img/arrow-orange-left.svg" class="me-4" alt="">
+                            <img src="assets/img/arrow-orange-left.svg" class="me-2 me-md-4" alt="">
                             Pablo <span class="Valky">Lavezzari</span>
                         </h3>
                     </div>
                     <div class="col-6 d-flex justify-content-end">
                         <h3 class="fc-naranja m-0">
                             Mercantil <span class="Valky">Andina</span>
-                            <img src="assets/img/arrow-orange.svg" class="ms-4" alt="">
+                            <img src="assets/img/arrow-orange.svg" class="ms-2 ms-md-4" alt="">
                         </h3>
                     </div>
                 </div>
