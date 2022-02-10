@@ -815,14 +815,13 @@ lottie-player {
     color: var(--pastel);
     border-bottom: 1px solid var(--pastel);
 }
-.form input::-webkit-input-placeholder {
-    color: var(--pastel) !important;
-}
+.form input::-webkit-input-placeholder  {color: var(--pastel) !important;}
 .form hr {
     margin: 0;
     opacity: 1;
     background: var(--naranja);
 }
+.form ::-webkit-calendar-picker-indicator {filter: invert(1);}
 .bouncingball {
     position: absolute;
     animation: bounce 1s ease-in-out infinite;

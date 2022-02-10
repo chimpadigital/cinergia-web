@@ -555,28 +555,33 @@
                     <div class="col-md-7">    
                         <div class="border-form">
                             <div class="form bg-negro">
-                                <h4 class="Valky fc-pastel mb-4">Llename</h4>
                                 <form class="pt-4">
-                                    <div class="mb-4">
-                                        <input type="text" class="form-control" placeholder="Nombre y apellidos">
-                                    </div>
-                                    <div class="mb-4">
-                                        <input type="tel" class="form-control" placeholder="Teléfono">
-                                    </div>
-                                    <div class="mb-4">
-                                        <input type="email" class="form-control" placeholder="Mail">
-                                    </div>
-                                    <div class="mb-4">
-                                        <input type="email" class="form-control" placeholder="Mail">
-                                    </div>
-                                    <div class="mb-4">
-                                        <input type="text" class="form-control" placeholder="Compañía">
-                                    </div>
-                                    <div class="mb-4">
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h4 class="Valky fc-pastel mb-4">Llename</h4>
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <input type="text" class="form-control" placeholder="Nombre y apellidos">
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <input type="tel" class="form-control" placeholder="Teléfono">
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <input type="email" class="form-control" placeholder="Mail">
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <input type="email" class="form-control" placeholder="Mail">
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <input type="text" class="form-control" placeholder="Compañía">
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-6 mb-4 d-flex align-items-end">
+                                        <div class="col-md-6 mb-4 d-flex flex-column justify-content-between">
+                                            <label for="" class="fc-pastel">Deadline</label>
                                             <input type="date" class="form-control" id="start" name="trip-start" value="Deadline">
                                         </div>
                                         <div class="col-md-6 d-grid gap-2 mb-4">
