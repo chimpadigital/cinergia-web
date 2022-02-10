@@ -1142,7 +1142,7 @@ footer ul li p {
         font-size: 18px;
         letter-spacing: 0;
     }
-    .btn-primary-custom, .btn-flip {font-size: 18px;}
+    .btn-primary-custom, .btn-flip, .btn-orange-custom, .btn-outline-secondary {font-size: 18px;}
     .bg-menu {display: flex !important;}
     #intro {
         padding: 30px 0 130px;
@@ -1207,6 +1207,22 @@ footer ul li p {
 
     .btn-link-naranja {
         font-size: 18px;
+        position: relative;
+    }
+    .blog-content {
+        border: none;
+        margin-bottom: 20px;
+    }
+    .blog-content .blog-box-img .btn-left {
+        margin-top: 20px;
+        bottom: 0;
+        left: 0;
+        position: relative;
+    }
+    .blog-content .blog-box-img .btn-right {
+        margin-top: 20px;
+        bottom: 0;
+        right: 0;
         position: relative;
     }
 }
