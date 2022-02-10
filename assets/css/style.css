@@ -1128,6 +1128,7 @@ footer ul li p {
     .mt-xs-0 {margin-top: 0 !important;}
     .p-100 {padding: 50px 0;}
     .p-150 {padding: 75px 0;}
+    .pl-100 {padding-left: 0;}
     .pb-100 {padding-bottom: 50px;}
     .pt-150 {padding-top: 75px;}
     .pb-150 {padding-bottom: 75px;}
@@ -1188,5 +1189,17 @@ footer ul li p {
     .navigation-btn h3 {
         font-size: 18px;
         white-space: nowrap;
+    }
+
+    /* Page Contacto */
+    #contact-form { 
+        padding-bottom: 100px;
+        background: var(--negro) url(../img/img-ball.svg) center right -100px no-repeat;
+        background-size: 65%;
+
+    }
+    .divider-vertical-naranja {
+        padding-left: 0;
+        border-left: none;
     }
 }
