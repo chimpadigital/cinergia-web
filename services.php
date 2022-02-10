@@ -24,9 +24,10 @@
                 </div>
                 <div class="row vh-80 d-flex align-items-center">
                     <div class="col-12">
-                        <h1 class="Valky fc-naranja">Trabajamos</h1>
+                        <h1 class="Valky fc-naranja d-none d-md-block">Trabajamos</h1>
+                        <h3 class="Valky fc-naranja d-block d-md-none">Trabajamos</h3>
                         <div class="d-flex justify-content-end">
-                            <h3 class="PoppinsRegular fc-pastel fs-64">Desde hace <span class="Valky fc-naranja fs-100"> 13 años</span></h3>
+                            <h3 class="PoppinsRegular fc-pastel">Desde hace <span class="Valky fc-naranja"> 13 años</span></h3>
                         </div>
                     </div>
                 </div>
