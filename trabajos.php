@@ -120,7 +120,7 @@
             <div class="container">
                 <div class="row pb-150">
                     <div class="col-md-7">
-                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Bodega <span class="Valky fc-naranja fs-60 d-none d-md-block">Del Gredal</span><span class="Valky fc-naranja fs-24 d-inline dm-md-none">Del Gredal</span>
+                        <h4 class="PoppinsRegular fc-pastel fs-sm-18">Bodega <span class="Valky fc-naranja fs-60 d-none d-md-flex">Del Gredal</span><span class="Valky fc-naranja fs-24 d-block dm-md-none">Del Gredal</span>
                             nació como el sueño imposible de una familia: producir vinos de calidad en un lugar donde nadie 
                             más lo había hecho. San Pedro Norte, en el norte de Córdoba, es un lugar especial, único, con un 
                             terroir que puede dar frutos exquisitos. La familia Lozano produce vinos que son la expresión 
@@ -345,39 +345,39 @@
                     <div class="col-12">
                         <h3 class="Valky fc-pastel">Ficha Técnica</h3>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Director:</h5>
                         <h5 class="fc-naranja m-0">Guillermo Brandán</h5>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Director de Fotografía / Dron:</h5>
                         <h5 class="fc-naranja m-0">Nicolás Guerrini</h5>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Gaffer / Dron:</h5>
                         <h5 class="fc-naranja m-0">Maximiliano Trucco</h5>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Guión / Edición:</h5>
                         <h5 class="fc-naranja m-0">Damián Depetris</h5>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Banda sonora original / Posproducción de sonido:</h5>
                         <h5 class="fc-naranja m-0">Estudio Multimed</h5>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Locutor:</h5>
                         <h5 class="fc-naranja m-0">Juan Quiroga</h5>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Colorización:</h5>
                         <h5 class="fc-naranja m-0">Nicolás Guerrini</h5>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Contenidos:</h5>
                         <h5 class="fc-naranja m-0">Lara Curto</h5>
                     </div>
-                    <div class="col-12 d-md-flex justify-contexnt-between ficha-box">
+                    <div class="col-12 d-md-flex justify-content-md-between ficha-box">
                         <h5 class="fc-naranja m-0">Concepto de marca:</h5>
                         <h5 class="fc-naranja m-0 text-md-end">Alexo Juárez <br> Damián Depetris</h5>
                     </div>
