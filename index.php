@@ -576,7 +576,7 @@
                                             <input type="text" class="form-control" placeholder="Compañía">
                                         </div>
                                         <div class="col-12 mb-4">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descripción breve"></textarea>
                                         </div>
                                     </div>
                                     <div class="row">
