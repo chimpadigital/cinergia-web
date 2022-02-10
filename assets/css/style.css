@@ -347,10 +347,11 @@ lottie-player {
 }
 .btn-link-naranja {
     bottom: 0;
-    font-size: 18px;
+    font-size: 24px;
     position: absolute;
     transition: all .3s;
     color: var(--pastel);
+    text-decoration: underline;
 }
 .btn-link-naranja:hover {color: var(--naranja);}
 .nav-menu p {line-height: 1;}
@@ -1201,5 +1202,11 @@ footer ul li p {
     .divider-vertical-naranja {
         padding-left: 0;
         border-left: none;
+    }
+    /* === */
+
+    .btn-link-naranja {
+        font-size: 18px;
+        position: relative;
     }
 }
