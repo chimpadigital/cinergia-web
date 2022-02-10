@@ -345,6 +345,14 @@ lottie-player {
     content: attr(data-front);
     transform: translateY(0) rotateX(0);
 }
+.btn-link-naranja {
+    bottom: 0;
+    font-size: 18px;
+    position: absolute;
+    transition: all .3s;
+    color: var(--pastel);
+}
+.btn-link-naranja:hover {color: var(--naranja);}
 .nav-menu p {line-height: 1;}
 .divider-menu {
     top: 0;
@@ -674,7 +682,7 @@ lottie-player {
 .doble-text:hover span {display: block;}
 .btn-box {
     z-index: 1;
-    margin-top: -150px;
+    margin-top: -90px;
 }
 .btn-box .btn-carousel {
     bottom: 30px;
@@ -911,10 +919,13 @@ lottie-player {
     background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
 }
 
-.scroll p {direction: ltr;}
+.scroll p {
+    line-height: 1;
+    direction: ltr;
+}
 
 .arrow-down {
-    left: -122px;
+    left: -110px;
     bottom: -52px;
     position: absolute;
 }

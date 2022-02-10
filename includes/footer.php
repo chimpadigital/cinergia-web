@@ -19,11 +19,11 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-2 d-flex justify-content-center justify-content-md-end align-self-center">
-                <a href="https://www.instagram.com/cinergia.estudio.creativo/" target="blank"><img src="assets/img/icon-instagram.svg" class="me-3"></a>
-                <a href="https://www.facebook.com/Cinergia.Estudio.Creativo" target="blank"><img src="assets/img/icon-facebook.svg" class="me-3"></a>
-                <a href="https://www.youtube.com/channel/UC9pZVM9b6frb2bdq6YRP-aw" target="blank"><img src="assets/img/icon-youtube.svg" class="me-3"></a>
-                <a href="https://www.linkedin.com/company/cinergiaestudiocreativ" target="blank"><img src="assets/img/icon-linkedin.svg"></a>
+            <div class="col-md-2 d-flex justify-content-center justify-content-md-end align-items-center">
+                <a href="https://www.instagram.com/cinergia.estudio.creativo/" target="blank"><img src="assets/img/icon-instagram.svg" width="26px" class="me-3"></a>
+                <a href="https://www.facebook.com/Cinergia.Estudio.Creativo" target="blank"><img src="assets/img/icon-facebook.svg" width="26px" class="me-3"></a>
+                <a href="https://www.youtube.com/channel/UC9pZVM9b6frb2bdq6YRP-aw" target="blank"><img src="assets/img/icon-youtube.svg" width="26px" class="me-3"></a>
+                <a href="https://www.linkedin.com/company/cinergiaestudiocreativ" target="blank"><img src="assets/img/icon-linkedin.svg" width="26px"></a>
             </div>
         </div>
     </div>

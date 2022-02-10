@@ -75,7 +75,7 @@
         <section class="bg-negro p-150">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 d-flex align-items-center d-none d-md-block">
+                    <div class="col-md-7 d-flex align-items-center d-none d-md-flex">
                         <img src="assets/img/bg-conection-peru.png" class="img-left" width="50%" alt="">
                     </div>
                     <div class="col-md-5 divider-vertical d-none d-md-block">
@@ -97,7 +97,7 @@
             </div>
         </section>
 
-        <section class="bg-negro pb-150">
+        <section class="bg-negro p-100">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -166,7 +166,7 @@
                         <h4 class="fc-pastel">Héroes <br>de hoy</h4>
                         <h5 class="fc-pastel">serie documental</h5>
                     </div>
-                    <div class="col-md-8 d-flex justify-content-end d-none d-md-block">
+                    <div class="col-md-8 d-flex justify-content-end d-none d-md-flex">
                         <img src="assets/img/bg-heroes-de-hoy.png" width="70%" alt="">
                     </div>
                     <div class="col-12 p-0 d-block d-md-none">
@@ -242,13 +242,16 @@
                     <div class="col-12">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <img src="assets/img/img-carousel-01.png">
+                                <img src="assets/img/img-carousel-home-01.jpg">
                             </div>
                             <div class="item">
-                                <img src="assets/img/img-carousel-02.png">
+                                <img src="assets/img/img-carousel-home-02.jpg">
                             </div>
                             <div class="item">
-                                <img src="assets/img/img-carousel-03.png">
+                                <img src="assets/img/img-carousel-home-03.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/img-carousel-home-04.jpg">
                             </div>
                         </div>
                     </div>
@@ -329,7 +332,7 @@
                             <p class="text-end">Del Gredal - Ganadores de plata Comunicación de Identidad Corporativa</p>
                         </div>
                     </div>
-                    <div class="col-md-7 d-flex align-self-end pb-4 open-title-left">
+                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 open-title-left">
                         <h4 class="PoppinsRegular">nos han<span class="Valky"> honrado</span></h4>
                     </div>
                 </div>
@@ -574,7 +577,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6 mb-4 d-flex align-items-end">
-                                            <input type="text" class="form-control" placeholder="Deadline">
+                                            <input type="date" class="form-control" id="start" name="trip-start" value="Deadline">
                                         </div>
                                         <div class="col-md-6 d-grid gap-2 mb-4">
                                             <button type="submit" class="btn btn-primary-custom">Enviá nomás</button>

@@ -70,13 +70,13 @@
                         <div class="opacity-galery"></div>
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <img src="assets/img/img-carousel-01.png">
+                                <img src="assets/img/img-carousel-nosotros-01.jpg">
                             </div>
                             <div class="item">
-                                <img src="assets/img/img-carousel-02.png">
+                                <img src="assets/img/img-carousel-nosotros-02.jpg">
                             </div>
                             <div class="item">
-                                <img src="assets/img/img-carousel-03.png">
+                                <img src="assets/img/img-carousel-nosotros-03.jpg">
                             </div>
                         </div>
                         <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">

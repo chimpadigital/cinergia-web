@@ -40,7 +40,7 @@
                     <div class="col-md-6 pe-md-0">
                         <div class="blog-box-img">
                             <img src="assets/img/img-blog-01.png" width="100%" alt="">
-                            <a href="noticia.html" class="btn btn-orange-custom btn-left">QUIERO SABER MÁS</a>
+                            <a href="noticia.php" class="btn btn-orange-custom btn-left">QUIERO SABER MÁS</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     <div class="col-md-6 ps-md-0">
                         <div class="blog-box-img">
                             <img src="assets/img/img-blog-02.png" width="100%" alt="">
-                            <a href="noticia.html" class="btn btn-orange-custom btn-right">QUIERO SABER MÁS</a>
+                            <a href="noticia.php" class="btn btn-orange-custom btn-right">QUIERO SABER MÁS</a>
                         </div>
                     </div>
                     <div class="col-md-6 pe-md-0 d-flex align-self-center text-end">
@@ -76,7 +76,7 @@
                     <div class="col-md-6 pe-md-0">
                         <div class="blog-box-img">
                             <img src="assets/img/img-blog-03.png" width="100%" alt="">
-                            <a href="noticia.html" class="btn btn-orange-custom btn-left">QUIERO SABER MÁS</a>
+                            <a href="noticia.php" class="btn btn-orange-custom btn-left">QUIERO SABER MÁS</a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                     <div class="col-md-6 ps-md-0">
                         <div class="blog-box-img">
                             <img src="assets/img/img-blog-04.png" width="100%" alt="">
-                            <a href="noticia.html" class="btn btn-orange-custom btn-right">QUIERO SABER MÁS</a>
+                            <a href="noticia.php" class="btn btn-orange-custom btn-right">QUIERO SABER MÁS</a>
                         </div>
                     </div>
                     <div class="col-md-6 pe-md-0 d-flex align-self-center text-end">

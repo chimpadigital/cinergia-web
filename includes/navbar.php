@@ -58,10 +58,10 @@
                 <div class="col-md-4 menu-list offset-md-7">
                     <hr class="hr-divider-pastel">
                     <ul class="d-flex align-items-center">
-                        <li><img src="assets/img/ico-instagram.svg" class="me-3" width="30px" height="30px" alt=""></li>
-                        <li><img src="assets/img/ico-facebook.svg" class="me-3" width="30px" height="30px" alt=""></li>
-                        <li><img src="assets/img/ico-youtube.svg" class="me-3" width="30px" height="30px" alt=""></li>
-                        <li><img src="assets/img/ico-linkedin.svg" class="me-3" width="30px" height="30px" alt=""></li>
+                        <li><a href="https://www.instagram.com/cinergia.estudio.creativo/" target="blank"><img src="assets/img/ico-instagram.svg" class="me-3" width="30px" height="30px" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/Cinergia.Estudio.Creativo" target="blank"><img src="assets/img/ico-facebook.svg" class="me-3" width="30px" height="30px" alt=""></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC9pZVM9b6frb2bdq6YRP-aw" target="blank"><img src="assets/img/ico-youtube.svg" class="me-3" width="30px" height="30px" alt=""></a></li>
+                        <li><a href="https://www.linkedin.com/company/cinergiaestudiocreativ" target="blank"><img src="assets/img/ico-linkedin.svg" class="me-3" width="30px" height="30px" alt=""></a></li>
                     </ul>
                 </div>
             </div>
