@@ -165,7 +165,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-theme" id="owl-carousel-premios">
                     <div class="item">
                         <img src="assets/img/img-award-06.png" alt="">
                         <div class="body-premios">
