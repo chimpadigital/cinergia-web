@@ -124,13 +124,13 @@
                         <h5 class="fc-pastel mb-0">branding,<br> desarrollo web,<br> producción audiovisual,<br> producción de contenidos,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex align-items-center d-none d-md-block">
-                        <img src="assets/img/bg-del-gredal.png" class="img-right" width="60%" alt="">
+                        <img src="assets/img/bg-del-gredal.png" class="img-right img-xxl" width="60%" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-negro mt-md--60 mt-lg-0">
+        <section class="bg-negro mt-md--60">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 d-none d-md-block">

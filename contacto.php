@@ -96,6 +96,7 @@
                                     </label>
                                 </div>
                             </div>
+                            
                             <h4 class="PoppinsRegular fc-pastel mb-4">Conocí Cinergia <br> Estudio Creativo:</h4>
                             <div class="pl-100">
                                 <div class="form-check d-flex align-items-center">
