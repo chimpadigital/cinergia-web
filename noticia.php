@@ -45,7 +45,7 @@
         <section class="bg-negro pb-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <h4 class="fc-pastel mb-4">El FePI cerró su Edición Especial 15 Años con la Ceremonia de Premiación vía streaming</h4>
                         <h5 class="fc-pastel">by Gabriel Luna | 26, Oct, 2021 | Destacadas, Publicidad</h5>
                     </div>

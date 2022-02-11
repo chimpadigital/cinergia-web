@@ -1248,6 +1248,9 @@ footer ul li p {
         background-size: cover;
     }
 }
+@media only screen and (max-width: 992px) {
+    #noticias {height: 80vh;}
+}
 @media only screen and (max-width: 1200px) {
     h1 {font-size: 100px;}
     .blog-box img {
@@ -1274,6 +1277,7 @@ footer ul li p {
         right: 0;
         position: relative;
     }
+    #noticias {height: 85vh;}
 }
 @media only screen and (max-width: 1920px) {
     .img-xxl {width: 50%;}
