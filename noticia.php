@@ -15,7 +15,7 @@
     </head>
     <body>
         <?php include 'includes/navbar.php';?>
-        <header>
+        <header id="noticias">
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
@@ -25,10 +25,10 @@
             </div>
             <div class="container-fluid mt-4 mb-4">
                 <div class="row">
-                    <div class="col-md-4 d-flex justify-content-end align-self-end">
+                    <div class="col-md-4 d-flex justify-content-end align-self-end d-none d-md-flex">
                         <img src="assets/img/arrow-pastel-right.svg" alt="">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 mt-200">
                         <img src="assets/img/bg-header-noticia.png" width="100%" alt="">
                      </div>
                 </div>
@@ -45,7 +45,7 @@
         <section class="bg-negro pb-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <h4 class="fc-pastel mb-4">El FePI cerró su Edición Especial 15 Años con la Ceremonia de Premiación vía streaming</h4>
                         <h5 class="fc-pastel">by Gabriel Luna | 26, Oct, 2021 | Destacadas, Publicidad</h5>
                     </div>
@@ -61,13 +61,13 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-12">
+                    <div class="col-12 mb-5 mb-md-0">
                         <h5 class="mb-4">En el transcurso de la última jornada del Programa de Cierre: “Creatividad que sobrevive y se transforma”, se trasmitió la Conferencia de Pedro Lerma, CCO y fundador de LERMA/ USA titulada “La liberación”.</h5>
                         <h5 class="mb-4">Luego se conocieron los ganadores de la nueva versión de los Premios Inodoro Pereyra. El reconocimiento Mejor Agencia Independiente del Año fue para Almacén de Buenos Aires, Argentina, mientras que sus DGC´s, Walter Onorato y Diego Duprat, fueron distinguidos como Mejores Directores Generales Creativos Independientes.</h5>
                         <h5 class="mb-4">Esta inédita celebración se inició el 12 de Julio con el Ciclo CR15 de Contenidos y Reflexiones, organizado bajo el concepto 15 Años de FePI – 15 Semanas de Festival, que por 4 meses presentó a diferentes profesionales y creativos de distintos sectores de la comunicación, la publicidad, y las empresas, concitando enorme interés en la audiencia que siguió las transmisiones que se ofrecieron con acceso libre y gratuito en el Canal del FePI en Youtube.</h5>
                         <img src="assets/img/img-noticia.png" width="100%" alt="">
                     </div>
-                    <div class="col-md-10 offset-md-1 text-center mt-4 mb-100">
+                    <div class="col-md-10 offset-md-1 text-center mt-4 mb-100 d-none d-md-block">
                         <img src="assets/img/img-divider-noticia.svg" alt="">
                     </div>
                     <div class="col-12">

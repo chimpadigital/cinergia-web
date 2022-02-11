@@ -29,7 +29,7 @@
                     <div class="col-md-6 mt-100">
                         <h3 class="fc-pastel m-0">Sobre</h3>
                         <h3 class="fc-naranja Valky">tu proyecto.</h3>
-                        <img src="assets/img/arrow-down-orange.svg" class="mb-100" alt="">
+                        <img src="assets/img/arrow-down-orange.svg" class="mb-100 d-none d-md-block" alt="">
                     </div>
                     <div class="col-md-6">
                         <div class="divider-vertical-naranja">
