@@ -1206,11 +1206,6 @@ footer ul li p {
         padding-bottom: 100px;
         background: var(--negro) url(../img/img-ball.svg) center right -100px no-repeat;
         background-size: 65%;
-
-    }
-    .divider-vertical-naranja {
-        padding-left: 0;
-        border-left: none;
     }
     /* === */
     #noticias {
@@ -1278,6 +1273,10 @@ footer ul li p {
         position: relative;
     }
     #noticias {height: 85vh;}
+    .divider-vertical-naranja {
+        padding-left: 0;
+        border-left: none;
+    }
 }
 @media only screen and (max-width: 1920px) {
     .img-xxl {width: 50%;}
