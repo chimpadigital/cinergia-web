@@ -269,7 +269,7 @@
         </section>
 
         <!-- Section Desktop -->
-        <section id="award" class="p-100 d-none d-md-block">
+        <section id="award" class="p-100 d-none d-md-none d-lg-block">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 d-flex justify-content-end">
@@ -284,12 +284,12 @@
                             <p class="text-end">Te Conectamos Perú - Premio a la excelencia Campaña integral business to business.</p>
                         </div>
                     </div>
-                    <div class="col-md-7 d-flex align-self-end pb-4 open-title-left">
+                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 open-title-left">
                         <h4 class="PoppinsRegular">Qué <span class="Valky">decir</span> y</h4>
                     </div>
                 </div>
                 <div class="row open position-relative">
-                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
+                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular">cómo decirlo</h4>
                     </div>
                     <div class="col-md-2 position-relative">
@@ -308,12 +308,12 @@
                             <p class="text-end">Te Conectamos Perú - Ganadores de oro Campaña Integral de Marketing.</p>
                         </div>
                     </div>
-                    <div class="col-md-7 d-flex align-self-end pb-4 open-title-left">
+                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 open-title-left">
                         <h4 class="PoppinsRegular"><span class="Valky">es nuestra</span> especialidad</h4>
                     </div>
                 </div>
                 <div class="row open position-relative">
-                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
+                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular"><span class="Valky">y</span> por eso</h4>
                     </div>
                     <div class="col-md-2 position-relative">
@@ -332,12 +332,12 @@
                             <p class="text-end">Del Gredal - Ganadores de plata Comunicación de Identidad Corporativa</p>
                         </div>
                     </div>
-                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 open-title-left">
+                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 pt-4 open-title-left">
                         <h4 class="PoppinsRegular">nos han<span class="Valky"> honrado</span></h4>
                     </div>
                 </div>
                 <div class="row open position-relative">
-                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
+                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular"><span class="Valky">con estos</span> reconocimientos</h4>
                     </div>
                     <div class="col-md-2 position-relative">
@@ -353,12 +353,12 @@
         <!-- === -->
 
         <!-- Section Mobile -->
-        <div class="container d-block d-md-none">
+        <div class="container d-block d-md-block d-lg-none">
             <div class="row">
                 <div class="col-12 pt-150 pb-150">
                     <h4 class="PoppinsRegular">Qué <span class="Valky">decir</span> y cómo decirlo es <span class="Valky">nuestra</span> especialidad y por eso nos han <span class="Valky">honrado</span> con estos <span class="Valky">reconocimientos</span></h4>
                 </div>
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-theme" id="owl-carousel-premios">
                     <div class="item">
                         <img src="assets/img/img-award-06.png" alt="">
                         <div class="body-premios">
