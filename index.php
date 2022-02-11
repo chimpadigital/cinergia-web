@@ -459,14 +459,14 @@
         <section class="p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <h4 class="PoppinsRegular m-0">A veces <span class="PoppinsItalic">se nos va la olla.</span><br>
                             Pero <span class="PoppinsSemiBold">nunca se nos escapa la tortuga.</span><br>
                             Si lo quieres de otra manera,<br>
                             <span class="Valky">aquí estamos.</span>
                         </h4>
                     </div>
-                    <div class="col-md-4 d-flex align-self-end justify-content-center justify-content-md-end mt-4 mt-md-0">
+                    <div class="col-lg-4 d-flex align-self-end justify-content-center justify-content-md-end mt-4 mt-lg-0">
                         <a href="services.php" class="btn-flip" data-back="más servicios" data-front="¿eso es todo?"></a>
                     </div>
                 </div>
@@ -529,10 +529,10 @@
                     </div>
                 </div>
                 <div class="row p-100">
-                    <div class="col-md-8 d-flex align-self-end d-none d-md-block">
-                        <img src="assets/img/bg-divider-02.svg" alt="">
+                    <div class="col-md-7 col-lg-8 d-flex align-self-end d-none d-md-block">
+                        <img src="assets/img/bg-divider-02.svg" width="100%" alt="">
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="col-md-5 col-lg-4 d-flex justify-content-center justify-content-md-end">
                         <a href="blog.php" class="btn btn-outline-primary">Lo contamos</a>
                     </div>
                 </div>
