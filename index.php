@@ -130,7 +130,7 @@
             </div>
         </section>
 
-        <section class="bg-negro mt-md--60">
+        <section class="bg-negro mt-md--60 mt-lg-0">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 d-none d-md-block">
