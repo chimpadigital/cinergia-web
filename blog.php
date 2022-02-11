@@ -39,12 +39,13 @@
                     </div>
                     <div class="col-md-6 pe-md-0">
                         <div class="blog-box-img">
-                            <img src="assets/img/img-blog-01.png" width="100%" alt="">
+                            <img src="assets/img/img-blog-01.png" class="mt-2 mt-md-0" width="100%" alt="">
+                            <h5 class="fc-pastel mt-4 d-block d-md-none">by Gabriel Luna | 26, Oct, 2021 | Destacadas, Publicidad</h5>
                             <a href="noticia.php" class="btn btn-orange-custom btn-left">QUIERO SABER MÁS</a>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-0 mt-md-5 pb-150">
+                <div class="row mt-0 mt-md-5 pb-150 d-none d-md-block">
                     <div class="col-md-4 offset-md-8">
                         <h5 class="fc-pastel">by Gabriel Luna | 26, Oct, 2021 | Destacadas, Publicidad</h5>
                     </div>
@@ -53,7 +54,8 @@
                 <div class="row blog-content">
                     <div class="col-md-6 ps-md-0 order-2 order-md-1">
                         <div class="blog-box-img">
-                            <img src="assets/img/img-blog-02.png" width="100%" alt="">
+                            <img src="assets/img/img-blog-02.png" class="mt-2 mt-md-0" width="100%" alt="">
+                            <h5 class="fc-pastel mt-4 d-block d-md-none">by Bianca Amirati | 15, Oct, 2021 | Destacadas, Publicidad</h5>
                             <a href="noticia.php" class="btn btn-orange-custom btn-right">QUIERO SABER MÁS</a>
                         </div>
                     </div>
@@ -62,7 +64,7 @@
                         <img src="assets/img/arrow-pastel-left.svg" class="arrow d-none d-md-block" alt="">
                     </div>
                 </div>
-                <div class="row mt-0 mt-md-5 pb-150">
+                <div class="row mt-0 mt-md-5 pb-150 d-none d-md-block">
                     <div class="col-md-4">
                         <h5 class="fc-pastel">by Bianca Amirati | 15, Oct, 2021 | Destacadas, Publicidad</h5>
                     </div>
@@ -75,12 +77,13 @@
                     </div>
                     <div class="col-md-6 pe-md-0">
                         <div class="blog-box-img">
-                            <img src="assets/img/img-blog-03.png" width="100%" alt="">
+                            <img src="assets/img/img-blog-03.png" class="mt-2 mt-md-0" width="100%" alt="">
+                            <h5 class="fc-pastel mt-4 d-block d-md-none">Cinergia Estudio Creativo Oct. 2021</h5>
                             <a href="noticia.php" class="btn btn-orange-custom btn-left">QUIERO SABER MÁS</a>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-0 mt-md-5 pb-150">
+                <div class="row mt-0 mt-md-5 pb-150 d-none d-md-block">
                     <div class="col-md-4 offset-md-8">
                         <h5 class="fc-pastel">Cinergia Estudio Creativo Oct. 2021</h5>
                     </div>
@@ -89,7 +92,8 @@
                 <div class="row blog-content">
                     <div class="col-md-6 ps-md-0 order-2 order-md-1">
                         <div class="blog-box-img">
-                            <img src="assets/img/img-blog-04.png" width="100%" alt="">
+                            <img src="assets/img/img-blog-04.png" class="mt-2 mt-md-0" width="100%" alt="">
+                            <h5 class="fc-pastel mt-4 d-block d-md-none">La Voz del Interior 13 de Oct. 2021</h5>
                             <a href="noticia.php" class="btn btn-orange-custom btn-right">QUIERO SABER MÁS</a>
                         </div>
                     </div>
@@ -98,7 +102,7 @@
                         <img src="assets/img/arrow-pastel-left.svg" class="arrow d-none d-md-block" alt="">
                     </div>
                 </div>
-                <div class="row mt-0 mt-md-5 pb-150">
+                <div class="row mt-0 mt-md-5 pb-150 d-none d-md-block">
                     <div class="col-md-4">
                         <h5 class="fc-pastel">La Voz del Interior 13 de Oct. 2021</h5>
                     </div>
