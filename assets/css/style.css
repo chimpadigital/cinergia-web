@@ -1213,11 +1213,6 @@ footer ul li p {
         border-left: none;
     }
     /* === */
-
-    .btn-link-naranja {
-        font-size: 18px;
-        position: relative;
-    }
     .blog-content {
         border: none;
         margin-bottom: 50px;
@@ -1274,6 +1269,10 @@ footer ul li p {
     .blog-box img {
         width: 100%;
         height: auto;
+    }
+    .btn-link-naranja {
+        font-size: 18px;
+        position: relative;
     }
 }
 @media only screen and (max-width: 1920px) {
