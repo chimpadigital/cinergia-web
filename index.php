@@ -482,10 +482,10 @@
                     <div class="col-12">
                         <hr class="hr-divider">
                     </div>
-                    <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="blog-box d-flex align-items-end">
+                    <div class="col-xl-4 mb-4 mb-xl-0">
+                        <div class="blog-box d-flex d-md-block align-items-end">
                             <div>
-                                <h4>Te<br> conectamos<br> Perú</h4>
+                                <h4>Te conectamos Perú</h4>
                                 <hr>
                                 <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
                                 <div class="d-flex flex-column align-items-end">
@@ -497,8 +497,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="blog-box d-flex align-items-end">
+                    <div class="col-xl-4 mb-4 mb-xl-0">
+                        <div class="blog-box d-flex d-md-block align-items-end">
                             <div>
                                 <h4>+Latina</h4>
                                 <hr>
@@ -512,8 +512,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="blog-box d-flex align-items-end">
+                    <div class="col-xl-4">
+                        <div class="blog-box d-flex d-md-block align-items-end">
                             <div>
                                 <h4>AMS</h4>
                                 <hr>

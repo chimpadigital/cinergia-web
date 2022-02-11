@@ -1269,6 +1269,12 @@ footer ul li p {
         background-size: cover;
     }
 }
+@media only screen and (max-width: 1200px) {
+    .blog-box img {
+        width: 100%;
+        height: auto;
+    }
+}
 @media only screen and (max-width: 1920px) {
     .img-xxl {width: 50%;}
 }
