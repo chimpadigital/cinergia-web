@@ -63,7 +63,7 @@
             </div>
         </section>
 
-        <section class="bg-negro">
+        <section>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 d-flex align-items-center justify-content-center p-0 position-relative">
