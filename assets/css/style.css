@@ -1213,22 +1213,6 @@ footer ul li p {
         border-left: none;
     }
     /* === */
-    .blog-content {
-        border: none;
-        margin-bottom: 50px;
-    }
-    .blog-content .blog-box-img .btn-left {
-        margin-top: 20px;
-        bottom: 0;
-        left: 0;
-        position: relative;
-    }
-    .blog-content .blog-box-img .btn-right {
-        margin-top: 20px;
-        bottom: 0;
-        right: 0;
-        position: relative;
-    }
     #noticias {
         height: auto;
         padding-bottom: 0;
@@ -1272,6 +1256,22 @@ footer ul li p {
     }
     .btn-link-naranja {
         font-size: 18px;
+        position: relative;
+    }
+    .blog-content {
+        border: none;
+        margin-bottom: 50px;
+    }
+    .blog-content .blog-box-img .btn-left {
+        margin-top: 20px;
+        bottom: 0;
+        left: 0;
+        position: relative;
+    }
+    .blog-content .blog-box-img .btn-right {
+        margin-top: 20px;
+        bottom: 0;
+        right: 0;
         position: relative;
     }
 }

@@ -33,81 +33,81 @@
         <section class="bg-negro p-150">
             <div class="container">
                 <div class="row blog-content">
-                    <div class="col-md-6 ps-md-0 d-flex align-self-center">
+                    <div class="col-lg-6 ps-lg-0 d-flex align-self-center">
                         <h4 class="fc-pastel">El FePI cerró su Edición Especial 15 Años con la Ceremonia de Premiación vía streaming</h4>
-                        <img src="assets/img/arrow-pastel-right.svg" class="arrow d-none d-md-block" alt="">
+                        <img src="assets/img/arrow-pastel-right.svg" class="arrow d-none d-lg-block" alt="">
                     </div>
-                    <div class="col-md-6 pe-md-0">
+                    <div class="col-lg-6 pe-lg-0">
                         <div class="blog-box-img">
-                            <img src="assets/img/img-blog-01.png" class="mt-2 mt-md-0" width="100%" alt="">
-                            <h5 class="fc-pastel mt-4 d-block d-md-none">by Gabriel Luna | 26, Oct, 2021 | Destacadas, Publicidad</h5>
+                            <img src="assets/img/img-blog-01.png" class="mt-2 mt-lg-0" width="100%" alt="">
+                            <h5 class="fc-pastel mt-4 d-block d-lg-none">by Gabriel Luna | 26, Oct, 2021 | Destacadas, Publicidad</h5>
                             <a href="noticia.php" class="btn btn-orange-custom btn-left">QUIERO SABER MÁS</a>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-0 mt-md-5 pb-150 d-none d-md-block">
-                    <div class="col-md-4 offset-md-8">
+                <div class="row mt-0 mt-lg-5 pb-150 d-none d-lg-block">
+                    <div class="col-lg-4 offset-lg-8">
                         <h5 class="fc-pastel">by Gabriel Luna | 26, Oct, 2021 | Destacadas, Publicidad</h5>
                     </div>
                 </div>
 
                 <div class="row blog-content">
-                    <div class="col-md-6 ps-md-0 order-2 order-md-1">
+                    <div class="col-lg-6 ps-lg-0 order-2 order-lg-1">
                         <div class="blog-box-img">
-                            <img src="assets/img/img-blog-02.png" class="mt-2 mt-md-0" width="100%" alt="">
-                            <h5 class="fc-pastel mt-4 d-block d-md-none">by Bianca Amirati | 15, Oct, 2021 | Destacadas, Publicidad</h5>
+                            <img src="assets/img/img-blog-02.png" class="mt-2 mt-lg-0" width="100%" alt="">
+                            <h5 class="fc-pastel mt-4 d-block d-lg-none">by Bianca Amirati | 15, Oct, 2021 | Destacadas, Publicidad</h5>
                             <a href="noticia.php" class="btn btn-orange-custom btn-right">QUIERO SABER MÁS</a>
                         </div>
                     </div>
-                    <div class="col-md-6 pe-md-0 d-flex align-self-center text-md-end order-1 order-md-2">
+                    <div class="col-lg-6 pe-lg-0 d-flex align-self-center text-lg-end order-1 order-lg-2">
                         <h4 class="fc-pastel">Se conocen los Finalistas del FePI Edición Especial 15 Años</h4>
-                        <img src="assets/img/arrow-pastel-left.svg" class="arrow d-none d-md-block" alt="">
+                        <img src="assets/img/arrow-pastel-left.svg" class="arrow d-none d-lg-block" alt="">
                     </div>
                 </div>
-                <div class="row mt-0 mt-md-5 pb-150 d-none d-md-block">
-                    <div class="col-md-4">
+                <div class="row mt-0 mt-lg-5 pb-150 d-none d-lg-block">
+                    <div class="col-lg-4">
                         <h5 class="fc-pastel">by Bianca Amirati | 15, Oct, 2021 | Destacadas, Publicidad</h5>
                     </div>
                 </div>
 
                 <div class="row blog-content">
-                    <div class="col-md-6 ps-md-0 d-flex align-self-center">
+                    <div class="col-lg-6 ps-lg-0 d-flex align-self-center">
                         <h4 class="fc-pastel">Ganamos la convocatoria chilena “Mi Voz Constituye Cambio”</h4>
-                        <img src="assets/img/arrow-pastel-right.svg" class="arrow d-none d-md-block" alt="">
+                        <img src="assets/img/arrow-pastel-right.svg" class="arrow d-none d-lg-block" alt="">
                     </div>
-                    <div class="col-md-6 pe-md-0">
+                    <div class="col-lg-6 pe-lg-0">
                         <div class="blog-box-img">
-                            <img src="assets/img/img-blog-03.png" class="mt-2 mt-md-0" width="100%" alt="">
-                            <h5 class="fc-pastel mt-4 d-block d-md-none">Cinergia Estudio Creativo Oct. 2021</h5>
+                            <img src="assets/img/img-blog-03.png" class="mt-2 mt-lg-0" width="100%" alt="">
+                            <h5 class="fc-pastel mt-4 d-block d-lg-none">Cinergia Estudio Creativo Oct. 2021</h5>
                             <a href="noticia.php" class="btn btn-orange-custom btn-left">QUIERO SABER MÁS</a>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-0 mt-md-5 pb-150 d-none d-md-block">
-                    <div class="col-md-4 offset-md-8">
+                <div class="row mt-0 mt-lg-5 pb-150 d-none d-lg-block">
+                    <div class="col-lg-4 offset-lg-8">
                         <h5 class="fc-pastel">Cinergia Estudio Creativo Oct. 2021</h5>
                     </div>
                 </div>
 
                 <div class="row blog-content">
-                    <div class="col-md-6 ps-md-0 order-2 order-md-1">
+                    <div class="col-lg-6 ps-lg-0 order-2 order-lg-1">
                         <div class="blog-box-img">
-                            <img src="assets/img/img-blog-04.png" class="mt-2 mt-md-0" width="100%" alt="">
-                            <h5 class="fc-pastel mt-4 d-block d-md-none">La Voz del Interior 13 de Oct. 2021</h5>
+                            <img src="assets/img/img-blog-04.png" class="mt-2 mt-lg-0" width="100%" alt="">
+                            <h5 class="fc-pastel mt-4 d-block d-lg-none">La Voz del Interior 13 de Oct. 2021</h5>
                             <a href="noticia.php" class="btn btn-orange-custom btn-right">QUIERO SABER MÁS</a>
                         </div>
                     </div>
-                    <div class="col-md-6 pe-md-0 d-flex align-self-center text-md-end order-1 order-md-2">
+                    <div class="col-lg-6 pe-lg-0 d-flex align-self-center text-lg-end order-1 order-lg-2">
                         <h4 class="fc-pastel">El premio a la excelencia en comunicación institucional anunció sus ganadores</h4>
-                        <img src="assets/img/arrow-pastel-left.svg" class="arrow d-none d-md-block" alt="">
+                        <img src="assets/img/arrow-pastel-left.svg" class="arrow d-none d-lg-block" alt="">
                     </div>
                 </div>
-                <div class="row mt-0 mt-md-5 pb-150 d-none d-md-block">
-                    <div class="col-md-4">
+                <div class="row mt-0 mt-lg-5 pb-150 d-none d-lg-block">
+                    <div class="col-lg-4">
                         <h5 class="fc-pastel">La Voz del Interior 13 de Oct. 2021</h5>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center justify-content-md-end">
+                <div class="col-12 d-flex justify-content-center justify-content-lg-end">
                     <a href="#" class="btn btn-outline-secondary">SEGUI SCROLLEANDO</a>
                 </div>
             </div>
