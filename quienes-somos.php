@@ -158,10 +158,10 @@
         </section>
         <div class="container mb-100">
             <div class="row">
-                <div class="col-md-1 offset-md-3 mt-3">
+                <div class="col-lg-1 offset-lg-3 mt-3">
                     <img src="assets/img/arrow-blue.svg" class="mt-50" alt="">
                 </div>
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <h4 class="PoppinsRegular mb-4">Más de <span class="Valky fc-celeste fs-100 fs-sm-40">14 años</span> de historia
                         nos han  llevado hasta donde estamos. 
                         Somos bastante <span class="Valky fc-celeste fs-60 fs-sm-40">únicos</span>. <br>
@@ -171,9 +171,9 @@
                         comunicación, de dar a cada proyecto 
                         exactamente lo que necesita para 
                         <span class="Valky fc-celeste fs-60 fs-sm-40">brillar</span> y <span class="Valky fc-celeste fs-60 fs-sm-40">posicionarse.</span>
-                        Hasta ahora nos está yendo muy bien.</h4>
-                        
-                        <h4 class="PoppinsRegular"> Y cada vez <span class="Valky fc-celeste fs-100 fs-sm-40">mejor.</span></h4>
+                        Hasta ahora nos está yendo muy bien.
+                    </h4>    
+                    <h4 class="PoppinsRegular"> Y cada vez <span class="Valky fc-celeste fs-100 fs-sm-40">mejor.</span></h4>
                 </div>
             </div>
         </div>
