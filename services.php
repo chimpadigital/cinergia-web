@@ -24,9 +24,10 @@
                 </div>
                 <div class="row vh-80 d-flex align-items-center">
                     <div class="col-12">
-                        <h1 class="Valky fc-naranja">Trabajamos</h1>
+                        <h1 class="Valky fc-naranja d-none d-md-block">Trabajamos</h1>
+                        <h3 class="Valky fc-naranja d-block d-md-none">Trabajamos</h3>
                         <div class="d-flex justify-content-end">
-                            <h3 class="PoppinsRegular fc-pastel fs-64">Desde hace <span class="Valky fc-naranja fs-100"> 13 años</span></h3>
+                            <h3 class="PoppinsRegular fc-pastel">Desde hace <span class="Valky fc-naranja"> 13 años</span></h3>
                         </div>
                     </div>
                 </div>
@@ -57,7 +58,7 @@
                         </a>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                                 <div class="modal-body">
                                     <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JWRlTezTF2k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -76,23 +77,24 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h3 class="Valky fc-naranja text-end">CONSULTORIA DE MARCA</h3>
-                        <hr class="hr-divider-naranja">
+                    <div class="col-md-4 order-2 order-md-1">
+                        <h3 class="Valky fc-naranja text-md-end ">CONSULTORIA DE MARCA</h3>
+                        <hr class="hr-divider-naranja d-none d-md-block">
                     </div>
-                    <div class="col-md-7 offset-md-1 d-flex flex-column justify-content-end">
+                    <div class="col-md-7 offset-md-1 d-flex flex-column justify-content-end  order-1 order-md-2">
                         <h3 class="Valky fc-pastel">1</h3>
                         <hr class="hr-divider-naranja">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 d-flex flex-column justify-content-center align-items-end position-relative">
-                        <h5 class="fc-pastel text-end">ESTRATEGIA DE MARCA <br> BRANDING / REBRANDING</h5>
-                        <a href="contacto.php" class="btn-link-naranja mt-5">Consultar</a>
+                    <div class="col-md-4 d-flex flex-column justify-content-center align-items-md-end position-relative">
+                        <h5 class="fc-pastel text-md-end mb-4 mb-md-0">ESTRATEGIA DE MARCA <br> BRANDING / REBRANDING</h5>
+                        <a href="contacto.php" class="btn-link-naranja d-none d-md-block">Consultar</a>
                     </div>
                     <div class="col-md-7 offset-md-1">
                         <h5 class="fc-pastel mb-4">Nuestra razón de ser. Hacemos brillar las marcas. Conceptualización. Identidad. Tono. Estética. Una estructura comunicativa coherente con sus valores esenciales. Estudiamos a fondo cada empresa para proponer una estructura comunicativa alineada a sus valores centrales que aporte orientación interna y externa.</h5>
                         <h5 class="fc-pastel mb-0">Construimos identidad y definimos un plan de acción consistente que implica la gestión integral de toda las expresiones de marca. Se trate de un manifiesto, de una campaña o de una pieza audiovisual, de piezas para redes sociales o contenidos editoriales, todo lo que hacemos lleva el ADN de la marca y nuestra impronta.</h5>
+                        <a href="contacto.php" class="btn-link-naranja mt-4 position-relatice d-block d-md-none">Consultar</a>
                     </div>
                 </div>
             </div>
@@ -101,9 +103,9 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row">  
-                    <div class="col-md-6 d-flex flex-column justify-content-end align-items-end">
+                    <div class="col-md-6 d-flex flex-column justify-content-end align-items-md-end">
                         <h3 class="Valky fc-pastel">2</h3>
-                        <hr class="hr-divider-naranja">
+                        <hr class="hr-divider-naranja d-none d-md-block">
                     </div>
                     <div class="col-md-5 offset-md-1">
                         <h3 class="Valky fc-naranja">PRODUCCIÓN DE CONTENIDOS</h3>
@@ -111,13 +113,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-2 order-md-1">
                         <h5 class="fc-pastel mb-4">En una historia cabe el universo entero. O en nuestro caso, el universo de una marca. Por eso nos gusta contar buenas historias. En ellas está el poder de cautivar a nuestro público y hacerles saber qué es eso que nos hace especiales.</h5>
                         <h5 class="fc-pastel mb-0">No importa si son contenidos audiovisuales, series web, artículos editoriales, podcasts o incluso una única imagen, las historias, contadas con la voz propia de cada marca, están allí para que las descubramos. Porque si hay algo que aprenidmos en todo este tiempo es que todxs tienen sus buenas hisorias. </h5>
+                        <a href="contacto.php" class="btn-link-naranja mt-4 position-relatice d-block d-md-none">Consultar</a>
                     </div>
-                    <div class="col-md-5 offset-md-1 d-flex flex-column justify-content-center position-relative">
+                    <div class="col-md-5 offset-md-1 d-flex flex-column justify-content-center position-relative order-1 order-md-2 mb-4 mb-md-0">
                         <h5 class="fc-pastel">PRODUCCIÓN AUDIOVISUAL <br> ANIMACIÓN <br> FOTOGRAFÍA PUBLICITARIA <br>PRODUCCIÓN DE PODCAST</h5>
-                        <a href="contacto.php" class="btn-link-naranja mt-5">Consultar</a>
+                        <a href="contacto.php" class="btn-link-naranja d-none d-md-block">Consultar</a>
                     </div>
                 </div>
             </div>
@@ -146,23 +149,24 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h3 class="Valky fc-naranja text-end">DISEÑO CREATIVO</h3>
+                    <div class="col-md-4 order-2 order-md-1">
+                        <h3 class="Valky fc-naranja text-md-end">DISEÑO CREATIVO</h3>
                         <hr class="hr-divider-naranja">
                     </div>
-                    <div class="col-md-7 offset-md-1 d-flex flex-column justify-content-end">
+                    <div class="col-md-7 offset-md-1 d-flex flex-column justify-content-md-end order-1 order-md-2">
                         <h3 class="Valky fc-pastel">3</h3>
-                        <hr class="hr-divider-naranja">
+                        <hr class="hr-divider-naranja d-none d-md-block">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 d-flex flex-column justify-content-center align-items-end position-relative">
-                        <h5 class="fc-pastel text-end">IDENTIDAD DE MARCA <br> DESARROLLO WEB DISEÑO <br> GRÁFICO Y EDITORIAL <br> DISEÑO DE PACKAGING <br> DISEÑO DE PERSONAJES</h5>
-                        <a href="contacto.php" class="btn-link-naranja mt-5">Consultar</a>
+                    <div class="col-md-4 d-flex flex-column justify-content-center align-items-md-end position-relative mb-4 mb-md-0">
+                        <h5 class="fc-pastel text-md-end">IDENTIDAD DE MARCA <br> DESARROLLO WEB DISEÑO <br> GRÁFICO Y EDITORIAL <br> DISEÑO DE PACKAGING <br> DISEÑO DE PERSONAJES</h5>
+                        <a href="contacto.php" class="btn-link-naranja d-none d-md-block">Consultar</a>
                     </div>
                     <div class="col-md-7 offset-md-1">
                         <h5 class="fc-pastel mb-4">Lo que vemos tiene que movilizarnos. Tiene que decirnos claramente aquello que la marca tiene para decir. Por eso creamos una comunicación visual y estética que la  identifique claramente e impacte positivamente en su público objetivo.</h5>
                         <h5 class="fc-pastel mb-0">Desde el diseño editorial hasta el diseño web e interactivo, hacemos de la creatividad, los valores de marca, sus objetivos comerciales y comunicacionales, la usabilidad y la experiencia del usuario elementos centrales en todo lo que diseñamos.</h5>
+                        <a href="contacto.php" class="btn-link-naranja mt-4 position-relatice d-block d-md-none">Consultar</a>
                     </div>
                 </div>
             </div>
@@ -171,9 +175,9 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row">  
-                    <div class="col-md-6 d-flex flex-column justify-content-end align-items-end">
+                    <div class="col-md-6 d-flex flex-column justify-content-end align-items-md-end">
                         <h3 class="Valky fc-pastel">4</h3>
-                        <hr class="hr-divider-naranja">
+                        <hr class="hr-divider-naranja d-none d-md-block">
                     </div>
                     <div class="col-md-5 offset-md-1">
                         <h3 class="Valky fc-naranja">MARKETING DIGITAL</h3>
@@ -181,12 +185,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-2 order-md-1">
                         <h5 class="fc-pastel mb-0">En los nuevos medios y espacios online está el presente y el futuro. Implementamos estrategias creativas de posicionamiento y comercialización digital de manera integral: diseñamos, ejecutamos, monitoreamos y optimizamos acciones de marketing y publicidad que visibilizan a la marca según los objetivos trazados en su plan de negocios y alineado plenamente con su estrategia comunicacional.</h5>
+                        <a href="contacto.php" class="btn-link-naranja mt-4 position-relatice d-block d-md-none">Consultar</a>
                     </div>
-                    <div class="col-md-5 offset-md-1 d-flex flex-column justify-content-center position-relative">
+                    <div class="col-md-5 offset-md-1 d-flex flex-column justify-content-center position-relative order-1 order-md-2 mb-4 mb-md-0">
                         <h5 class="fc-pastel">ESTRATEGIA DIGITAL <br> PUBLICIDAD DIGITAL <br> REDES SOCIALES <br> MARKETING DE INFLUENCERS</h5>
-                        <a href="contacto.php" class="btn-link-naranja mt-5">Consultar</a>
+                        <a href="contacto.php" class="btn-link-naranja d-none d-md-block">Consultar</a>
                     </div>
                 </div>
             </div>

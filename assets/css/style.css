@@ -347,10 +347,11 @@ lottie-player {
 }
 .btn-link-naranja {
     bottom: 0;
-    font-size: 18px;
+    font-size: 24px;
     position: absolute;
     transition: all .3s;
     color: var(--pastel);
+    text-decoration: underline;
 }
 .btn-link-naranja:hover {color: var(--naranja);}
 .nav-menu p {line-height: 1;}
@@ -1128,6 +1129,7 @@ footer ul li p {
     .mt-xs-0 {margin-top: 0 !important;}
     .p-100 {padding: 50px 0;}
     .p-150 {padding: 75px 0;}
+    .pl-100 {padding-left: 0;}
     .pb-100 {padding-bottom: 50px;}
     .pt-150 {padding-top: 75px;}
     .pb-150 {padding-bottom: 75px;}
@@ -1140,7 +1142,7 @@ footer ul li p {
         font-size: 18px;
         letter-spacing: 0;
     }
-    .btn-primary-custom, .btn-flip {font-size: 18px;}
+    .btn-primary-custom, .btn-flip, .btn-orange-custom, .btn-outline-secondary {font-size: 18px;}
     .bg-menu {display: flex !important;}
     #intro {
         padding: 30px 0 130px;
@@ -1188,5 +1190,39 @@ footer ul li p {
     .navigation-btn h3 {
         font-size: 18px;
         white-space: nowrap;
+    }
+
+    /* Page Contacto */
+    #contact-form { 
+        padding-bottom: 100px;
+        background: var(--negro) url(../img/img-ball.svg) center right -100px no-repeat;
+        background-size: 65%;
+
+    }
+    .divider-vertical-naranja {
+        padding-left: 0;
+        border-left: none;
+    }
+    /* === */
+
+    .btn-link-naranja {
+        font-size: 18px;
+        position: relative;
+    }
+    .blog-content {
+        border: none;
+        margin-bottom: 20px;
+    }
+    .blog-content .blog-box-img .btn-left {
+        margin-top: 20px;
+        bottom: 0;
+        left: 0;
+        position: relative;
+    }
+    .blog-content .blog-box-img .btn-right {
+        margin-top: 20px;
+        bottom: 0;
+        right: 0;
+        position: relative;
     }
 }
