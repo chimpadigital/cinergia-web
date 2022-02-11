@@ -61,7 +61,7 @@
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                                 <div class="modal-body">
-                                    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JWRlTezTF2k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="100%" height="500px" src="https://www.youtube.com/watch?v=jnLkekjD9ng&t=5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                             </div>
