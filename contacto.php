@@ -34,7 +34,7 @@
                     <div class="col-lg-6">
                         <div class="divider-vertical-naranja">
                             <h4 class="PoppinsRegular fc-pastel mb-4">Necesito:</h4>
-                            <div class="pl-100">
+                            <div class="ps-0 ps-lg-4 ps-xl-5">
                                 <div class="form-check d-flex align-items-center">
                                     <input class="form-check-input me-3" type="radio" name="grupo1" id="flexRadioDefault1">
                                     <label class="form-check-label fc-pastel fs-24" for="flexRadioDefault1">
@@ -97,7 +97,7 @@
                                 </div>
                             </div>
                             <h4 class="PoppinsRegular fc-pastel mb-4">Conocí Cinergia <br> Estudio Creativo:</h4>
-                            <div class="pl-100">
+                            <div class="ps-0 ps-lg-4 ps-xl-5">
                                 <div class="form-check d-flex align-items-center">
                                     <input class="form-check-input me-3" type="radio" name="grupo2" id="flexRadioDefault11">
                                     <label class="form-check-label fc-pastel fs-24" for="flexRadioDefault11">
