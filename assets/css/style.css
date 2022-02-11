@@ -1270,6 +1270,7 @@ footer ul li p {
     }
 }
 @media only screen and (max-width: 1200px) {
+    h1 {font-size: 100px;}
     .blog-box img {
         width: 100%;
         height: auto;
