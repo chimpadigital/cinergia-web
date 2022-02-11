@@ -548,11 +548,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-5 position-relative d-flex justify-content-center d-none d-md-block">
+                    <div class="col-lg-4 col-xxl-5 position-relative d-flex justify-content-center d-none d-md-block">
                         <img class="bouncingball" src="assets/img/img-ball.svg" alt="">
                         <span class="shadows"></span>
                     </div>
-                    <div class="col-md-7">    
+                    <div class="col-lg-8 col-xxl-7">    
                         <div class="border-form">
                             <div class="form bg-negro">
                                 <form class="pt-4">
