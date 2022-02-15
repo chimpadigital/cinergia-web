@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-1">
+                <div class="col-lg-1">
                     <div class="divider-menu">
                        <img src="assets/img/img-divider-menu.svg" alt="">
                     </div>
@@ -50,12 +50,12 @@
                         <li><a href="blog.php" class="btn-doble" data-back="lo contamos" data-front="blog"></a></li>
                     </ul>
                 </div>
-                <div class="col-md-5 menu-list d-flex flex-column align-self-center divider-vertical">
+                <div class="col-md-5 menu-list d-none d-lg-flex flex-column align-self-center divider-vertical">
                     <h4 class="PoppinsRegular fc-pastel fs-40 mb-4">No vendemos <br>Perros Azules.</h4>
                     <h4 class="PoppinsRegular fc-pastel fs-40 mb-4">Contamos <br>historias.</h4>
                     <h4 class="PoppinsRegular fc-pastel fs-40">Buenas Historias <br><span class="Valky">Mejores Marcas</span></h4>
                 </div>
-                <div class="col-md-4 menu-list offset-md-7">
+                <div class="col-lg-4 offset-lg-7 menu-list">
                     <hr class="hr-divider-pastel">
                     <ul class="d-flex align-items-center">
                         <li><a href="https://www.instagram.com/cinergia.estudio.creativo/" target="blank"><img src="assets/img/ico-instagram.svg" class="me-3" width="30px" height="30px" alt=""></a></li>

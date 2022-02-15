@@ -55,15 +55,15 @@
                                 <span class="Valky fc-celeste fs-52">Contamos historias. Buenas historias.</span></p>
                         </div>
                         <div class="arrow-down d-flex align-items-center justify-content-center">
-                            <p class="mb-0 me-3">seguí <br> leyendo</p>
-                            <img src="assets/img/arrow-down.svg" alt="">
+                            <p class="mb-0 me-0 me-md-3 ms-3 ms-md-0 order-2 order-md-1">seguí <br class="d-none d-md-block"> leyendo</p>
+                            <img src="assets/img/arrow-down.svg" class="order-1 order-md-2"alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-negro">
+        <section>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 d-flex align-items-center justify-content-center p-0 position-relative">
@@ -84,10 +84,10 @@
                         </a>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                                 <div class="modal-body">
-                                    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JWRlTezTF2k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/lbisciMm7VQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                             </div>
@@ -98,7 +98,7 @@
         </section>
         <div class="container">
             <div class="row">                
-                <div class="col-8 offset-2 mt-4 mb-4">
+                <div class="col-md-8 offset-md-2 mt-4 mb-4">
                     <img src="assets/img/bg-divider-black.svg" width="100%" alt="">
                 </div>
             </div>
@@ -107,7 +107,7 @@
         <section id="somos">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-center mb-5">
                         <img class="img" src="assets/img/img-ball.svg" alt="">
                     </div>
                     <div class="col-md-8">
@@ -115,7 +115,7 @@
                         <h4 class="PoppinsRegular">un equipo multidisciplinar de creadores de contenido caracterizados por animarnos siempre a hacer cosas nuevas e ir más allá.</h4>
                     </div>
                 </div>
-                <div class="row team">
+                <div class="row team d-none d-md-flex">
                     <div class="col-md-4 rellax divider-left p-0" data-rellax-percentage="-0.8" data-rellax-speed="1">
                         <img src="assets/img/img-somos-01.png" width="100%" class="mb-4" alt="">
                         <img src="assets/img/img-somos-04.png" width="100%" class="mb-4" alt="">
@@ -134,8 +134,23 @@
                         <img src="assets/img/img-somos-09.png" width="100%" class="mb-4" alt="">
                     </div>
                 </div>
+                <div class="row team d-block d-md-none mt-5">
+                    <div class="col-8 offset-2 divider-left divider-right p-0">
+                        <img src="assets/img/img-somos-05.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-09.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-01.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-07.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-08.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-02.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-10.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-04.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-06.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-somos-03.png" width="100%" class="mb-4" alt="">
+                        <img src="assets/img/img-cacho.svg" width="100%" class="cacho" alt="">
+                    </div>
+                </div>
                 <div class="row">
-                <div class="col-md-12 d-flex justify-content-end">
+                <div class="col-md-12 d-flex justify-content-end d-none d-md-block">
                         <img src="assets/img/animation-01.gif" width="200px" alt="">
                     </div>
                 </div>
@@ -143,22 +158,22 @@
         </section>
         <div class="container mb-100">
             <div class="row">
-                <div class="col-md-1 offset-md-3 mt-3">
+                <div class="col-lg-1 offset-lg-3 mt-3">
                     <img src="assets/img/arrow-blue.svg" class="mt-50" alt="">
                 </div>
-                <div class="col-md-8">
-                    <h4 class="PoppinsRegular mb-4">Más de <span class="Valky fc-celeste fs-100">14 años</span> de historia
+                <div class="col-lg-8">
+                    <h4 class="PoppinsRegular mb-4">Más de <span class="Valky fc-celeste fs-100 fs-sm-40">14 años</span> de historia
                         nos han  llevado hasta donde estamos. 
-                        Somos bastante <span class="Valky fc-celeste fs-60">únicos</span>. <br>
+                        Somos bastante <span class="Valky fc-celeste fs-60 fs-sm-40">únicos</span>. <br>
                         Nos especializamos en estrategia de marca 
                         y producción de contenidos, pero nos 
                         encargamos de todo lo que es 
                         comunicación, de dar a cada proyecto 
                         exactamente lo que necesita para 
-                        <span class="Valky fc-celeste fs-60">brillar</span> y <span class="Valky fc-celeste fs-60">posicionarse.</span>
-                        Hasta ahora nos está yendo muy bien.</h4>
-                        
-                        <h4 class="PoppinsRegular"> Y cada vez <span class="Valky fc-celeste fs-100">mejor.</span></h4>
+                        <span class="Valky fc-celeste fs-60 fs-sm-40">brillar</span> y <span class="Valky fc-celeste fs-60 fs-sm-40">posicionarse.</span>
+                        Hasta ahora nos está yendo muy bien.
+                    </h4>    
+                    <h4 class="PoppinsRegular"> Y cada vez <span class="Valky fc-celeste fs-100 fs-sm-40">mejor.</span></h4>
                 </div>
             </div>
         </div>
@@ -172,8 +187,7 @@
                             <h5>MARTÍN FIERRO</h5>
                             <p class="background double"><span>2013</span></p>
                             <p class="m-1">HEROES DE HOY</p>
-                            <p>Nominada a mejor serie <br>
-                                documental para TV - INCAA</p>
+                            <p>Nominada a mejor serie documental para TV - INCAA</p>
                         </div>
                     </div>
                     <div class="item">
@@ -182,9 +196,7 @@
                             <h5>AAMI</h5>
                             <p class="background double"><span>2014</span></p>
                             <p class="m-1">CINERGIA</p>
-                            <p>Premio Brig. My. J.I San Martín <br>
-                                Empresa destacada del año <br>
-                                INNOVACIÓN / CREATIVIDAD</p>
+                            <p>Premio Brig. My. J.I San Martín Empresa destacada del año INNOVACIÓN / CREATIVIDAD</p>
                         </div>
                     </div>
                     <div class="item">
@@ -193,8 +205,7 @@
                             <h5>CANNES CORP.</h5>
                             <p class="background double"><span>2015</span></p>
                             <p class="m-1">BANQUETERÍA RUSSO</p>
-                            <p>Ganadores de oro en Festival Cannes <br>
-                                Corporate Media and TV Awards</p>
+                            <p>Ganadores de oro en Festival Cannes Corporate Media and TV Awards</p>
                         </div>
                     </div>
                     <div class="item">
@@ -203,8 +214,7 @@
                             <h5>FEPI</h5>
                             <p class="background double"><span>2020</span></p>
                             <p class="m-1">BODEGA DEL GREDAL</p>
-                            <p>Ganadores de cobre <br>
-                                Spot institucional "Escucha viajero"</p>
+                            <p>Ganadores de cobre Spot institucional "Escucha viajero"</p>
                         </div>
                     </div>
                     <div class="item">
@@ -213,8 +223,7 @@
                             <h5>AVA DIGITAL AWARDS</h5>
                             <p class="background double"><span>2021</span></p>
                             <p class="m-1">TE CONECTAMOS PERÚ</p>
-                            <p>Ganadores de oro en categoría <br>
-                                Campaña Integral de Marketing</p>
+                            <p>Ganadores de oro en categoría Campaña Integral de Marketing</p>
                         </div>
                     </div>
                     <div class="item">
@@ -223,8 +232,7 @@
                             <h5>THE COMMUNICATIONRS AWARDS</h5>
                             <p class="background double"><span>2021</span></p>
                             <p class="m-1">TE CONECTAMOS PERÚ</p>
-                            <p>Premio a la excelencia <br>
-                                Campaña Integral B2B</p>
+                            <p>Premio a la excelencia Campaña Integral B2B</p>
                         </div>
                     </div>
                     <div class="item">
@@ -233,8 +241,7 @@
                             <h5>PREMIOS EIKON</h5>
                             <p class="background double"><span>2021</span></p>
                             <p class="m-1">BODEGAS DEL GREDAL</p>
-                            <p>Ganadores Comunicación de <br>
-                                identidad corporativa</p>
+                            <p>Ganadores Comunicación de identidad corporativa</p>
                         </div>
                     </div>
                     <div class="item">
@@ -243,8 +250,7 @@
                             <h5>FEPI</h5>
                             <p class="background double"><span>2020</span></p>
                             <p class="m-1">BODEGAS DEL GREDAL</p>
-                            <p>Ganadores de cobre Spot <br>
-                                institucional "Escuchame Viajero"</p>
+                            <p>Ganadores de cobre Spot institucional "Escuchame Viajero"</p>
                         </div>
                     </div>
                     <div class="item">
@@ -253,9 +259,7 @@
                             <h5>FEPI</h5>
                             <p class="background double"><span>2021</span></p>
                             <p class="m-1">MERCANTIL ANDINA</p>
-                            <p>Ganadores de bronce <br>
-                                Categoría Producción audiovisual- <br>
-                                Realización integral</p>
+                            <p>Ganadores de bronce Categoría Producción audiovisual - Realización integral</p>
                         </div>
                     </div>
                 </div>

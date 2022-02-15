@@ -50,7 +50,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/JWRlTezTF2k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/lbisciMm7VQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         </div>
@@ -124,7 +124,7 @@
                         <h5 class="fc-pastel mb-0">branding,<br> desarrollo web,<br> producción audiovisual,<br> producción de contenidos,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex align-items-center d-none d-md-block">
-                        <img src="assets/img/bg-del-gredal.png" class="img-right" width="60%" alt="">
+                        <img src="assets/img/bg-del-gredal.png" class="img-right img-xxl" width="60%" alt="">
                     </div>
                 </div>
             </div>
@@ -269,7 +269,7 @@
         </section>
 
         <!-- Section Desktop -->
-        <section id="award" class="p-100 d-none d-md-block">
+        <section id="award" class="p-100 d-none d-md-none d-lg-block">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 d-flex justify-content-end">
@@ -284,12 +284,12 @@
                             <p class="text-end">Te Conectamos Perú - Premio a la excelencia Campaña integral business to business.</p>
                         </div>
                     </div>
-                    <div class="col-md-7 d-flex align-self-end pb-4 open-title-left">
+                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 open-title-left">
                         <h4 class="PoppinsRegular">Qué <span class="Valky">decir</span> y</h4>
                     </div>
                 </div>
                 <div class="row open position-relative">
-                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
+                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular">cómo decirlo</h4>
                     </div>
                     <div class="col-md-2 position-relative">
@@ -308,12 +308,12 @@
                             <p class="text-end">Te Conectamos Perú - Ganadores de oro Campaña Integral de Marketing.</p>
                         </div>
                     </div>
-                    <div class="col-md-7 d-flex align-self-end pb-4 open-title-left">
+                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 open-title-left">
                         <h4 class="PoppinsRegular"><span class="Valky">es nuestra</span> especialidad</h4>
                     </div>
                 </div>
                 <div class="row open position-relative">
-                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
+                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular"><span class="Valky">y</span> por eso</h4>
                     </div>
                     <div class="col-md-2 position-relative">
@@ -332,12 +332,12 @@
                             <p class="text-end">Del Gredal - Ganadores de plata Comunicación de Identidad Corporativa</p>
                         </div>
                     </div>
-                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 open-title-left">
+                    <div class="col-md-7 d-flex align-self-end pb-4 pt-4 pt-4 open-title-left">
                         <h4 class="PoppinsRegular">nos han<span class="Valky"> honrado</span></h4>
                     </div>
                 </div>
                 <div class="row open position-relative">
-                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 open-title-right">
+                    <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular"><span class="Valky">con estos</span> reconocimientos</h4>
                     </div>
                     <div class="col-md-2 position-relative">
@@ -353,12 +353,12 @@
         <!-- === -->
 
         <!-- Section Mobile -->
-        <div class="container d-block d-md-none">
+        <div class="container d-block d-md-block d-lg-none">
             <div class="row">
                 <div class="col-12 pt-150 pb-150">
                     <h4 class="PoppinsRegular">Qué <span class="Valky">decir</span> y cómo decirlo es <span class="Valky">nuestra</span> especialidad y por eso nos han <span class="Valky">honrado</span> con estos <span class="Valky">reconocimientos</span></h4>
                 </div>
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-theme" id="owl-carousel-premios">
                     <div class="item">
                         <img src="assets/img/img-award-06.png" alt="">
                         <div class="body-premios">
@@ -459,14 +459,14 @@
         <section class="p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <h4 class="PoppinsRegular m-0">A veces <span class="PoppinsItalic">se nos va la olla.</span><br>
                             Pero <span class="PoppinsSemiBold">nunca se nos escapa la tortuga.</span><br>
                             Si lo quieres de otra manera,<br>
                             <span class="Valky">aquí estamos.</span>
                         </h4>
                     </div>
-                    <div class="col-md-4 d-flex align-self-end justify-content-center justify-content-md-end mt-4 mt-md-0">
+                    <div class="col-lg-4 d-flex align-self-end justify-content-center justify-content-md-end mt-4 mt-lg-0">
                         <a href="services.php" class="btn-flip" data-back="más servicios" data-front="¿eso es todo?"></a>
                     </div>
                 </div>
@@ -482,10 +482,10 @@
                     <div class="col-12">
                         <hr class="hr-divider">
                     </div>
-                    <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="blog-box d-flex align-items-end">
+                    <div class="col-xl-4 mb-4 mb-xl-0">
+                        <div class="blog-box d-flex d-md-block align-items-end">
                             <div>
-                                <h4>Te<br> conectamos<br> Perú</h4>
+                                <h4>Te conectamos Perú</h4>
                                 <hr>
                                 <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
                                 <div class="d-flex flex-column align-items-end">
@@ -497,8 +497,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="blog-box d-flex align-items-end">
+                    <div class="col-xl-4 mb-4 mb-xl-0">
+                        <div class="blog-box d-flex d-md-block align-items-end">
                             <div>
                                 <h4>+Latina</h4>
                                 <hr>
@@ -512,8 +512,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="blog-box d-flex align-items-end">
+                    <div class="col-xl-4">
+                        <div class="blog-box d-flex d-md-block align-items-end">
                             <div>
                                 <h4>AMS</h4>
                                 <hr>
@@ -529,10 +529,10 @@
                     </div>
                 </div>
                 <div class="row p-100">
-                    <div class="col-md-8 d-flex align-self-end d-none d-md-block">
-                        <img src="assets/img/bg-divider-02.svg" alt="">
+                    <div class="col-md-7 col-lg-8 d-flex align-self-end d-none d-md-block">
+                        <img src="assets/img/bg-divider-02.svg" width="100%" alt="">
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="col-md-5 col-lg-4 d-flex justify-content-center justify-content-md-end">
                         <a href="blog.php" class="btn btn-outline-primary">Lo contamos</a>
                     </div>
                 </div>
@@ -548,11 +548,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-5 position-relative d-flex justify-content-center d-none d-md-block">
+                    <div class="col-lg-4 col-xxl-5 position-relative d-flex justify-content-center d-none d-md-block">
                         <img class="bouncingball" src="assets/img/img-ball.svg" alt="">
                         <span class="shadows"></span>
                     </div>
-                    <div class="col-md-7">    
+                    <div class="col-lg-8 col-xxl-7">    
                         <div class="border-form">
                             <div class="form bg-negro">
                                 <form class="pt-4">
@@ -565,9 +565,6 @@
                                         </div>
                                         <div class="col-12 mb-4">
                                             <input type="tel" class="form-control" placeholder="Teléfono">
-                                        </div>
-                                        <div class="col-12 mb-4">
-                                            <input type="email" class="form-control" placeholder="Mail">
                                         </div>
                                         <div class="col-12 mb-4">
                                             <input type="email" class="form-control" placeholder="Mail">

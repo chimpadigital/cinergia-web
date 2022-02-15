@@ -10,15 +10,15 @@ $(document).ready(function(){
     autoplay: true,
     autoplayTimeout: 3000,
     dots: false,
-    responsive:{
-        0:{
+    responsive: {
+        0: {
             items: 1,
             stagePadding: 0,
         },
-        600:{
+        600: {
             items: 1
         },
-        1000:{
+        1000: {
             items: 1
         }
       }
@@ -32,19 +32,15 @@ $('#owl-carousel-premios').owlCarousel({
   autoplay: true,
   autoplayTimeout: 3000,
   dots: false,
-  items:2,
-  responsive:{
-      0:{
-          items: 1,
-          stagePadding: 0,
-      },
-      600:{
-          items: 1
-      },
-      1000:{
-          items: 2
-      }
+  responsive: {
+    0: {
+        items: 1,
+        stagePadding: 0,
+    },
+    1000: {
+        items: 2
     }
+  }
 });
 
 var rellax = new Rellax('.rellax');
