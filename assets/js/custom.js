@@ -33,18 +33,18 @@ $('#owl-carousel-premios').owlCarousel({
   autoplayTimeout: 3000,
   dots: false,
   items:2,
-  // responsive:{
-  //     0:{
-  //         items: 1,
-  //         stagePadding: 0,
-  //     },
-  //     600:{
-  //         items: 1
-  //     },
-  //     1000:{
-  //         items: 1
-  //     }
-  //   }
+  responsive:{
+      0:{
+          items: 1,
+          stagePadding: 0,
+      },
+      600:{
+          items: 1
+      },
+      1000:{
+          items: 2
+      }
+    }
 });
 
 var rellax = new Rellax('.rellax');
