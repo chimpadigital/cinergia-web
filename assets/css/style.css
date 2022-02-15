@@ -1103,6 +1103,15 @@ h5.dropcap::first-letter{
 }
 /* === */
 
+#lottie-invitanos lottie-player {
+    left: 200px;
+    width: 400px;
+}
+#lottie-historia lottie-player {
+    left: 515px;
+    width: 400px;
+}
+
 /* footer */
 footer {padding: 90px 0;}
 footer ul {

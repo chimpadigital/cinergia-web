@@ -153,8 +153,9 @@
 
         <section class="bg-negro p-100">
             <div class="container">
-                <div class="col text-center text-md-start">
+                <div id="lottie-historia" class="col text-center text-md-start">
                     <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada <span class="Valky fc-naranja">historia</span></h2>
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_m0kdo3t9.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
                 </div>
             </div>
         </section>
@@ -542,9 +543,10 @@
         <section class="p-100">
             <div class="container">
                 <div class="row pb-100">
-                    <div class="col">
+                    <div id="lottie-invitanos" class="col position-relative">
                         <h3 class="PoppinsBold mb-4">Antes de pasar a la acción nos sentamos a escucharte</h3>
                         <h2 class="Valky">Invitanos a un vinito.</h2>
+                        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_cfon2rl8.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
                     </div>
                 </div>
                 <div class="row">
