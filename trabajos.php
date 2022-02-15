@@ -54,7 +54,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <iframe width="100%" height="500px" src="https://www.youtube.com/watch?v=jnLkekjD9ng&t=5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/lbisciMm7VQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         </div>
@@ -321,7 +321,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col p-0">
-                        <iframe width="100%" height="800px" src="https://www.youtube.com/embed/JWRlTezTF2k?modestbranding=0&rel=0&showinfo=0&controls=0&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen="1"></iframe>
+                    <iframe width="100%" height="800px" src="https://www.youtube.com/embed/lbisciMm7VQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>                
             </div>
