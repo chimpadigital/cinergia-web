@@ -16,28 +16,29 @@
     </head>
     <body>
         <?php include 'includes/navbar.php';?>
-
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <a href="index.php"><img src="assets/img/logo-cinergia-home.svg" width="220px" alt=""></a>
+        <div class="flashlight-mouse">
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="index.php"><img src="assets/img/logo-cinergia-home.svg" width="220px" alt=""></a>
+                        </div>
+                        <div class="col-md-10 d-flex justify-content-end d-none d-md-flex">
+                            <ul class="d-flex align-items-center">
+                                <li><a href="portfolio.php" class="fc-pastel Valky fs-24 me-4">Trabajos</a></li>
+                                <li><a href="contacto.php" class="fc-pastel Valky fs-24">Contacto</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-10 d-flex justify-content-center d-none d-md-flex">
-                        <ul class="d-flex align-items-center">
-                            <li><a href="portfolio.php" class="fc-pastel Valky fs-24 me-4">Trabajos</a></li>
-                            <li><a href="contacto.php" class="fc-pastel Valky fs-24">Contacto</a></li>
-                        </ul>
+                    <div class="row vh-80 d-flex align-items-center text-center text-md-start">
+                        <div class="col-12">
+                            <h3 class="fc-pastel mb-0">Buenas Historias</h3>
+                            <h3 class="fc-pastel Valky">Mejores Marcas</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="row vh-80 d-flex align-items-center text-center text-md-start">
-                    <div class="col-12">
-                        <h3 class="fc-pastel mb-0">Buenas Historias</h3>
-                        <h3 class="fc-pastel Valky">Mejores Marcas</h3>
-                    </div>
-                </div>
-            </div>
-        </header>
+            </header>
+        </div>
         
         <div class="container-fluid bg-negro">
             <div class="row">
@@ -612,6 +613,18 @@
         <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="assets/js/custom.js"></script>
+        <script>
+            function update(e){
+            var x = e.clientX || e.touches[0].clientX
+            var y = e.clientY || e.touches[0].clientY
+
+            document.documentElement.style.setProperty('--cursorX', x + 'px')
+            document.documentElement.style.setProperty('--cursorY', y + 'px')
+            }
+
+            document.addEventListener('mousemove',update)
+            document.addEventListener('touchmove',update)
+        </script>
 
     </body>
 </php>
