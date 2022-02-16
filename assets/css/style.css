@@ -129,6 +129,7 @@
 html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
 html, body {overflow-x: hidden;}
 body {
+    margin-right: 80px;
     color: var(--negro);
     letter-spacing: -0.1rem;
     font-family: var(--PoppinsRegular);
@@ -256,7 +257,7 @@ lottie-player {
     width: 80px;
     z-index: 20;
     height: 100%;
-    position: absolute;
+    position: fixed;
     background:  var(--negro);
     border-left: 1px solid var(--naranja);
 }
@@ -1103,13 +1104,19 @@ h5.dropcap::first-letter{
 }
 /* === */
 
-#lottie-invitanos lottie-player {
-    left: 200px;
-    width: 400px;
-}
 #lottie-historia lottie-player {
-    left: 515px;
     width: 400px;
+    left: 480px;
+}
+
+#lottie-invitanos lottie-player {
+    width: 400px;
+    left: 200px;
+}
+
+#lottie-full lottie-player {
+    width: 100px;
+    left: 600px;
 }
 
 /* footer */
@@ -1127,6 +1134,7 @@ footer ul li p {
 
 /* media */
 @media only screen and (max-width: 767px) {
+    body {margin-right: 0;}
     p {font-size: 16px;}
     h1 {font-size: 85px;}
     h2 {font-size: 40px; line-height: 1;}
@@ -1286,6 +1294,18 @@ footer ul li p {
         position: relative;
     }
     #noticias {height: 85vh;}
+    #lottie-historia lottie-player {
+        width: 150px;
+        left: 187px;
+    }
+    #lottie-invitanos lottie-player {
+        width: 129px;
+        left: 200px;
+    }
+    #lottie-full lottie-player {
+        width: 65px;
+        left: 270px;
+    }
 }
 @media only screen and (max-width: 1920px) {
     .img-xxl {width: 50%;}

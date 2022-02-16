@@ -21,9 +21,10 @@
                     </div>
                 </div>
                 <div class="row vh-80 d-flex align-items-center">
-                    <div class="col-12">
+                    <div id="lottie-full" class="col-12">
                         <h3 class="PoppinsRegular fc-pastel mb-0">En <span class="PoppinsSemiBold fs-70 d-none d-md-inline">Cinergia</span><span class="d-inline d-md-none">Cinergia</span> no trabajamos duro,</h3>
                         <h3 class="PoppinsRegular fc-pastel"><span class="Valky">“</span>laburamos a <span class="Valky fc-celeste">full”</span></h3>
+                        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lb6qxavm.json" background="transparent" speed="1" loop autoplay></lottie-player>
                     </div>
                     <div class="col-12 d-none d-md-block">
                         <h4 class="PoppinsRegular fc-pastel mb-0">Nos metemos en los lugares <br>más recónditos buscando</h4>
@@ -32,6 +33,7 @@
                 </div>
             </div>
         </header>
+        
         <section class="bg-negro">
             <div class="container">
                 <div class="row">
@@ -394,6 +396,7 @@
         <!-- js -->
         <script src="assets/jquery/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="assets/js/custom.js"></script>
 
     </body>

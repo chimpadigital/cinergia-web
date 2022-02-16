@@ -155,7 +155,7 @@
             <div class="container">
                 <div id="lottie-historia" class="col text-center text-md-start">
                     <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada <span class="Valky fc-naranja">historia</span></h2>
-                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_m0kdo3t9.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_m0kdo3t9.json" background="transparent" speed="1" loop autoplay></lottie-player>
                 </div>
             </div>
         </section>
