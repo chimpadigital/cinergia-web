@@ -9,6 +9,7 @@
 
         <!-- css -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/wow-master/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
     </head>
@@ -183,6 +184,7 @@
         <!-- js -->
         <script src="assets/jquery/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/wow-master/js/wow.min.js"></script>
         <script src="assets/js/custom.js"></script>
 
     </body>

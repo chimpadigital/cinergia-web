@@ -9,6 +9,7 @@
 
         <!-- css -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/wow-master/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
     </head>
@@ -52,7 +53,7 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row mb-4 pb-100 pb-xs-0">
-                    <div class="col-md-8">
+                    <div class="col-md-8 wow bounceInUp">
                         <div class="bg-naranja box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -397,6 +398,7 @@
         <!-- js -->
         <script src="assets/jquery/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/wow-master/js/wow.min.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="assets/js/custom.js"></script>
 

@@ -238,22 +238,6 @@ hr {opacity: 1;}
 .PoppinsSemiBold {font-family: var(--PoppinsSemiBold);}
 .MontserratMedium {font-family: var(--MontserratMedium);}
 
-.flashlight-mouse {cursor: none;}
-.flashlight-mouse:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    pointer-events: none;
-    background: radial-gradient(
-      circle 15vmax at var(--cursorX) var(--cursorY),
-      rgba(0,0,0,0) 0%,
-      rgba(0,0,0,.5) 80%,
-      rgba(0,0,0,.95) 100%
-    )
-}
-
 header {
     height: 100vh;
     padding: 100px 0;
@@ -269,6 +253,36 @@ lottie-player {
     position: absolute;
     transform: translate(-50%, -50%);
 }
+#home {
+    position: relative;
+    background: var(--negro);
+}
+
+@-webkit-keyframes float {
+  0% {transform: translatey(0px);}
+  50% {transform: translatey(-20px);}
+  100% {transform: translatey(0px);}
+}
+@keyframes float {
+  0% {transform: translatey(0px);}
+  50% {transform: translatey(-20px);}
+  100% {transform: translatey(0px);}
+}
+.animation-header {
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    position: absolute;
+    transform: translatey(0px);
+        -webkit-animation: float 6s ease-in-out infinite;
+            animation: float 6s ease-in-out infinite;
+}
+.animation-header img {
+  width: 100%;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
 /* === MENU === */
 #top-nav {
     right: 0;
