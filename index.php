@@ -55,7 +55,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/lbisciMm7VQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/_Ag79kdXpfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         </div>
@@ -129,13 +129,16 @@
                         <h5 class="fc-pastel mb-0">branding,<br> desarrollo web,<br> producción audiovisual,<br> producción de contenidos,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex align-items-center d-none d-md-block">
-                        <img src="assets/img/bg-del-gredal.png" class="img-right img-xxl" width="60%" alt="">
+                    <video width="100%" height="auto" autoplay>
+                        <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
+                    </video>
+                        <!-- <img src="assets/img/bg-del-gredal.png" class="img-right img-xxl" width="60%" alt=""> -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-negro mt-md--60">
+        <section class="bg-negro">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 d-none d-md-block wow bounceInLeft">
@@ -229,7 +232,9 @@
                         <h5 class="fc-pastel">identidad de marca,<br> desarrollo web,<br> producción audiovisual,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex justify-content-end d-none d-md-block wow bounceInRight">
-                        <img src="assets/img/bg-pablo-lavezzari.png" width="100%" alt="">
+                    <video width="100%" height="auto" controls>
+                        <source src="assets/img/bg-pablo-lavezzari.mp4" type="video/mp4">
+                    </video>
                     </div>
                     <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
                         <img src="assets/img/bg-pablo-lavezzari.png" width="100%" alt="">
