@@ -172,7 +172,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 offset-md-4 mb-4 mb-md-0">
+                <div class="col-md-4 mb-4 mb-md-0 d-flex align-items-center">
+                        <div class="bg-naranja box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">RUSSO</h5>
+                                    <p class="fc-pastel">Producción audiovisual</p>
+                                    <img src="assets/img/img-portfolio-08.png" width="100%">
+                                </a> 
+                            </div>
+                            <img src="assets/img/img-portfolio-08.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
+                                <div>
+                                    <h5 class="PoppinsSemiBold fc-pastel">RUSSO</h5>
+                                    <p class="fc-pastel">Producción audiovisual</p>
+                                </div>
+                            </a>    
+                        </div>
+                    </div>
+                    <div class="col-md-8 mb-4 mb-md-0">
                         <div class="bg-celeste box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
