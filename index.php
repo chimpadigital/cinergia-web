@@ -118,7 +118,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
-                        <video width="100%" height="auto" loop autoplay>
+                        <video width="100%" height="auto" loop autoplay muted>
                             <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -131,7 +131,7 @@
                         <h5 class="fc-pastel mb-0">branding,<br> desarrollo web,<br> producción audiovisual,<br> producción de contenidos,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex align-items-center d-none d-md-block">
-                    <video width="100%" height="auto" loop autoplay>
+                    <video width="100%" height="auto" loop autoplay muted>
                         <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
                     </video>
                         <!-- <img src="assets/img/bg-del-gredal.png" class="img-right img-xxl" width="60%" alt=""> -->
@@ -201,14 +201,18 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 d-none d-md-block wow bounceInLeft">
-                        <img src="assets/img/bg-astranis.png" width="90%" alt="">
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-astranis.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="col-md-4 d-flex flex-column align-self-center divider-vertical d-none d-md-block wow bounceInRight">
                         <h4 class="fc-pastel">Astranis</h4>
                         <h5 class="fc-pastel">producción<br> audiovisual</h5>
                     </div>
                     <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
-                        <img src="assets/img/bg-astranis.png" width="100%" alt="">
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-astranis.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="col-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel mt-4">Astranis</h4>
@@ -234,12 +238,12 @@
                         <h5 class="fc-pastel">identidad de marca,<br> desarrollo web,<br> producción audiovisual,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex justify-content-end d-none d-md-block wow bounceInRight">
-                        <video width="100%" height="auto" loop autoplay>
+                        <video width="100%" height="auto" loop autoplay muted>
                             <source src="assets/img/bg-pablo-lavezzari.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
-                        <video width="100%" height="auto" loop autoplay>
+                        <video width="100%" height="auto" loop autoplay muted>
                             <source src="assets/img/bg-pablo-lavezzari.mp4" type="video/mp4">
                         </video>
                     </div>
