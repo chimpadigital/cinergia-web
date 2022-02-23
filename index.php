@@ -118,7 +118,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
-                        <img src="assets/img/bg-del-gredal.png" width="100%" alt="">
+                        <video width="100%" height="auto" loop autoplay>
+                            <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="col-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel mt-4">Del Gredal</h4>
@@ -129,7 +131,7 @@
                         <h5 class="fc-pastel mb-0">branding,<br> desarrollo web,<br> producción audiovisual,<br> producción de contenidos,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex align-items-center d-none d-md-block">
-                    <video width="100%" height="auto" autoplay>
+                    <video width="100%" height="auto" loop autoplay>
                         <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
                     </video>
                         <!-- <img src="assets/img/bg-del-gredal.png" class="img-right img-xxl" width="60%" alt=""> -->
@@ -232,12 +234,14 @@
                         <h5 class="fc-pastel">identidad de marca,<br> desarrollo web,<br> producción audiovisual,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex justify-content-end d-none d-md-block wow bounceInRight">
-                    <video width="100%" height="auto" controls>
-                        <source src="assets/img/bg-pablo-lavezzari.mp4" type="video/mp4">
-                    </video>
+                        <video width="100%" height="auto" loop autoplay>
+                            <source src="assets/img/bg-pablo-lavezzari.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
-                        <img src="assets/img/bg-pablo-lavezzari.png" width="100%" alt="">
+                        <video width="100%" height="auto" loop autoplay>
+                            <source src="assets/img/bg-pablo-lavezzari.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="col-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel mt-4">Pablo Lavezzari</h4>
@@ -622,6 +626,5 @@
         <script src="assets/wow-master/js/wow.min.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="assets/js/custom.js"></script>
-
     </body>
 </php>
