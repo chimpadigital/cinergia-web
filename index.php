@@ -46,7 +46,7 @@
         <div class="container-fluid bg-negro">
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-center p-0 wow bounceInUp">
-                    <video width="100%" height="auto" loop autoplay muted>
+                    <video class="video-home" width="100%" height="400" loop autoplay muted style="object-fit: cover;">
                         <source src="assets/img/bg-spaceship.mp4" type="video/mp4">
                     </video>
                     <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
