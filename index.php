@@ -133,10 +133,9 @@
                         <h5 class="fc-pastel mb-0">branding,<br> desarrollo web,<br> producción audiovisual,<br> producción de contenidos,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex align-items-center d-none d-md-block">
-                    <video width="100%" height="auto" loop autoplay muted>
-                        <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
-                    </video>
-                        <!-- <img src="assets/img/bg-del-gredal.png" class="img-right img-xxl" width="60%" alt=""> -->
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </div>
