@@ -46,7 +46,9 @@
         <div class="container-fluid bg-negro">
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-center p-0 wow bounceInUp">
-                    <img src="assets/img/bg-spaceship.png" width="100%" alt="">
+                    <video width="100%" height="auto" loop autoplay muted>
+                        <source src="assets/img/bg-spaceship.mp4" type="video/mp4">
+                    </video>
                     <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
                     </a>
@@ -55,7 +57,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/_Ag79kdXpfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="100%" height="500" src="https://www.youtube.com/embed/_Ag79kdXpfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         </div>
