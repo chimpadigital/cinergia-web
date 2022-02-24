@@ -33,8 +33,8 @@
                 </div>
                 <div class="row vh-80 d-flex align-items-center text-center text-md-start">
                     <div class="col-12">
-                        <h3 class="fc-pastel mb-0 position-relative z-1">Buenas Historias</h3>
-                        <h3 class="fc-pastel Valky position-relative z-1">Mejores Marcas</h3>
+                        <h3 class="fc-pastel mb-0 position-relative z-1 wow bounceInRight">Buenas Historias</h3>
+                        <h3 class="fc-pastel Valky position-relative z-1 wow bounceInRight">Mejores Marcas</h3>
                         <div class="animation-header">
                             <img src="assets/img/img-animation-header.png"/>
                         </div>
@@ -164,8 +164,8 @@
 
         <section class="bg-negro p-100">
             <div class="container">
-                <div id="lottie-historia" class="col text-center text-md-start wow bounceInRight">
-                    <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada <span class="Valky fc-naranja">historia</span></h2>
+                <div class="col text-center text-md-start wow bounceInRight">
+                    <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada <span id="lottie-historia" class="Valky fc-naranja">historia</span></h2>
                     <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_m0kdo3t9.json" background="transparent" speed="1" loop autoplay></lottie-player>
                 </div>
             </div>
@@ -569,7 +569,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-xxl-5 position-relative d-flex justify-content-center d-none d-md-block wow bounceInLeft">
+                    <div class="col-lg-4 col-xxl-5 position-relative justify-content-md-center d-none d-md-flex wow bounceInLeft">
                         <img class="bouncingball" src="assets/img/img-ball.svg" alt="">
                         <span class="shadows"></span>
                     </div>
