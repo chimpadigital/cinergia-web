@@ -332,6 +332,7 @@ lottie-player {
     height: 100%;
     position: fixed;
     background: url(../img/bg-menu.png) center center no-repeat;
+    background-size: cover;
 }
 .menu-list {
     top: 50%;
