@@ -164,9 +164,12 @@
 
         <section class="bg-negro p-100">
             <div class="container">
-                <div class="col text-center text-md-start wow bounceInRight">
-                    <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada <span id="lottie-historia" class="Valky fc-naranja">historia</span></h2>
-                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_m0kdo3t9.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                <div class="col text-center text-md-start wow bounceInRight d-flex">
+                    <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada 
+                        <span id="lottie-historia" class="Valky fc-naranja position-relative">historia 
+                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_m0kdo3t9.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                        </span>
+                    </h2>
                 </div>
             </div>
         </section>

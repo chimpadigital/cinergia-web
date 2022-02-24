@@ -23,10 +23,13 @@
                     </div>
                 </div>
                 <div class="row vh-80 d-flex align-items-center">
-                    <div id="lottie-full" class="col-12">
+                    <div class="col-12">
                         <h3 class="PoppinsRegular fc-pastel mb-0">En <span class="PoppinsSemiBold fs-70 d-none d-md-inline">Cinergia</span><span class="d-inline d-md-none">Cinergia</span> no trabajamos duro,</h3>
-                        <h3 class="PoppinsRegular fc-pastel"><span class="Valky">“</span>laburamos a <span class="Valky fc-celeste">full”</span></h3>
-                        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lb6qxavm.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                        <h3 class="PoppinsRegular fc-pastel"><span class="Valky">“</span>laburamos a 
+                            <span id="lottie-full" class="Valky fc-celeste position-relative">full”
+                                <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lb6qxavm.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                            </span>
+                        </h3>
                     </div>
                     <div class="col-12 d-none d-md-block">
                         <h4 class="PoppinsRegular fc-pastel mb-0">Nos metemos en los lugares <br>más recónditos buscando</h4>
