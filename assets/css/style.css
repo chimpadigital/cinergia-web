@@ -935,7 +935,7 @@ lottie-player {
 }
 #manifiesto {
     padding: 150px 0;
-    background: url(../img/bg-manifiesto.png) center bottom -70px no-repeat;
+    background: url(../img/bg-manifiesto.png) center center no-repeat;
     background-size: 80%;
 }
 .scroll {

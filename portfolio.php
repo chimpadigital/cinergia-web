@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mt-400 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio">
+                        <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">MERCANTIL ANDINA</h5>
@@ -249,7 +249,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 offset-md-4 mt--80 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio">
+                        <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">MAULE</h5>
@@ -309,7 +309,7 @@
                 </div>
                 <div class="row mt-100 mt-xs-0">
                     <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio">
+                        <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">LAGARDE</h5>
@@ -392,7 +392,7 @@
                             <hr class="hr-divider-pastel">
                         </a>
                         <a href="#" class="proyectos">
-                            <h3 class="Valky fc-pastel">HAUSE <samp class="PoppinsRegular">MÖBEL</samp></h1>
+                            <h3 class="Valky fc-pastel">AMERICAN <samp class="PoppinsRegular">SCREW</samp></h1>
                             <h5 class="fc-pastel">branding / desarrollo web /producción de contenidos / marketing digital / publicidad digital </h5>
                             <hr class="hr-divider-pastel">
                         </a>

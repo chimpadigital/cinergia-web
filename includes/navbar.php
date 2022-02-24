@@ -10,7 +10,7 @@
                     <li><a href="quienes-somos.php">nosotros</a></li>
                     <li><a href="contacto.php">contacto</a></li>
                     <li><a href="services.php">services</a></li>
-                    <li><a href="blog.php">blog</a></li>
+                    <!-- <li><a href="blog.php">blog</a></li> -->
                 </ul>
                 <hr class="hr-divider-pastel ms-4">
                 <div class="ps-4">
@@ -47,7 +47,7 @@
                     </ul>
                     <ul class="menu-list">
                         <li><a href="services.php" class="btn-doble" data-back="lo hacemos" data-front="servicios"></a></li>
-                        <li><a href="blog.php" class="btn-doble" data-back="lo contamos" data-front="blog"></a></li>
+                        <!-- <li><a href="blog.php" class="btn-doble" data-back="lo contamos" data-front="blog"></a></li> -->
                     </ul>
                 </div>
                 <div class="col-md-5 menu-list d-none d-lg-flex flex-column align-self-center divider-vertical">

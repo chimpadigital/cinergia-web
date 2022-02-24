@@ -81,9 +81,9 @@
                                 <img src="assets/img/img-carousel-nosotros-03.jpg">
                             </div>
                         </div>
-                        <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <!-- <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop autoplay></lottie-player>
-                        </a>
+                        </a> -->
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-lg">

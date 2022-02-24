@@ -493,7 +493,7 @@
             </div>
         </section>
 
-        <section class="p-100">
+        <!-- <section class="p-100">
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-end wow bounceInLeft">
@@ -557,7 +557,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="p-100">
             <div class="container">
