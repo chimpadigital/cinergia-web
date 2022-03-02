@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 offset-md-4 mb-4 mb-md-0">
+                    <div class="col-md-8 offset-md-4 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 mt--80 mt-xs-0 mb-4">
+                    <div class="col-md-4 mt--80 mt-xs-0 mb-4 wow bounceInUp">
                         <div class="bg-celeste box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -117,7 +117,7 @@
                             </a>    
                         </div>
                     </div>
-                    <div class="col-md-4 mt-400 mt-xs-0 mb-4 mb-md-0">
+                    <div class="col-md-4 mt-400 mt-xs-0 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -135,7 +135,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0">
+                    <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-naranja box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="col-md-4 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-pastel box-portfolio-01">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -175,7 +175,7 @@
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-md-4 mb-4 mb-md-0 d-flex align-items-center">
+                    <div class="col-md-4 mb-4 mb-md-0 d-flex align-items-center wow bounceInUp">
                         <div class="bg-naranja box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -193,7 +193,7 @@
                             </a>    
                         </div>
                     </div>
-                    <div class="col-md-8 mb-4 mb-md-0">
+                    <div class="col-md-8 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-celeste box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -212,7 +212,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-100 mt-xs-0 mb-4 mb-md-0">
+                <div class="row mt-100 mt-xs-0 mb-4 mb-md-0 wow bounceInUp">
                     <div class="col-md-8">
                         <div class="bg-naranja box-portfolio">
                             <div class="box-content d-block d-md-none">
@@ -233,7 +233,7 @@
                     </div>
                 </div>
                 <div class="row mt-100 mt-xs-0">
-                    <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0">
+                    <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-celeste box-portfolio-01">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -251,7 +251,7 @@
                             </a> 
                         </div>
                     </div>
-                    <div class="col-md-4 offset-md-4 mt--80 mt-xs-0 mb-4 mb-md-0">
+                    <div class="col-md-4 offset-md-4 mt--80 mt-xs-0 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -271,7 +271,7 @@
                     </div>
                 </div>
                 <div class="row mt-100 mt-xs-0">
-                    <div class="col-md-8 offset-md-4 mb-4 mb-md-0">
+                    <div class="col-md-8 offset-md-4 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -291,7 +291,7 @@
                     </div>
                 </div>
                 <div class="row mt-100 mt-xs-0">
-                    <div class="col-md-8 mb-4 mb-md-0">
+                    <div class="col-md-8 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-celeste box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -311,7 +311,7 @@
                     </div>
                 </div>
                 <div class="row mt-100 mt-xs-0">
-                    <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="col-md-4 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -329,7 +329,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-400 mt-xs-0 mb-4 mb-md-0">
+                    <div class="col-md-4 mt-400 mt-xs-0 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-naranja box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -347,7 +347,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0">
+                    <div class="col-md-4 mt-100 mt-xs-0 mb-4 mb-md-0 wow bounceInUp">
                         <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -373,38 +373,38 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-end mb-4">
-                        <h4 class="fc-pastel">Otros proyectos</h4>
+                        <h4 class="fc-pastel wow bounceInUp">Otros proyectos</h4>
                     </div>
-                    <hr class="hr-divider-pastel">
+                    <hr class="hr-divider-pastel wow bounceInUp">
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <a href="#" class="proyectos">
+                        <a href="#" class="proyectos wow bounceInUp">
                             <h3 class="Valky fc-pastel">HÉROES <samp class="PoppinsRegular">DE</samp> HOY</h1>
                             <h5 class="fc-pastel">serie documental</h5>
                             <hr class="hr-divider-pastel">
                         </a>
-                        <a href="#" class="proyectos">
+                        <a href="#" class="proyectos wow bounceInUp">
                             <h3 class="Valky fc-pastel">MIB</h1>
                             <h5 class="fc-pastel">branding / desarrollo web /producción de contenidos / marketing digital / publicidad digital </h5>
                             <hr class="hr-divider-pastel">
                         </a>
-                        <a href="#" class="proyectos">
+                        <a href="#" class="proyectos wow bounceInUp">
                             <h3 class="Valky fc-pastel">ALLADIO</h1>
                             <h5 class="fc-pastel">producción audiovisual / fotografía </h5>
                             <hr class="hr-divider-pastel">
                         </a>
-                        <a href="#" class="proyectos">
+                        <a href="#" class="proyectos wow bounceInUp">
                             <h3 class="Valky fc-pastel">AMERICAN <samp class="PoppinsRegular">SCREW</samp></h1>
                             <h5 class="fc-pastel">branding / desarrollo web /producción de contenidos / marketing digital / publicidad digital </h5>
                             <hr class="hr-divider-pastel">
                         </a>
-                        <a href="#" class="proyectos">
+                        <a href="#" class="proyectos wow bounceInUp">
                             <h3 class="Valky fc-pastel">ANDESAT <samp class="PoppinsRegular">ARGENTINA</samp></h1>
                             <h5 class="fc-pastel">branding / desarrollo web / producción audiovisual / producción de contenidos</h5>
                             <hr class="hr-divider-pastel">
                         </a>
-                        <a href="#" class="proyectos">
+                        <a href="#" class="proyectos wow bounceInUp">
                             <h3 class="Valky fc-pastel">MAMERICAN <samp class="PoppinsRegular">SCREWIB</samp></h1>
                             <h5 class="fc-pastel">rebranding / desarrollo web / fotografía</h5>
                             <hr class="hr-divider-pastel">

@@ -35,9 +35,9 @@
                     <div class="col-12">
                         <h3 class="fc-pastel mb-0 position-relative z-1 wow bounceInRight">Buenas Historias</h3>
                         <h3 class="fc-pastel Valky position-relative z-1 wow bounceInRight">Mejores Marcas</h3>
-                        <!-- <div class="animation-header">
-                            <img src="assets/img/img-animation-header.png"/>
-                        </div> -->
+                        <div class="animation-header">
+                        <img src="assets/img/arrow-down-home.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
