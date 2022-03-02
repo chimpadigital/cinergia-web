@@ -269,6 +269,32 @@ lottie-player {
         animation-direction: alternate;              
 }
 
+#container {
+    /* position: absolute; */
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    color: #D9D9CB;
+    font-family: var(--PoppinsRegular);
+    font-size: 60pt;
+
+    text-align: center;
+
+    user-select: none;
+    left: 0;
+}
+
 @-webkit-keyframes slidein {
     from {
         background-position: top; 
@@ -1199,6 +1225,8 @@ footer ul li p {
     white-space: nowrap;
 }
 /* === */
+
+
 
 /* media */
 @media only screen and (max-width: 767px) {

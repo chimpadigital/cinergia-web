@@ -51,4 +51,3 @@ wow = new WOW(
 wow.init();
 
 var rellax = new Rellax('.rellax');
-  
