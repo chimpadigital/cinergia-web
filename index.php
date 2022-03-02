@@ -18,7 +18,7 @@
     <body>
         <?php include 'includes/navbar.php';?>
         
-        <header id="home">
+        <header id="home"> 
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
@@ -31,13 +31,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row vh-80 d-flex align-items-center text-center text-md-start">
+                <div class="row vh-80 d-flex align-items-center text-center">
                     <div class="col-12">
                         <h3 class="fc-pastel mb-0 position-relative z-1 wow bounceInRight">Buenas Historias</h3>
                         <h3 class="fc-pastel Valky position-relative z-1 wow bounceInRight">Mejores Marcas</h3>
-                        <div class="animation-header">
+                        <!-- <div class="animation-header">
                             <img src="assets/img/img-animation-header.png"/>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
