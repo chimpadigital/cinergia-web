@@ -5,9 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cinergia | Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 
         <!-- css -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/wow-master/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
     </head>
@@ -23,7 +25,11 @@
                 <div class="row vh-80 d-flex align-items-center">
                     <div class="col-12">
                         <h3 class="PoppinsRegular fc-pastel mb-0">En <span class="PoppinsSemiBold fs-70 d-none d-md-inline">Cinergia</span><span class="d-inline d-md-none">Cinergia</span> no trabajamos duro,</h3>
-                        <h3 class="PoppinsRegular fc-pastel"><span class="Valky">“</span>laburamos a <span class="Valky fc-celeste">full”</span></h3>
+                        <h3 class="PoppinsRegular fc-pastel"><span class="Valky">“</span>laburamos a 
+                            <span id="lottie-full" class="Valky fc-celeste position-relative">full”
+                                <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_lb6qxavm.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                            </span>
+                        </h3>
                     </div>
                     <div class="col-12 d-none d-md-block">
                         <h4 class="PoppinsRegular fc-pastel mb-0">Nos metemos en los lugares <br>más recónditos buscando</h4>
@@ -32,6 +38,7 @@
                 </div>
             </div>
         </header>
+        
         <section class="bg-negro">
             <div class="container">
                 <div class="row">
@@ -49,7 +56,7 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row mb-4 pb-100 pb-xs-0">
-                    <div class="col-md-8">
+                    <div class="col-md-8 wow bounceInUp">
                         <div class="bg-naranja box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -111,7 +118,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mt-400 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio">
+                        <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">MERCANTIL ANDINA</h5>
@@ -168,7 +175,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 offset-md-4 mb-4 mb-md-0">
+                <div class="col-md-4 mb-4 mb-md-0 d-flex align-items-center">
+                        <div class="bg-naranja box-portfolio">
+                            <div class="box-content d-block d-md-none">
+                                <a href="trabajos.php">
+                                    <h5 class="PoppinsSemiBold fc-pastel">RUSSO</h5>
+                                    <p class="fc-pastel">Producción audiovisual</p>
+                                    <img src="assets/img/img-portfolio-08.png" width="100%">
+                                </a> 
+                            </div>
+                            <img src="assets/img/img-portfolio-08.png" width="100%" class="d-none d-md-block">
+                            <a href="trabajos.php" class="box-content d-none d-md-block">
+                                <div>
+                                    <h5 class="PoppinsSemiBold fc-pastel">RUSSO</h5>
+                                    <p class="fc-pastel">Producción audiovisual</p>
+                                </div>
+                            </a>    
+                        </div>
+                    </div>
+                    <div class="col-md-8 mb-4 mb-md-0">
                         <div class="bg-celeste box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
@@ -227,7 +252,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 offset-md-4 mt--80 mt-xs-0 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio">
+                        <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">MAULE</h5>
@@ -287,7 +312,7 @@
                 </div>
                 <div class="row mt-100 mt-xs-0">
                     <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="bg-amarillo box-portfolio">
+                        <div class="bg-pastel box-portfolio">
                             <div class="box-content d-block d-md-none">
                                 <a href="trabajos.php">
                                     <h5 class="PoppinsSemiBold fc-negro">LAGARDE</h5>
@@ -370,7 +395,7 @@
                             <hr class="hr-divider-pastel">
                         </a>
                         <a href="#" class="proyectos">
-                            <h3 class="Valky fc-pastel">HAUSE <samp class="PoppinsRegular">MÖBEL</samp></h1>
+                            <h3 class="Valky fc-pastel">AMERICAN <samp class="PoppinsRegular">SCREW</samp></h1>
                             <h5 class="fc-pastel">branding / desarrollo web /producción de contenidos / marketing digital / publicidad digital </h5>
                             <hr class="hr-divider-pastel">
                         </a>
@@ -394,6 +419,8 @@
         <!-- js -->
         <script src="assets/jquery/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/wow-master/js/wow.min.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="assets/js/custom.js"></script>
 
     </body>

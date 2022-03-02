@@ -5,34 +5,39 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cinergia | Inicio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 
         <!-- css -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
         <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/wow-master/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
     </head>
     <body>
         <?php include 'includes/navbar.php';?>
-
-        <header>
+        
+        <header id="home"> 
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
                         <a href="index.php"><img src="assets/img/logo-cinergia-home.svg" width="220px" alt=""></a>
                     </div>
-                    <div class="col-md-10 d-flex justify-content-center d-none d-md-flex">
+                    <div class="col-md-10 d-flex justify-content-end d-none d-md-flex">
                         <ul class="d-flex align-items-center">
                             <li><a href="portfolio.php" class="fc-pastel Valky fs-24 me-4">Trabajos</a></li>
                             <li><a href="contacto.php" class="fc-pastel Valky fs-24">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="row vh-80 d-flex align-items-center text-center text-md-start">
+                <div class="row vh-80 d-flex align-items-center text-center">
                     <div class="col-12">
-                        <h3 class="fc-pastel mb-0">Buenas Historias</h3>
-                        <h3 class="fc-pastel Valky">Mejores Marcas</h3>
+                        <h3 class="fc-pastel mb-0 position-relative z-1 wow bounceInRight">Buenas Historias</h3>
+                        <h3 class="fc-pastel Valky position-relative z-1 wow bounceInRight">Mejores Marcas</h3>
+                        <!-- <div class="animation-header">
+                            <img src="assets/img/img-animation-header.png"/>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -40,8 +45,10 @@
         
         <div class="container-fluid bg-negro">
             <div class="row">
-                <div class="col-12 d-flex align-items-center justify-content-center p-0">
-                    <img src="assets/img/bg-spaceship.png" width="100%" alt="">
+                <div class="col-12 d-flex align-items-center justify-content-center p-0 wow bounceInUp">
+                    <video class="video-home" width="100%" height="400" loop autoplay muted style="object-fit: cover;">
+                        <source src="assets/img/bg-spaceship.mp4" type="video/mp4">
+                    </video>
                     <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
                     </a>
@@ -50,20 +57,20 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/lbisciMm7VQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="100%" height="500" src="https://www.youtube.com/embed/_Ag79kdXpfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-8 offset-2 mt-4 mb-4">
+                <div class="col-8 offset-2 mt-4 mb-4 wow bounceInUp">
                     <img src="assets/img/bg-divider.svg" width="100%" alt="">
                 </div>
             </div>
         </div>
 
         <section id="intro">
-            <div class="container">
+            <div class="container wow bounceInLeft">
                 <div class="col-md-8">
                     <h4 class="PoppinsRegular fc-pastel">Desde la <br class="d-none d-md-block"><span class="Valky">estrategia de marca</span><br class="d-none d-md-block">
                         a la producción de contenidos, <br class="d-none d-md-block"> te damos todos los servicios <br class="d-none d-md-block">
@@ -78,11 +85,11 @@
                     <div class="col-md-7 d-flex align-items-center d-none d-md-flex">
                         <img src="assets/img/bg-conection-peru.png" class="img-left" width="50%" alt="">
                     </div>
-                    <div class="col-md-5 divider-vertical d-none d-md-block">
+                    <div class="col-md-5 divider-vertical d-none d-md-block wow bounceInRight">
                         <h4 class="fc-pastel">Te <br>conectamos<br> Perú</h4>
                         <h5 class="fc-pastel mb-0">estrategia de marca, <br>branding, mkt digital,<br> producción audiovisual,<br> producción de contenidos,<br> desarrollo web, fotografía</h5>
                     </div>
-                    <div class="col-md-12 d-block d-md-none">
+                    <div class="col-md-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel">Te conectamos Perú</h4>
                         <h5 class="fc-pastel mb-0">estrategia de marca, branding, mkt digital,<br> producción audiovisual,<br> producción de contenidos,<br> desarrollo web, fotografía</h5>
                     </div>
@@ -100,7 +107,7 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col wow bounceInRight">
                         <h2 class="fc-pastel mb-md-0">No vendemos</h2>
                         <h2 class="Valky fc-pastel d-none d-md-block"><img src="assets/img/arrow-orange.svg" alt=""> perros <span class="fc-celeste">azules...</span></h2>
                         <h2 class="Valky fc-pastel d-block d-md-none"><img src="assets/img/arrow-orange.svg" width="70px" alt=""> perros <span class="fc-celeste">azules...</span></h2>
@@ -112,38 +119,42 @@
         <section class="bg-negro p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 p-0 d-block d-md-none">
-                        <img src="assets/img/bg-del-gredal.png" width="100%" alt="">
+                    <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div class="col-12 d-block d-md-none">
+                    <div class="col-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel mt-4">Del Gredal</h4>
                         <h5 class="fc-pastel mb-4">branding, desarrollo web, producción audiovisual, producción de contenidos, fotografía</h5>
                     </div>
-                    <div class="col-md-5 divider-vertical position-relative d-none d-md-block">
+                    <div class="col-md-5 divider-vertical position-relative d-none d-md-block wow bounceInLeft">
                         <h4 class="fc-pastel">Del <br>Gredal</h4>
                         <h5 class="fc-pastel mb-0">branding,<br> desarrollo web,<br> producción audiovisual,<br> producción de contenidos,<br> fotografía</h5>
                     </div>
                     <div class="col-md-7 d-flex align-items-center d-none d-md-block">
-                        <img src="assets/img/bg-del-gredal.png" class="img-right img-xxl" width="60%" alt="">
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-del-gredal.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-negro mt-md--60">
+        <section class="bg-negro">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 d-none d-md-block">
+                    <div class="col-md-8 d-none d-md-block wow bounceInLeft">
                         <img src="assets/img/bg-mercantil-andina.png" class="position-relative" width="80%" alt="">
                     </div>
-                    <div class="col-md-4 d-flex flex-column align-self-end divider-vertical d-none d-md-block">
+                    <div class="col-md-4 d-flex flex-column align-self-end divider-vertical d-none d-md-block wow bounceInRight">
                         <h4 class="fc-pastel">Mercantil<br> Andina</h4> 
                         <h5 class="fc-pastel mb-0">producción<br> audiovisual,<br> fotografía</h5>
                     </div>
-                    <div class="col-12 p-0 d-block d-md-none">
+                    <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
                         <img src="assets/img/bg-mercantil-andina.png" width="100%" alt="">
                     </div>
-                    <div class="col-12 d-block d-md-none">
+                    <div class="col-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel mt-4">Mercantil Andina</h4> 
                         <h5 class="fc-pastel mb-4">producción audiovisual, fotografía</h5>
                     </div>
@@ -153,8 +164,12 @@
 
         <section class="bg-negro p-100">
             <div class="container">
-                <div class="col text-center text-md-start">
-                    <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada <span class="Valky fc-naranja">historia</span></h2>
+                <div class="col text-center text-md-start wow bounceInRight d-flex">
+                    <h2 class="PoppinsRegular fc-pastel mb-4">Potenciamos<br class="d-none d-md-block"> cada 
+                        <span id="lottie-historia" class="Valky fc-naranja position-relative">historia 
+                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_m0kdo3t9.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                        </span>
+                    </h2>
                 </div>
             </div>
         </section>
@@ -162,17 +177,17 @@
         <section class="bg-negro pb-100 position-relative">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 d-flex flex-column align-self-end divider-vertical position-relative mb-100 d-none d-md-block">
+                    <div class="col-md-4 d-flex flex-column align-self-end divider-vertical position-relative mb-100 d-none d-md-block wow bounceInLeft">
                         <h4 class="fc-pastel">Héroes <br>de hoy</h4>
                         <h5 class="fc-pastel">serie documental</h5>
                     </div>
-                    <div class="col-md-8 d-flex justify-content-end d-none d-md-flex">
+                    <div class="col-md-8 d-flex justify-content-end d-none d-md-flex wow bounceInRight">
                         <img src="assets/img/bg-heroes-de-hoy.png" width="70%" alt="">
                     </div>
-                    <div class="col-12 p-0 d-block d-md-none">
+                    <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
                         <img src="assets/img/bg-heroes-de-hoy-mobile.png" width="100%" alt="">
                     </div>
-                    <div class="col-12 d-block d-md-none">
+                    <div class="col-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel mt-4">Héroes de hoy</h4>
                         <h5 class="fc-pastel">serie documental</h5>
                     </div>
@@ -184,22 +199,26 @@
         <section class="bg-negro">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 text-center text-md-start">
+                    <div class="col-md-8 text-center text-md-start wow bounceInRight">
                         <h2 class="fc-pastel mb-100">Le creamos un<br class="d-none d-md-block"> <span class="Valky fc-celeste">Universo propio</span></h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 d-none d-md-block">
-                        <img src="assets/img/bg-astranis.png" width="90%" alt="">
+                    <div class="col-md-8 d-none d-md-block wow bounceInLeft">
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-astranis.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div class="col-md-4 d-flex flex-column align-self-center divider-vertical d-none d-md-block">
+                    <div class="col-md-4 d-flex flex-column align-self-center divider-vertical d-none d-md-block wow bounceInRight">
                         <h4 class="fc-pastel">Astranis</h4>
                         <h5 class="fc-pastel">producción<br> audiovisual</h5>
                     </div>
-                    <div class="col-12 p-0 d-block d-md-none">
-                        <img src="assets/img/bg-astranis.png" width="100%" alt="">
+                    <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-astranis.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div class="col-12 d-block d-md-none">
+                    <div class="col-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel mt-4">Astranis</h4>
                         <h5 class="fc-pastel">producción audiovisual</h5>
                     </div>
@@ -209,7 +228,7 @@
 
         <section class="bg-negro p-150">
             <div class="container">
-                <div class="col text-center">
+                <div class="col text-center wow bounceInUp">
                     <h2 class="Valky fc-naranja">la posicionamos.</h2>
                 </div>
             </div>
@@ -218,17 +237,21 @@
         <section class="bg-negro pb-100 position-relative">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 d-flex flex-column align-self-center divider-vertical d-none d-md-block">
+                    <div class="col-md-5 d-flex flex-column align-self-center divider-vertical d-none d-md-block wow bounceInLeft">
                         <h4 class="fc-pastel">Pablo Lavezzari</h4>
                         <h5 class="fc-pastel">identidad de marca,<br> desarrollo web,<br> producción audiovisual,<br> fotografía</h5>
                     </div>
-                    <div class="col-md-7 d-flex justify-content-end d-none d-md-block">
-                        <img src="assets/img/bg-pablo-lavezzari.png" width="100%" alt="">
+                    <div class="col-md-7 d-flex justify-content-end d-none d-md-block wow bounceInRight">
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-pablo-lavezzari.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div class="col-12 p-0 d-block d-md-none">
-                        <img src="assets/img/bg-pablo-lavezzari.png" width="100%" alt="">
+                    <div class="col-12 p-0 d-block d-md-none wow bounceInUp">
+                        <video width="100%" height="auto" loop autoplay muted>
+                            <source src="assets/img/bg-pablo-lavezzari.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div class="col-12 d-block d-md-none">
+                    <div class="col-12 d-block d-md-none wow bounceInUp">
                         <h4 class="fc-pastel mt-4">Pablo Lavezzari</h4>
                         <h5 class="fc-pastel">identidad de marca, desarrollo web, producción audiovisual, fotografía</h5>
                     </div>
@@ -239,7 +262,7 @@
         <section class="bg-negro position-relative">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 wow bounceInUp">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
                                 <img src="assets/img/img-carousel-home-01.jpg">
@@ -255,13 +278,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center btn-box d-none d-md-block">
+                    <div class="text-center btn-box d-none d-md-block wow bounceInUp">
                         <a href="quienes-somos.php" class="btn btn-carousel">Conocenos</a>
                     </div>
-                    <div class="col-8 offset-2 mt-4 mb-4">
+                    <div class="col-8 offset-2 mt-4 mb-4 wow bounceInUp">
                         <img src="assets/img/bg-divider.svg" width="100%" alt="">
                     </div>
-                    <div class="text-center btn-box d-block d-md-none">
+                    <div class="text-center btn-box d-block d-md-none wow bounceInUp">
                         <a href="quienes-somos.php" class="btn btn-carousel">Conocenos</a>
                     </div>
                 </div>
@@ -272,11 +295,11 @@
         <section id="award" class="p-100 d-none d-md-none d-lg-block">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 d-flex justify-content-end">
+                    <div class="col-md-12 d-flex justify-content-end wow bounceInRight">
                         <img src="assets/img/animation-01.gif" width="200px" alt="">
                     </div>
                 </div>
-                <div class="row open position-relative">
+                <div class="row open position-relative wow bounceInUp">
                     <div class="col-md-2 position-relative">
                         <img src="assets/img/img-award-01.png" width="100%" alt="">
                         <div class="open-conten">
@@ -288,7 +311,7 @@
                         <h4 class="PoppinsRegular">Qué <span class="Valky">decir</span> y</h4>
                     </div>
                 </div>
-                <div class="row open position-relative">
+                <div class="row open position-relative wow bounceInUp">
                     <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular">cómo decirlo</h4>
                     </div>
@@ -300,7 +323,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row open position-relative">
+                <div class="row open position-relative wow bounceInUp">
                     <div class="col-md-2 position-relative">
                         <img src="assets/img/img-award-03.png" width="100%" alt="">
                         <div class="open-conten">
@@ -312,7 +335,7 @@
                         <h4 class="PoppinsRegular"><span class="Valky">es nuestra</span> especialidad</h4>
                     </div>
                 </div>
-                <div class="row open position-relative">
+                <div class="row open position-relative wow bounceInUp">
                     <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular"><span class="Valky">y</span> por eso</h4>
                     </div>
@@ -324,7 +347,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row open position-relative">
+                <div class="row open position-relative wow bounceInUp">
                     <div class="col-md-2 position-relative">
                         <img src="assets/img/img-award-05.png" width="100%" alt="">
                         <div class="open-conten">
@@ -336,7 +359,7 @@
                         <h4 class="PoppinsRegular">nos han<span class="Valky"> honrado</span></h4>
                     </div>
                 </div>
-                <div class="row open position-relative">
+                <div class="row open position-relative wow bounceInUp">
                     <div class="col-md-7 offset-3 d-flex align-self-end justify-content-end pb-4 pt-4 open-title-right">
                         <h4 class="PoppinsRegular"><span class="Valky">con estos</span> reconocimientos</h4>
                     </div>
@@ -355,7 +378,7 @@
         <!-- Section Mobile -->
         <div class="container d-block d-md-block d-lg-none">
             <div class="row">
-                <div class="col-12 pt-150 pb-150">
+                <div class="col-12 pt-150 pb-150 wow bounceInUp">
                     <h4 class="PoppinsRegular">Qué <span class="Valky">decir</span> y cómo decirlo es <span class="Valky">nuestra</span> especialidad y por eso nos han <span class="Valky">honrado</span> con estos <span class="Valky">reconocimientos</span></h4>
                 </div>
                 <div class="owl-carousel owl-theme" id="owl-carousel-premios">
@@ -459,31 +482,31 @@
         <section class="p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 wow bounceInLeft">
                         <h4 class="PoppinsRegular m-0">A veces <span class="PoppinsItalic">se nos va la olla.</span><br>
                             Pero <span class="PoppinsSemiBold">nunca se nos escapa la tortuga.</span><br>
                             Si lo quieres de otra manera,<br>
                             <span class="Valky">aquí estamos.</span>
                         </h4>
                     </div>
-                    <div class="col-lg-4 d-flex align-self-end justify-content-center justify-content-md-end mt-4 mt-lg-0">
+                    <div class="col-lg-4 d-flex align-self-end justify-content-center justify-content-md-end mt-4 mt-lg-0 wow bounceInRight">
                         <a href="services.php" class="btn-flip" data-back="más servicios" data-front="¿eso es todo?"></a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="p-100">
+        <!-- <section class="p-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-end">
+                    <div class="col-12 d-flex justify-content-end wow bounceInLeft">
                         <h4>Blog</h4>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 wow bounceInUp">
                         <hr class="hr-divider">
                     </div>
                     <div class="col-xl-4 mb-4 mb-xl-0">
-                        <div class="blog-box d-flex d-md-block align-items-end">
+                        <div class="blog-box d-flex d-md-flex align-items-end wow bounceInUp">
                             <div>
                                 <h4>Te conectamos Perú</h4>
                                 <hr>
@@ -498,7 +521,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 mb-4 mb-xl-0">
-                        <div class="blog-box d-flex d-md-block align-items-end">
+                        <div class="blog-box d-flex d-md-flex align-items-end wow bounceInUp">
                             <div>
                                 <h4>+Latina</h4>
                                 <hr>
@@ -513,7 +536,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4">
-                        <div class="blog-box d-flex d-md-block align-items-end">
+                        <div class="blog-box d-flex d-md-flex align-items-end wow bounceInUp">
                             <div>
                                 <h4>AMS</h4>
                                 <hr>
@@ -529,30 +552,31 @@
                     </div>
                 </div>
                 <div class="row p-100">
-                    <div class="col-md-7 col-lg-8 d-flex align-self-end d-none d-md-block">
+                    <div class="col-md-7 col-lg-8 d-flex align-self-end d-none d-md-block wow bounceInLeft">
                         <img src="assets/img/bg-divider-02.svg" width="100%" alt="">
                     </div>
-                    <div class="col-md-5 col-lg-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="col-md-5 col-lg-4 d-flex justify-content-center justify-content-md-end wow bounceInRight">
                         <a href="blog.php" class="btn btn-outline-primary">Lo contamos</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="p-100">
             <div class="container">
-                <div class="row pb-100">
-                    <div class="col">
+                <div class="row pb-100 wow bounceInUp">
+                    <div id="lottie-invitanos" class="col position-relative">
                         <h3 class="PoppinsBold mb-4">Antes de pasar a la acción nos sentamos a escucharte</h3>
                         <h2 class="Valky">Invitanos a un vinito.</h2>
+                        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_cfon2rl8.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-xxl-5 position-relative d-flex justify-content-center d-none d-md-block">
+                    <div class="col-lg-4 col-xxl-5 position-relative justify-content-md-center d-none d-md-flex wow bounceInLeft">
                         <img class="bouncingball" src="assets/img/img-ball.svg" alt="">
                         <span class="shadows"></span>
                     </div>
-                    <div class="col-lg-8 col-xxl-7">    
+                    <div class="col-lg-8 col-xxl-7 wow bounceInRight">    
                         <div class="border-form">
                             <div class="form bg-negro">
                                 <form class="pt-4">
@@ -590,7 +614,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 d-block d-md-none">                        
+                    <div class="col-md-5 d-block d-md-none wow bounceInUp">                        
                         <div class="animation-ball">
                             <img class="bouncingball" src="assets/img/img-ball.svg" width="100%" alt="">
                             <span class="shadows"></span>
@@ -607,8 +631,8 @@
         <script src="assets/jquery/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script> 
         <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+        <script src="assets/wow-master/js/wow.min.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="assets/js/custom.js"></script>
-
     </body>
 </php>

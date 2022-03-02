@@ -124,11 +124,14 @@
     --PoppinsRegular: 'Poppins Regular', Arial, Helvetica, sans-serif;
     --PoppinsSemiBold: 'Poppins SemiBold', Arial, Helvetica, sans-serif;
     --MontserratMedium: 'Montserrat Medium', Arial, Helvetica, sans-serif;
+    --cursorX: 50vw;
+    --cursorY: 50vh;
 }
-/* Disable scrollbar on Chrome and Safari browsers! */
+
 html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
 html, body {overflow-x: hidden;}
 body {
+    margin-right: 80px;
     color: var(--negro);
     letter-spacing: -0.1rem;
     font-family: var(--PoppinsRegular);
@@ -250,13 +253,76 @@ lottie-player {
     position: absolute;
     transform: translate(-50%, -50%);
 }
+#home  {
+    background-image: url('../img/bg-header.jpg');
+    background-size: cover;
+        -webkit-animation: slidein 10s;
+        animation: slidein 10s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+    from {
+        background-position: top; 
+        background-size: 1920px;
+    }
+    to {
+        background-position: -100px 0px;
+        background-size: 2200px;
+    }
+}
+
+@keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 1920px;
+    }
+    to {
+        background-position: -100px 0px;
+        background-size: 2200px;
+    }
+}
+
+@-webkit-keyframes float {
+  0% {transform: translatey(0px);}
+  50% {transform: translatey(-20px);}
+  100% {transform: translatey(0px);}
+}
+@keyframes float {
+  0% {transform: translatey(0px);}
+  50% {transform: translatey(-20px);}
+  100% {transform: translatey(0px);}
+}
+.animation-header {
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    position: absolute;
+    transform: translatey(0px);
+        -webkit-animation: float 6s ease-in-out infinite;
+            animation: float 6s ease-in-out infinite;
+}
+.animation-header img {
+  width: 100%;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
 /* === MENU === */
 #top-nav {
     right: 0;
     width: 80px;
     z-index: 20;
     height: 100%;
-    position: absolute;
+    position: fixed;
     background:  var(--negro);
     border-left: 1px solid var(--naranja);
 }
@@ -299,6 +365,7 @@ lottie-player {
     height: 100%;
     position: fixed;
     background: url(../img/bg-menu.png) center center no-repeat;
+    background-size: cover;
 }
 .menu-list {
     top: 50%;
@@ -825,20 +892,20 @@ lottie-player {
 .form ::-webkit-calendar-picker-indicator {filter: invert(1);}
 .bouncingball {
     position: absolute;
-    animation: bounce 1s ease-in-out infinite;
+    animation: bounce 2s ease-in-out infinite;
     animation-fill-mode: both;
     animation-direction: alternate;
 }
 .shadows {
     content: '';
-    bottom: 0;
-    width: 90%;
+    bottom: -70px;
+    width: 100%;
     height: 10px;
     filter: blur(3px);
     position: absolute;
     border-radius: 100%;
     background-color: black;
-    animation: shadow 1s ease-in-out infinite;
+    animation: shadow 2s ease-in-out infinite;
     animation-fill-mode: both;
     animation-direction: alternate;
 }
@@ -902,7 +969,7 @@ lottie-player {
 }
 #manifiesto {
     padding: 150px 0;
-    background: url(../img/bg-manifiesto.png) center bottom -70px no-repeat;
+    background: url(../img/bg-manifiesto.png) center center no-repeat;
     background-size: 80%;
 }
 .scroll {
@@ -1103,6 +1170,23 @@ h5.dropcap::first-letter{
 }
 /* === */
 
+#lottie-historia lottie-player {
+    right: -40px;
+    width: 400px;
+    transform: translate(0, -40%);
+}
+
+#lottie-invitanos lottie-player {
+    width: 400px;
+    left: 200px;
+}
+
+#lottie-full lottie-player {
+    right: -0;
+    width: 100px;
+    transform: translate(0, -40%);
+}
+
 /* footer */
 footer {padding: 90px 0;}
 footer ul {
@@ -1118,6 +1202,7 @@ footer ul li p {
 
 /* media */
 @media only screen and (max-width: 767px) {
+    body {margin-right: 0;}
     p {font-size: 16px;}
     h1 {font-size: 85px;}
     h2 {font-size: 40px; line-height: 1;}
@@ -1277,7 +1362,20 @@ footer ul li p {
         position: relative;
     }
     #noticias {height: 85vh;}
+    #lottie-historia lottie-player {
+        width: 150px;
+        right: 0;
+    }
+    #lottie-invitanos lottie-player {
+        width: 129px;
+        left: 200px;
+    }
+    #lottie-full lottie-player {
+        width: 65px;
+        left: -10px;
+    }
 }
 @media only screen and (max-width: 1920px) {
     .img-xxl {width: 50%;}
 }
+

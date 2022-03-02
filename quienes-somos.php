@@ -5,11 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cinergia | Quienes somos</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 
         <!-- css -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
         <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/wow-master/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
     </head>
@@ -34,14 +36,14 @@
 
         <section class="pt-150">
             <div class="container">
-                <div class="col">
+                <div class="col wow bounceInRight">
                     <h2 class="m-0">No vendemos</h2>
                     <h2 class="Valky"><img src="assets/img/arrow-orange.svg" alt=""> perros <span class="fc-celeste">azules...</span></h2>
                 </div>
             </div>
         </section>
 
-        <section id="manifiesto">
+        <section id="manifiesto" class="wow bounceInUp">
             <div class="container">
                 <div class="row">
                     <div class="col-md-9 offset-md-3 position-relative">
@@ -66,7 +68,7 @@
         <section>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 d-flex align-items-center justify-content-center p-0 position-relative">
+                    <div class="col-12 d-flex align-items-center justify-content-center p-0 position-relative wow bounceInUp">
                         <div class="opacity-galery"></div>
                         <div class="owl-carousel owl-theme">
                             <div class="item">
@@ -79,9 +81,9 @@
                                 <img src="assets/img/img-carousel-nosotros-03.jpg">
                             </div>
                         </div>
-                        <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <!-- <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jgjms53k.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop autoplay></lottie-player>
-                        </a>
+                        </a> -->
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -98,7 +100,7 @@
         </section>
         <div class="container">
             <div class="row">                
-                <div class="col-md-8 offset-md-2 mt-4 mb-4">
+                <div class="col-md-8 offset-md-2 mt-4 mb-4 #80ff00">
                     <img src="assets/img/bg-divider-black.svg" width="100%" alt="">
                 </div>
             </div>
@@ -110,12 +112,12 @@
                     <div class="col-md-4 text-center mb-5">
                         <img class="img" src="assets/img/img-ball.svg" alt="">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 wow bounceInUp">
                         <h3 class="Valky fc-celeste">Somos</h3>
                         <h4 class="PoppinsRegular">un equipo multidisciplinar de creadores de contenido caracterizados por animarnos siempre a hacer cosas nuevas e ir más allá.</h4>
                     </div>
                 </div>
-                <div class="row team d-none d-md-flex">
+                <div class="row team d-none d-md-flex wow bounceInUp">
                     <div class="col-md-4 rellax divider-left p-0" data-rellax-percentage="-0.8" data-rellax-speed="1">
                         <img src="assets/img/img-somos-01.png" width="100%" class="mb-4" alt="">
                         <img src="assets/img/img-somos-04.png" width="100%" class="mb-4" alt="">
@@ -134,7 +136,7 @@
                         <img src="assets/img/img-somos-09.png" width="100%" class="mb-4" alt="">
                     </div>
                 </div>
-                <div class="row team d-block d-md-none mt-5">
+                <div class="row team d-block d-md-none mt-5 wow bounceInUp">
                     <div class="col-8 offset-2 divider-left divider-right p-0">
                         <img src="assets/img/img-somos-05.png" width="100%" class="mb-4" alt="">
                         <img src="assets/img/img-somos-09.png" width="100%" class="mb-4" alt="">
@@ -150,7 +152,7 @@
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-md-12 d-flex justify-content-end d-none d-md-block">
+                <div class="col-md-12 d-flex justify-content-end d-none d-md-block wow bounceInRight">
                         <img src="assets/img/animation-01.gif" width="200px" alt="">
                     </div>
                 </div>
@@ -158,10 +160,10 @@
         </section>
         <div class="container mb-100">
             <div class="row">
-                <div class="col-lg-1 offset-lg-3 mt-3">
+                <div class="col-lg-1 offset-lg-3 mt-3 wow bounceInLeft">
                     <img src="assets/img/arrow-blue.svg" class="mt-50" alt="">
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 wow bounceInLeft">
                     <h4 class="PoppinsRegular mb-4">Más de <span class="Valky fc-celeste fs-100 fs-sm-40">14 años</span> de historia
                         nos han  llevado hasta donde estamos. 
                         Somos bastante <span class="Valky fc-celeste fs-60 fs-sm-40">únicos</span>. <br>
@@ -179,7 +181,7 @@
         </div>
 
         <div class="container">
-            <div class="row">
+            <div class="row wow bounceInUp">
                 <div class="owl-carousel owl-theme" id="owl-carousel-premios">
                     <div class="item">
                         <img src="assets/img/img-award-06.png" alt="">
@@ -267,7 +269,7 @@
         </div>
         
         <section id="que-hacemos">
-            <div class="container">
+            <div class="container wow bounceInUp">
                 <div class="row">
                     <div class="col text-center">
                         <h3 class="fc-pastel">Conocé</h3>
@@ -285,6 +287,7 @@
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
         <script src="assets/rellax-master/js/rellax.min.js"></script>
+        <script src="assets/wow-master/js/wow.min.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="assets/js/custom.js"></script>
 

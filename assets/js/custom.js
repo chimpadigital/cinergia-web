@@ -43,4 +43,12 @@ $('#owl-carousel-premios').owlCarousel({
   }
 });
 
+wow = new WOW(
+  {
+      offset: 150,
+  }
+)
+wow.init();
+
 var rellax = new Rellax('.rellax');
+  
