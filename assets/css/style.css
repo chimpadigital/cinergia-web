@@ -473,7 +473,7 @@ lottie-player {
   }
 
 .bounce {
-    height: 100px;
+    height: 300px;
     display: inline-block;
     position: relative;
     -moz-animation: bounce 0.9s infinite linear;

@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="row vh-80 d-flex align-items-center text-center">
-                    <div class="align-items-md-center col-12 d-none d-md-flex flex-column">
+                    <div class="align-items-md-center col-12 d-none d-md-flex flex-column mt-5">
                         <div id="container" class="mb-3">
                             <div class="span">B</div>
                             <div class="span">u</div>
@@ -66,7 +66,7 @@
                             <div class="span">c</div>
                             <div class="span">a</div>
                             <div class="span">s</div>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="align-items-md-center col-12 d-flex d-md-none flex-column">
                         <div id="container">
@@ -80,14 +80,16 @@
                         </div>                        
                         <div id="container" class="txt-2">
                             <div class="span">Marcas</div>
-                        </div>                        
-                   
+                        </div>
                     </div>
-                    <div class="bounce mt-5">
-                        <a href="#down">
-                            <img src="assets/img/arrow-down-home.png" class="wow bounceInUp">
-                        </a>
+                    <div class="col-12">
+                        <div class="bounce">
+                            <a href="#down">
+                                <img src="assets/img/arrow-down-home.png" class="wow bounceInUp">
+                            </a>
+                        </div>
                     </div>
+                </div>
             </div>
         </header>
         
