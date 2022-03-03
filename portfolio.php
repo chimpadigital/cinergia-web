@@ -32,8 +32,8 @@
                         </h3>
                     </div>
                     <div class="col-12 d-none d-md-block">
-                        <h4 class="PoppinsRegular fc-pastel mb-0">Nos metemos en los lugares <br>más recónditos buscando</h4>
-                        <h3 class="Valky fc-naranja">buenas historias</h3>.
+                        <h4 class="PoppinsRegular fc-pastel mb-0 wow bounceInUp">Nos metemos en los lugares <br>más recónditos buscando</h4>
+                        <h3 class="Valky fc-naranja wow bounceInUp">buenas historias</h3>.
                     </div>                    
                 </div>
             </div>
@@ -43,11 +43,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-block d-md-none">
-                        <h4 class="PoppinsRegular fc-pastel mb-0">Nos metemos en los lugares <br>más recónditos buscando</h4>
-                        <h3 class="Valky fc-naranja">buenas historias</h3>.
+                        <h4 class="PoppinsRegular fc-pastel mb-0 wow bounceInUp">Nos metemos en los lugares <br>más recónditos buscando</h4>
+                        <h3 class="Valky fc-naranja wow bounceInUp">buenas historias</h3>.
                     </div> 
                     <div class="col-12">
-                        <h4 class="PoppinsRegular fc-pastel mb-0">Y las encontramos.</h4>
+                        <h4 class="PoppinsRegular fc-pastel mb-0 wow bounceInUp">Y las encontramos.</h4>
                     </div>
                 </div>
             </div>

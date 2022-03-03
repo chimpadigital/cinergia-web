@@ -28,15 +28,15 @@
         <section class="bg-negro pb-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 mt-100">
+                    <div class="col-lg-6 mt-100 wow bounceInUp">
                         <h3 class="fc-pastel m-0">Sobre</h3>
                         <h3 class="fc-naranja Valky">tu proyecto.</h3>
                         <img src="assets/img/arrow-down-orange.svg" class="mb-100 d-block d-md-none" alt="">
                     </div>
                     <div class="col-lg-6">
                         <div class="divider-vertical-naranja">
-                            <h4 class="PoppinsRegular fc-pastel mb-4">Necesito:</h4>
-                            <div class="ps-0 ps-lg-4 ps-xl-5">
+                            <h4 class="PoppinsRegular fc-pastel mb-4 wow bounceInUp">Necesito:</h4>
+                            <div class="ps-0 ps-lg-4 ps-xl-5 wow bounceInUp">
                                 <div class="form-check d-flex align-items-center">
                                     <input class="form-check-input me-3" type="radio" name="grupo1" id="flexRadioDefault1">
                                     <label class="form-check-label fc-pastel fs-24" for="flexRadioDefault1">
@@ -98,8 +98,8 @@
                                     </label>
                                 </div>
                             </div>
-                            <h4 class="PoppinsRegular fc-pastel mb-4">Conocí Cinergia <br> Estudio Creativo:</h4>
-                            <div class="ps-0 ps-lg-4 ps-xl-5">
+                            <h4 class="PoppinsRegular fc-pastel mb-4 wow bounceInUp">Conocí Cinergia <br> Estudio Creativo:</h4>
+                            <div class="ps-0 ps-lg-4 ps-xl-5 wow bounceInUp">
                                 <div class="form-check d-flex align-items-center">
                                     <input class="form-check-input me-3" type="radio" name="grupo2" id="flexRadioDefault11">
                                     <label class="form-check-label fc-pastel fs-24" for="flexRadioDefault11">
@@ -140,7 +140,7 @@
         <section id="contact-form">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow bounceInUp">
                         <form>
                             <div class="mb-3">
                                 <label for="Nombre" class="form-label fc-pastel fs-24">Nombre y apellido/s</label>
@@ -160,7 +160,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow bounceInUp">
                         <form>
                             <div class="mb-4">
                                 <label for="Telefono" class="form-label fc-pastel fs-24">Teléfono</label>
@@ -172,7 +172,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-12 mt-100">
+                    <div class="col-12 mt-100 wow bounceInUp">
                         <button type="submit" class="btn btn-outline-secondary">ENVIÁ NOMÁS</button>
                     </div>
                 </div>

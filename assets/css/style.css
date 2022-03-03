@@ -1215,9 +1215,10 @@ lottie-player {
     left: -100px;
 }
 #somos .cacho {
-    width: 40%;
-    top: 250px;
-    right: -60px;
+    width: 25%;
+    top: 270px;
+    border-radius: 0  !important;
+    right: -80px;
     position: absolute;
     border: none !important;
 }
