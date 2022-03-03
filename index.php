@@ -81,15 +81,20 @@
                         <div id="container" class="txt-2">
                             <div class="span">Marcas</div>
                         </div>                        
+                   
                     </div>
-                </div>
+                    <div class="bounce mt-5">
+                        <a href="#down">
+                            <img src="assets/img/arrow-down-home.png" class="wow bounceInUp">
+                        </a>
+                    </div>
             </div>
         </header>
         
-        <div class="container-fluid bg-negro">
+        <div id="down" class="container-fluid bg-negro">
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-center p-0 wow bounceInUp">
-                    <video class="video-home" width="100%" height="400" loop autoplay muted style="object-fit: cover;">
+                    <video class="video-home" width="100%" height="" loop autoplay muted style="object-fit: cover;">
                         <source src="assets/img/bg-spaceship.mp4" type="video/mp4">
                     </video>
                     <a class="lottie-player" data-bs-toggle="modal" data-bs-target="#exampleModal">
