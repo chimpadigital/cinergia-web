@@ -127,8 +127,8 @@
     --cursorX: 50vw;
     --cursorY: 50vh;
 }
-
-html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
+html {scroll-behavior: smooth;}
+html::-webkit-scrollbar {width: 0 !important; height: 0 !important;}
 html, body {overflow-x: hidden;}
 body {
     margin-right: 80px;
@@ -279,20 +279,14 @@ lottie-player {
 
     filter: url(#threshold) blur(0.6px);
 }
-
-#text1,
-#text2 {
-    position: absolute;
-    width: 100%;
+.bounce {
+    height: 100px;
     display: inline-block;
-    color: #D9D9CB;
-    font-family: var(--PoppinsRegular);
-    font-size: 60pt;
-
-    text-align: center;
-
-    user-select: none;
-    left: 0;
+    position: relative;
+    -moz-animation: bounce 0.9s infinite linear;
+    -o-animation: bounce 0.9s infinite linear;
+    -webkit-animation: bounce 0.9s infinite linear;
+    animation: bounce 0.9s infinite linear;
 }
 
 @-webkit-keyframes slidein {
@@ -317,16 +311,6 @@ lottie-player {
     }
 }
 
-@-webkit-keyframes float {
-  0% {transform: translatey(0px);}
-  50% {transform: translatey(-20px);}
-  100% {transform: translatey(0px);}
-}
-@keyframes float {
-  0% {transform: translatey(0px);}
-  50% {transform: translatey(-20px);}
-  100% {transform: translatey(0px);}
-}
 .animation-header {
     top: 50%;
     left: 50%;
