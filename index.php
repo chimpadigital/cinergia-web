@@ -31,7 +31,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row vh-80 d-flex align-items-center text-center">
+                <div class="row vh-80 d-flex align-items-center text-center mt-5">
                     <div class="align-items-md-center col-12 d-none d-md-flex flex-column mt-5">
                         <div id="container" class="mb-3">
                             <div class="span">B</div>
@@ -82,7 +82,7 @@
                             <div class="span">Marcas</div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12" style="height: 150px">
                         <div class="bounce">
                             <a href="#down">
                                 <img src="assets/img/arrow-down-home.png" class="wow bounceInUp">
