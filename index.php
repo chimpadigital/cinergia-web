@@ -68,7 +68,7 @@
                             <div class="span">s</div>
                         </div>
                     </div>
-                    <div class="align-items-md-center col-12 d-flex d-md-none flex-column">
+                    <div class="align-items-md-center col-12 d-flex d-md-none flex-column portada">
                         <div id="container">
                             <div class="span">Buenas</div>
                         </div>
@@ -82,12 +82,15 @@
                             <div class="span">Marcas</div>
                         </div>
                     </div>
-                    <div class="col-12" style="height: 150px">
-                        <div class="bounce">
+                    <div class="col-12 position-relative" style="height: 50px">
+                        <section id="section06" class="demo">
+                            <a href="#section07" class="position-relative"><span></span></a>
+                        </section>
+                        <!-- <div class="bounce">
                             <a href="#down">
                                 <img src="assets/img/arrow-down-home.png" class="wow bounceInUp">
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
