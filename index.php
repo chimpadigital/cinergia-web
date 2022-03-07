@@ -84,7 +84,7 @@
                     </div>
                     <div class="col-12 position-relative" style="height: 50px">
                         <section id="section06" class="demo">
-                            <a href="#section07" class="position-relative"><span></span></a>
+                            <a href="#down" class="position-relative"><span></span></a>
                         </section>
                         <!-- <div class="bounce">
                             <a href="#down">
